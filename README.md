@@ -33,7 +33,7 @@ npm.cmd run build
 npm.cmd start
 ```
 
-Abre **http://127.0.0.1:3000**. Una instalación desde Git debe aportar las ROMs por separado en `data/roms`, siguiendo [la guía de preparación](docs/PUBLICAR_EN_GIT.md); los instaladores no descargan juegos ni BIOS. En una instalación existente no es necesario repetir la preparación de los ZIP ya aprobados.
+Abre **http://127.0.0.1:3000**. Una instalación desde Git debe aportar las ROMs por separado en `data/roms`, siguiendo [la guía de preparación](docs/INSTALAR.md); los instaladores no descargan juegos ni BIOS. En una instalación existente no es necesario repetir la preparación de los ZIP ya aprobados.
 
 Al crear la primera cuenta se solicita el código de instalación que muestra la consola. También está en `data/setup-code`. Esa cuenta será administradora; las siguientes serán miembros. No hay contraseñas predefinidas. El panel se abre desde **Administración**, al pie de la página, o en `/#/admin`.
 
@@ -41,7 +41,7 @@ El servidor escucha en loopback por defecto. Para usarlo desde otros equipos de 
 
 ## Qué incluye
 
-Para probar desde móviles y otros equipos de este Windows, abre **Iniciar-red.cmd**. La preparación de Android está en **http://192.168.0.22:3000** y la comunidad en **https://192.168.0.22** una vez instalado su certificado local. **Administración → Red y acceso** permite cambiar IP, puerto y dominio. Consulta [los pasos de red local](docs/RED_WINDOWS.md). `npm start` conserva el modo de desarrollo en loopback.
+Para probar desde móviles y otros equipos de este Windows, abre **Iniciar-red.cmd**. Ips de ejemplo: La preparación de Android está en **http://192.168.0.22:3000** y la comunidad en **https://192.168.0.22** una vez instalado su certificado local. **Administración → Red y acceso** permite cambiar IP, puerto y dominio. Consulta [los pasos de red local](docs/RED_WINDOWS.md). `npm start` conserva el modo de desarrollo en loopback.
 
 | Función                                                              | Estado                                                          |
 | -------------------------------------------------------------------- | --------------------------------------------------------------- |
