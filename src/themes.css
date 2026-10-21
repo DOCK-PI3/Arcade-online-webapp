@@ -1,0 +1,116 @@
+:root {
+  --page: #edf2f5;
+  --surface: #fff;
+  --surface-alt: #f1f5f8;
+  --tint: #e6edfc;
+  --link: #2459ce;
+  color-scheme: light;
+}
+:root[data-theme="dark"] {
+  --page: #111a24;
+  --surface: #1b2836;
+  --surface-alt: #233447;
+  --ink: #e7eff7;
+  --muted: #afc0d0;
+  --line: #3a4c60;
+  --tint: #273e61;
+  --link: #a8c3ff;
+  color-scheme: dark;
+}
+.game-screenshot {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background: #080b0f;
+}
+.play-screen > .game-screenshot {
+  object-fit: contain;
+}
+.appearance-panel {
+  display: flex;
+  gap: 28px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px;
+  margin-bottom: 30px;
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  background: var(--surface);
+}
+.appearance-panel h2 {
+  font-size: 22px;
+}
+.appearance-panel p {
+  color: var(--muted);
+  margin-bottom: 0;
+}
+.appearance-panel label {
+  min-width: 200px;
+}
+.appearance-panel select {
+  width: 100%;
+  margin-top: 7px;
+}
+:root[data-theme="dark"] .button.yellow {
+  color: #172d3a;
+}
+:root[data-theme="dark"] .hero p,
+:root[data-theme="dark"] .hero .local-tag,
+:root[data-theme="dark"] .hero-foot,
+:root[data-theme="dark"] .hero .light-text {
+  color: #e0eaff;
+}
+:root[data-theme="dark"] .hero .avatar.large {
+  color: #172d3a;
+}
+:root[data-theme="dark"] .toast {
+  background: #263d4a;
+  color: #fff;
+  border: 1px solid var(--line);
+}
+:root[data-theme="dark"] .availability.ready {
+  color: #92dfb7;
+}
+:root[data-theme="dark"] .rank-0 {
+  color: #ffe49c;
+  background: #544526;
+}
+:root[data-theme="dark"] .error {
+  color: #ffbbbb;
+  background: #4b2936;
+  border-color: #814351;
+}
+:root[data-theme="dark"] .status.approved {
+  color: #aff0c8;
+  background: #234b3b;
+}
+:root[data-theme="dark"] .status.pending {
+  color: #ffe09d;
+  background: #4b3c25;
+}
+:root[data-theme="dark"] .danger {
+  color: #ffb3b3;
+}
+:root[data-theme="dark"] .info-note {
+  background: var(--tint);
+  color: #d8e6ff;
+  border-color: #3a5682;
+}
+@media (max-width: 760px) {
+  .network-panel .form-columns {
+    grid-template-columns: 1fr;
+  }
+  .gamepad-settings .keycap {
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
+  .appearance-panel {
+    display: block;
+    padding: 20px;
+  }
+  .appearance-panel label {
+    display: block;
+    margin-top: 18px;
+  }
+}

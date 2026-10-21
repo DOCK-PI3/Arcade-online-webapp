@@ -1,0 +1,2672 @@
+{
+  "1942": {
+    "size": 9344,
+    "ranges": [
+      [0, 1],
+      [72, 16],
+      [256, 2],
+      [384, 2]
+    ],
+    "sha256": "aeaf3a31612b3e589c5bee5281ea0a3da4db39ea8caf0e68157d1ead6f44e216",
+    "version": 1,
+    "finalScoreOnInactive": true,
+    "readers": [
+      {
+        "score": {
+          "offset": 72,
+          "length": 8,
+          "type": "digits"
+        },
+        "active": [
+          {
+            "offset": 0,
+            "mask": 128,
+            "eq": 128
+          },
+          {
+            "any": [
+              {
+                "all": [
+                  {
+                    "offset": 256,
+                    "eq": 0
+                  },
+                  {
+                    "offset": 257,
+                    "min": 0,
+                    "max": 9
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "offset": 384,
+                    "eq": 0
+                  },
+                  {
+                    "offset": 385,
+                    "min": 0,
+                    "max": 9
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "score": {
+          "offset": 80,
+          "length": 8,
+          "type": "digits"
+        },
+        "active": [
+          {
+            "offset": 0,
+            "mask": 128,
+            "eq": 128
+          },
+          {
+            "any": [
+              {
+                "all": [
+                  {
+                    "offset": 256,
+                    "eq": 1
+                  },
+                  {
+                    "offset": 257,
+                    "min": 0,
+                    "max": 9
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "offset": 384,
+                    "eq": 1
+                  },
+                  {
+                    "offset": 385,
+                    "min": 0,
+                    "max": 9
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "1943": {
+    "size": 12288,
+    "ranges": [
+      [784, 1],
+      [8710, 1],
+      [8764, 4],
+      [8838, 1],
+      [8892, 4]
+    ],
+    "sha256": "633c7dd609b82706500e985d13dd0325fa5fb748cb180f4b2effc0a5746a6eaa",
+    "version": 1,
+    "finalScoreOnInactive": true,
+    "readers": [
+      {
+        "score": {
+          "offset": 8764,
+          "length": 4,
+          "type": "digits"
+        },
+        "active": [
+          {
+            "offset": 784,
+            "eq": 1
+          },
+          {
+            "offset": 8710,
+            "min": 1,
+            "max": 64
+          }
+        ]
+      },
+      {
+        "score": {
+          "offset": 8892,
+          "length": 4,
+          "type": "digits"
+        },
+        "active": [
+          {
+            "offset": 784,
+            "eq": 1
+          },
+          {
+            "offset": 8838,
+            "min": 1,
+            "max": 64
+          }
+        ]
+      }
+    ]
+  },
+  "1944": {
+    "sha256": "56ead115ac58a9ff628e994a2e80846e805a29fd10a24cab683d03dfea2713f6",
+    "version": 1,
+    "finalScoreOnInactive": true,
+    "size": 357728,
+    "source": "state",
+    "readers": [
+      {
+        "score": {
+          "offset": 138732,
+          "length": 4,
+          "type": "bcd",
+          "swap": 1
+        },
+        "active": [
+          {
+            "offset": 141065,
+            "min": 1,
+            "max": 75,
+            "swap": 1
+          }
+        ]
+      },
+      {
+        "score": {
+          "offset": 138736,
+          "length": 4,
+          "type": "bcd",
+          "swap": 1
+        },
+        "active": [
+          {
+            "offset": 141321,
+            "min": 1,
+            "max": 75,
+            "swap": 1
+          }
+        ]
+      }
+    ],
+    "ranges": [
+      [138732, 8],
+      [141064, 1],
+      [141320, 1]
+    ]
+  },
+  "1943kai": {
+    "size": 12288,
+    "ranges": [
+      [784, 1],
+      [8710, 1],
+      [8764, 4],
+      [8838, 1],
+      [8892, 4]
+    ],
+    "sha256": "b8ee19f1293f28fd3a26abd82cef47aa56ad41f246085b70d2ca7f1a3be6e0bc",
+    "version": 1,
+    "finalScoreOnInactive": true,
+    "readers": [
+      {
+        "score": {
+          "offset": 8764,
+          "length": 4,
+          "type": "digits"
+        },
+        "active": [
+          {
+            "offset": 784,
+            "eq": 1
+          },
+          {
+            "offset": 8710,
+            "min": 1,
+            "max": 64
+          }
+        ]
+      },
+      {
+        "score": {
+          "offset": 8892,
+          "length": 4,
+          "type": "digits"
+        },
+        "active": [
+          {
+            "offset": 784,
+            "eq": 1
+          },
+          {
+            "offset": 8838,
+            "min": 1,
+            "max": 64
+          }
+        ]
+      }
+    ]
+  },
+  "1943mii": {
+    "size": 12288,
+    "ranges": [
+      [784, 1],
+      [8710, 1],
+      [8764, 4],
+      [8838, 1],
+      [8892, 4]
+    ],
+    "sha256": "cf5957b6bdb5caec151c50d7494f33a4b465eaa77a742f3cdb1074a502b35b35",
+    "version": 1,
+    "finalScoreOnInactive": true,
+    "readers": [
+      {
+        "score": {
+          "offset": 8764,
+          "length": 4,
+          "type": "digits"
+        },
+        "active": [
+          {
+            "offset": 784,
+            "eq": 1
+          },
+          {
+            "offset": 8710,
+            "min": 1,
+            "max": 64
+          }
+        ]
+      },
+      {
+        "score": {
+          "offset": 8892,
+          "length": 4,
+          "type": "digits"
+        },
+        "active": [
+          {
+            "offset": 784,
+            "eq": 1
+          },
+          {
+            "offset": 8838,
+            "min": 1,
+            "max": 64
+          }
+        ]
+      }
+    ]
+  },
+  "altbeast": {
+    "sha256": "045e4497bb4baa0b03ae93588d9043415e0efe0cc3a9d2c04cd7791861eb10f3",
+    "version": 1,
+    "finalScoreOnInactive": true,
+    "size": 94208,
+    "readers": [
+      {
+        "score": {
+          "offset": 8192,
+          "length": 4,
+          "type": "bcd",
+          "swap": 1
+        },
+        "active": [
+          {
+            "offset": 8212,
+            "min": 7,
+            "max": 8,
+            "swap": 1
+          },
+          {
+            "offset": 8216,
+            "min": 1,
+            "max": 9,
+            "swap": 1
+          }
+        ]
+      },
+      {
+        "score": {
+          "offset": 8320,
+          "length": 4,
+          "type": "bcd",
+          "swap": 1
+        },
+        "active": [
+          {
+            "offset": 8340,
+            "min": 7,
+            "max": 8,
+            "swap": 1
+          },
+          {
+            "offset": 8344,
+            "min": 1,
+            "max": 9,
+            "swap": 1
+          }
+        ]
+      }
+    ],
+    "ranges": [
+      [8192, 4],
+      [8213, 1],
+      [8217, 1],
+      [8320, 4],
+      [8341, 1],
+      [8345, 1]
+    ]
+  },
+  "aliens": {
+    "sha256": "4c6ec0add4c6ba1ad9b33d27b7863bbd031365292bdc1c12e680c149320bacbb",
+    "version": 1,
+    "finalScoreOnInactive": true,
+    "size": 11267,
+    "readers": [
+      {
+        "score": {
+          "offset": 2112,
+          "length": 4,
+          "type": "bcd"
+        },
+        "active": [
+          {
+            "offset": 2048,
+            "eq": 1
+          },
+          {
+            "offset": 6400,
+            "min": 1,
+            "max": 1,
+            "swap": 0
+          },
+          {
+            "offset": 6401,
+            "min": 1,
+            "max": 9,
+            "swap": 0
+          }
+        ]
+      },
+      {
+        "score": {
+          "offset": 2116,
+          "length": 4,
+          "type": "bcd"
+        },
+        "active": [
+          {
+            "offset": 2048,
+            "eq": 1
+          },
+          {
+            "offset": 6464,
+            "min": 1,
+            "max": 1,
+            "swap": 0
+          },
+          {
+            "offset": 6465,
+            "min": 1,
+            "max": 9,
+            "swap": 0
+          }
+        ]
+      }
+    ],
+    "ranges": [
+      [2048, 1],
+      [2112, 8],
+      [6400, 2],
+      [6464, 2]
+    ]
+  },
+  "baddudes": {
+    "sha256": "cd766f167bab2c7919dbd22afa482f46e836bb1001b91be94ed7c81e951d8169",
+    "version": 1,
+    "finalScoreOnInactive": true,
+    "size": 101680,
+    "readers": [
+      {
+        "score": {
+          "offset": 460,
+          "length": 4,
+          "type": "bcd",
+          "swap": 1
+        },
+        "active": [
+          {
+            "offset": 540,
+            "eq": 1
+          },
+          {
+            "offset": 9114,
+            "min": 0,
+            "max": 9,
+            "swap": 1
+          }
+        ]
+      },
+      {
+        "score": {
+          "offset": 464,
+          "length": 4,
+          "type": "bcd",
+          "swap": 1
+        },
+        "active": [
+          {
+            "offset": 540,
+            "eq": 1
+          },
+          {
+            "offset": 8794,
+            "min": 0,
+            "max": 9,
+            "swap": 1
+          }
+        ]
+      }
+    ],
+    "ranges": [
+      [460, 8],
+      [540, 1],
+      [8795, 1],
+      [9115, 1]
+    ]
+  },
+  "jackal": {
+    "sha256": "5609ef9088b3959b83c6917d5d5acf0a5c1947a51b8bf879c0951b6f8540f482",
+    "version": 1,
+    "finalScoreOnInactive": true,
+    "size": 33924,
+    "readers": [
+      {
+        "score": {
+          "offset": 4920,
+          "length": 4,
+          "type": "bcd"
+        },
+        "active": [
+          {
+            "offset": 5240,
+            "min": 1,
+            "max": 9,
+            "swap": 0
+          }
+        ]
+      },
+      {
+        "score": {
+          "offset": 4924,
+          "length": 4,
+          "type": "bcd"
+        },
+        "active": [
+          {
+            "offset": 5304,
+            "min": 1,
+            "max": 9,
+            "swap": 0
+          }
+        ]
+      }
+    ],
+    "ranges": [
+      [4920, 8],
+      [5240, 1],
+      [5304, 1]
+    ]
+  },
+  "forgottn": {
+    "sha256": "6d9b004dd5515e3985f53a0c3ed03dafbc44e25c5cdd7d6b3b16ccd45aac0354",
+    "version": 1,
+    "finalScoreOnInactive": false,
+    "size": 65536,
+    "readers": [
+      {
+        "score": {
+          "offset": 45750,
+          "length": 4,
+          "type": "bcd",
+          "swap": 1
+        },
+        "active": [
+          {
+            "offset": 45744,
+            "mask": 1,
+            "eq": 1
+          },
+          {
+            "offset": 36917,
+            "min": 1,
+            "max": 56,
+            "swap": 1
+          }
+        ]
+      },
+      {
+        "score": {
+          "offset": 45754,
+          "length": 4,
+          "type": "bcd",
+          "swap": 1
+        },
+        "active": [
+          {
+            "offset": 45744,
+            "mask": 2,
+            "eq": 2
+          },
+          {
+            "offset": 36949,
+            "min": 1,
+            "max": 56,
+            "swap": 1
+          }
+        ]
+      }
+    ],
+    "ranges": [
+      [36916, 1],
+      [36948, 1],
+      [45744, 1],
+      [45750, 8]
+    ]
+  },
+  "1945kiii": {
+    "sha256": "c74b84756e1d280cbb54c5e86c0592886b41405ba3b2a8ae5b657e71f8c35f22",
+    "version": 1,
+    "finalScoreOnInactive": true,
+    "size": 147462,
+    "readers": [
+      {
+        "score": {
+          "offset": 42164,
+          "length": 4,
+          "type": "integer",
+          "swap": 1
+        },
+        "active": [
+          {
+            "offset": 42170,
+            "min": 0,
+            "max": 9,
+            "swap": 1
+          },
+          {
+            "offset": 42198,
+            "min": 1
+          }
+        ]
+      },
+      {
+        "score": {
+          "offset": 42210,
+          "length": 4,
+          "type": "integer",
+          "swap": 1
+        },
+        "active": [
+          {
+            "offset": 42216,
+            "min": 0,
+            "max": 9,
+            "swap": 1
+          },
+          {
+            "offset": 42244,
+            "min": 1
+          }
+        ]
+      }
+    ],
+    "ranges": [
+      [42164, 4],
+      [42171, 1],
+      [42198, 1],
+      [42210, 4],
+      [42217, 1],
+      [42244, 1]
+    ]
+  },
+  "asterix": {
+    "sha256": "2c1083b35244f5536c12f29b71f998f7f39d61f97065faca0cc03f1b227fdf73",
+    "version": 1,
+    "finalScoreOnInactive": false,
+    "size": 40960,
+    "readers": [
+      {
+        "score": {
+          "offset": 17920,
+          "length": 2,
+          "type": "bcd",
+          "swap": 1,
+          "scale": 100
+        },
+        "active": [
+          {
+            "offset": 16952,
+            "swap": 1,
+            "eq": 1
+          },
+          {
+            "offset": 17924,
+            "min": 1,
+            "max": 9,
+            "swap": 1
+          }
+        ]
+      },
+      {
+        "score": {
+          "offset": 17952,
+          "length": 2,
+          "type": "bcd",
+          "swap": 1,
+          "scale": 100
+        },
+        "active": [
+          {
+            "offset": 16952,
+            "swap": 1,
+            "eq": 1
+          },
+          {
+            "offset": 17956,
+            "min": 1,
+            "max": 9,
+            "swap": 1
+          }
+        ]
+      }
+    ],
+    "ranges": [
+      [16953, 1],
+      [17920, 2],
+      [17925, 1],
+      [17952, 2],
+      [17957, 1]
+    ]
+  },
+  "galaga88": {
+    "sha256": "148dbb8bee57dbf1184ead5541341130181cce88505db0aaa8453b44e6afd9e9",
+    "version": 1,
+    "finalScoreOnInactive": true,
+    "size": 104624,
+    "readers": [
+      {
+        "score": {
+          "offset": 39443,
+          "length": 6,
+          "type": "digits",
+          "scale": 10
+        },
+        "active": [
+          {
+            "offset": 36866,
+            "mask": 16,
+            "eq": 0
+          },
+          {
+            "offset": 36982,
+            "min": 1,
+            "max": 9,
+            "swap": 0
+          }
+        ]
+      },
+      {
+        "score": {
+          "offset": 39449,
+          "length": 6,
+          "type": "digits",
+          "scale": 10
+        },
+        "active": [
+          {
+            "offset": 36866,
+            "mask": 16,
+            "eq": 0
+          },
+          {
+            "offset": 37092,
+            "min": 1,
+            "max": 9,
+            "swap": 0
+          }
+        ]
+      }
+    ],
+    "ranges": [
+      [36866, 1],
+      [36982, 1],
+      [37092, 1],
+      [39443, 12]
+    ]
+  },
+  "pbobble": {
+    "sha256": "ff52dc42c4866224b05f9220d5ebc3be33ba937ae72f948d84940e3e7908b5e2",
+    "version": 1,
+    "finalScoreOnInactive": true,
+    "size": 614404,
+    "readers": [
+      {
+        "score": {
+          "offset": 28760,
+          "length": 4,
+          "type": "integer",
+          "swap": 1
+        },
+        "active": [
+          {
+            "offset": 28754,
+            "eq": 1
+          }
+        ]
+      },
+      {
+        "score": {
+          "offset": 28894,
+          "length": 4,
+          "type": "integer",
+          "swap": 1
+        },
+        "active": [
+          {
+            "offset": 28888,
+            "eq": 1
+          }
+        ]
+      }
+    ],
+    "ranges": [
+      [28754, 1],
+      [28760, 4],
+      [28888, 1],
+      [28894, 4]
+    ]
+  },
+  "preisle2": {
+    "sha256": "a1063cdfc10e3287aefc7b1cfb68619dc0091442980d371ab42c71e76d1bafaa",
+    "version": 1,
+    "finalScoreOnInactive": true,
+    "size": 65536,
+    "readers": [
+      {
+        "score": {
+          "offset": 49572,
+          "length": 4,
+          "type": "bcd",
+          "swap": 1,
+          "scale": 100
+        },
+        "active": [
+          {
+            "offset": 20565,
+            "min": 1,
+            "max": 16,
+            "swap": 1
+          }
+        ]
+      },
+      {
+        "score": {
+          "offset": 49576,
+          "length": 4,
+          "type": "bcd",
+          "swap": 1,
+          "scale": 100
+        },
+        "active": [
+          {
+            "offset": 25301,
+            "min": 1,
+            "max": 16,
+            "swap": 1
+          }
+        ]
+      }
+    ],
+    "ranges": [
+      [20564, 1],
+      [25300, 1],
+      [49572, 8]
+    ]
+  },
+  "prehisle": {
+    "sha256": "7c70e74e6cf977af5cfa3f615ac604ce3803a7702e06b9a7f22fcbce2a277e6b",
+    "version": 1,
+    "finalScoreOnInactive": true,
+    "size": 40960,
+    "readers": [
+      {
+        "score": {
+          "sum": [
+            {
+              "offset": 48,
+              "length": 2,
+              "type": "bcd",
+              "swap": 1,
+              "scale": 100000
+            },
+            {
+              "offset": 50,
+              "length": 2,
+              "type": "bcd",
+              "swap": 1,
+              "scale": 1000
+            },
+            {
+              "offset": 52,
+              "length": 2,
+              "type": "bcd",
+              "swap": 1,
+              "scale": 10
+            }
+          ]
+        },
+        "active": [
+          {
+            "offset": 303,
+            "min": 1,
+            "max": 9,
+            "swap": 1
+          }
+        ]
+      },
+      {
+        "score": {
+          "sum": [
+            {
+              "offset": 54,
+              "length": 2,
+              "type": "bcd",
+              "swap": 1,
+              "scale": 100000
+            },
+            {
+              "offset": 56,
+              "length": 2,
+              "type": "bcd",
+              "swap": 1,
+              "scale": 1000
+            },
+            {
+              "offset": 58,
+              "length": 2,
+              "type": "bcd",
+              "swap": 1,
+              "scale": 10
+            }
+          ]
+        },
+        "active": [
+          {
+            "offset": 1711,
+            "min": 1,
+            "max": 9,
+            "swap": 1
+          }
+        ]
+      }
+    ],
+    "ranges": [
+      [48, 12],
+      [302, 1],
+      [1710, 1]
+    ],
+    "armOnActive": true
+  },
+  "rthunder": {
+    "sha256": "58fe3123ab942e0972dfe35f6aa2329cf6b6dab44818f7fb74e4b86eab71c3b3",
+    "version": 1,
+    "finalScoreOnInactive": true,
+    "size": 32896,
+    "readers": [
+      {
+        "score": {
+          "offset": 5203,
+          "length": 4,
+          "type": "bcd",
+          "scale": 10
+        },
+        "active": [
+          {
+            "offset": 5634,
+            "eq": 6
+          },
+          {
+            "offset": 5248,
+            "min": 1,
+            "max": 9,
+            "swap": 0
+          }
+        ]
+      },
+      {
+        "score": {
+          "offset": 5207,
+          "length": 4,
+          "type": "bcd",
+          "scale": 10
+        },
+        "active": [
+          {
+            "offset": 5634,
+            "eq": 6
+          },
+          {
+            "offset": 5280,
+            "min": 1,
+            "max": 9,
+            "swap": 0
+          }
+        ]
+      }
+    ],
+    "ranges": [
+      [5203, 8],
+      [5248, 1],
+      [5280, 1],
+      [5634, 1]
+    ],
+    "armOnActive": true
+  },
+  "salamand": {
+    "sha256": "109c134e4cf851f2172b0f8747f490a6ab1e5e4de49abd5d3584d982b1b11814",
+    "version": 1,
+    "finalScoreOnInactive": true,
+    "size": 387087,
+    "readers": [
+      {
+        "score": {
+          "offset": 898,
+          "length": 4,
+          "type": "bcd",
+          "swap": 1
+        },
+        "active": [
+          {
+            "offset": 896,
+            "min": 1,
+            "max": 9,
+            "swap": 1
+          }
+        ]
+      },
+      {
+        "score": {
+          "offset": 962,
+          "length": 4,
+          "type": "bcd",
+          "swap": 1
+        },
+        "active": [
+          {
+            "offset": 960,
+            "min": 1,
+            "max": 9,
+            "swap": 1
+          }
+        ]
+      }
+    ],
+    "ranges": [
+      [897, 5],
+      [961, 5]
+    ],
+    "armOnActive": true
+  },
+  "tmnt2po": {
+    "sha256": "f14c845464936cf38d9df7e0f397f95cb734994b6d00d72f994203df78c0815d",
+    "size": 22528,
+    "version": 1,
+    "finalScoreOnInactive": true,
+    "ranges": [
+      [256, 1],
+      [260, 2],
+      [263, 2],
+      [268, 2],
+      [271, 1]
+    ],
+    "readers": [
+      {
+        "score": {
+          "offset": 260,
+          "length": 2,
+          "swap": 1,
+          "type": "integer"
+        },
+        "active": [
+          {
+            "any": [
+              {
+                "offset": 256,
+                "min": 1,
+                "max": 9
+              },
+              {
+                "offset": 263,
+                "min": 1,
+                "max": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "score": {
+          "offset": 268,
+          "length": 2,
+          "swap": 1,
+          "type": "integer"
+        },
+        "active": [
+          {
+            "any": [
+              {
+                "offset": 264,
+                "min": 1,
+                "max": 9
+              },
+              {
+                "offset": 271,
+                "min": 1,
+                "max": 10
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "twinbee": {
+    "sha256": "539cebc171075b1d4edc9bd57709b810e142314d72ad883fe4af1cd85a0be971",
+    "size": 387087,
+    "version": 1,
+    "finalScoreOnInactive": true,
+    "ranges": [
+      [59992, 2],
+      [60032, 1],
+      [60034, 4],
+      [60096, 1],
+      [60098, 4]
+    ],
+    "readers": [
+      {
+        "score": {
+          "offset": 60034,
+          "length": 4,
+          "type": "bcd",
+          "swap": 1
+        },
+        "active": [
+          {
+            "any": [
+              {
+                "offset": 59992,
+                "length": 2,
+                "endian": "little",
+                "eq": 44092
+              },
+              {
+                "offset": 59992,
+                "length": 2,
+                "endian": "little",
+                "eq": 44100
+              },
+              {
+                "offset": 59992,
+                "length": 2,
+                "endian": "little",
+                "eq": 44104
+              }
+            ]
+          },
+          {
+            "offset": 60032,
+            "min": 1,
+            "max": 7
+          }
+        ]
+      },
+      {
+        "score": {
+          "offset": 60098,
+          "length": 4,
+          "type": "bcd",
+          "swap": 1
+        },
+        "active": [
+          {
+            "any": [
+              {
+                "offset": 59992,
+                "length": 2,
+                "endian": "little",
+                "eq": 44092
+              },
+              {
+                "offset": 59992,
+                "length": 2,
+                "endian": "little",
+                "eq": 44100
+              },
+              {
+                "offset": 59992,
+                "length": 2,
+                "endian": "little",
+                "eq": 44104
+              }
+            ]
+          },
+          {
+            "offset": 60096,
+            "min": 1,
+            "max": 7
+          }
+        ]
+      }
+    ],
+    "armOnActive": true
+  },
+  "darius": {
+    "sha256": "ef9ef95a4735df3b7ed7c9265f413ccf778bb6f1a8fa2c367314f7567f406406",
+    "size": 837632,
+    "version": 1,
+    "armOnActive": true,
+    "finalScoreOnInactive": true,
+    "ranges": [
+      [421, 1],
+      [11132, 1],
+      [11184, 1],
+      [11238, 4],
+      [11260, 4]
+    ],
+    "readers": [
+      {
+        "score": {
+          "offset": 11238,
+          "length": 4,
+          "type": "integer",
+          "swap": 1
+        },
+        "active": [
+          {
+            "offset": 421,
+            "eq": 1
+          },
+          {
+            "offset": 11132,
+            "min": 2,
+            "max": 5
+          }
+        ]
+      },
+      {
+        "score": {
+          "offset": 11260,
+          "length": 4,
+          "type": "integer",
+          "swap": 1
+        },
+        "active": [
+          {
+            "offset": 421,
+            "eq": 1
+          },
+          {
+            "offset": 11184,
+            "min": 2,
+            "max": 5
+          }
+        ]
+      }
+    ]
+  },
+  "rthun2": {
+    "sha256": "b62480e3143c14432140ce91eb0477c8ce00cd071d12eb5c8f041380dff37498",
+    "size": 977240,
+    "source": "state",
+    "version": 1,
+    "armOnActive": true,
+    "finalScoreOnInactive": false,
+    "ranges": [
+      [131116, 8],
+      [131128, 1],
+      [131940, 1],
+      [131962, 1],
+      [132078, 1],
+      [132100, 1]
+    ],
+    "readers": [
+      {
+        "score": {
+          "offset": 131116,
+          "length": 4,
+          "type": "bcd",
+          "swap": 1
+        },
+        "active": [
+          {
+            "offset": 131128,
+            "eq": 0
+          },
+          {
+            "offset": 131940,
+            "eq": 1
+          },
+          {
+            "offset": 131962,
+            "min": 0,
+            "max": 9
+          }
+        ]
+      },
+      {
+        "score": {
+          "offset": 131120,
+          "length": 4,
+          "type": "bcd",
+          "swap": 1
+        },
+        "active": [
+          {
+            "offset": 131128,
+            "eq": 0
+          },
+          {
+            "offset": 132078,
+            "eq": 2
+          },
+          {
+            "offset": 132100,
+            "min": 0,
+            "max": 9
+          }
+        ]
+      }
+    ]
+  },
+  "shinobi": {
+    "sha256": "972d52c3fd3df43273e6bd1342bc3b682f7794519c01366fed4b9854fd456723",
+    "size": 94208,
+    "version": 1,
+    "armOnActive": true,
+    "finalScoreOnInactive": false,
+    "ranges": [
+      [5952, 4],
+      [5969, 1],
+      [6048, 4],
+      [6065, 1],
+      [12327, 1],
+      [12437, 1]
+    ],
+    "readers": [
+      {
+        "score": {
+          "select": {
+            "when": {
+              "offset": 12326,
+              "swap": 1,
+              "mask": 2,
+              "eq": 0
+            },
+            "then": {
+              "offset": 5952,
+              "length": 4,
+              "type": "bcd",
+              "swap": 1
+            },
+            "else": {
+              "offset": 6048,
+              "length": 4,
+              "type": "bcd",
+              "swap": 1
+            }
+          }
+        },
+        "active": [
+          {
+            "offset": 12326,
+            "swap": 1,
+            "mask": 1,
+            "eq": 0
+          },
+          {
+            "offset": 12436,
+            "swap": 1,
+            "mask": 2,
+            "eq": 0
+          },
+          {
+            "select": {
+              "when": {
+                "offset": 12326,
+                "swap": 1,
+                "mask": 2,
+                "eq": 0
+              },
+              "then": {
+                "offset": 5968,
+                "swap": 1
+              },
+              "else": {
+                "offset": 6064,
+                "swap": 1
+              }
+            },
+            "min": 1,
+            "max": 9
+          }
+        ]
+      },
+      {
+        "score": {
+          "select": {
+            "when": {
+              "offset": 12326,
+              "swap": 1,
+              "mask": 2,
+              "eq": 0
+            },
+            "then": {
+              "offset": 6048,
+              "length": 4,
+              "type": "bcd",
+              "swap": 1
+            },
+            "else": {
+              "offset": 5952,
+              "length": 4,
+              "type": "bcd",
+              "swap": 1
+            }
+          }
+        },
+        "active": [
+          {
+            "offset": 12326,
+            "swap": 1,
+            "mask": 1,
+            "eq": 0
+          },
+          {
+            "offset": 12436,
+            "swap": 1,
+            "mask": 4,
+            "eq": 0
+          },
+          {
+            "select": {
+              "when": {
+                "offset": 12326,
+                "swap": 1,
+                "mask": 2,
+                "eq": 0
+              },
+              "then": {
+                "offset": 6064,
+                "swap": 1
+              },
+              "else": {
+                "offset": 5968,
+                "swap": 1
+              }
+            },
+            "min": 1,
+            "max": 9
+          },
+          {
+            "offset": 12326,
+            "swap": 1,
+            "mask": 4,
+            "eq": 4
+          }
+        ]
+      }
+    ]
+  },
+  "salmndr2": {
+    "sha256": "1a505e8703c2b04f895547603d1a917e3594f26069ec87039f409880fd5148c6",
+    "biosSha256": "d5bc892feecedd40ec9d6998fa95e4b967ccf8ae69943627a22868c3cd7654f6",
+    "source": "state",
+    "size": 461992,
+    "version": 1,
+    "armOnActive": true,
+    "finalScoreOnInactive": true,
+    "ranges": [
+      [172289, 1],
+      [172307, 2],
+      [172313, 2],
+      [173227, 1],
+      [173251, 4],
+      [174175, 2]
+    ],
+    "readers": [
+      {
+        "score": {
+          "base": 171167,
+          "offset": 1142,
+          "swap": 3,
+          "length": 4,
+          "type": "integer",
+          "scale": 100
+        },
+        "active": [
+          {
+            "base": 171167,
+            "offset": 3010,
+            "swap": 3,
+            "length": 2,
+            "eq": 4
+          },
+          {
+            "base": 171167,
+            "offset": 1121,
+            "swap": 3,
+            "min": 1,
+            "max": 9
+          }
+        ]
+      },
+      {
+        "score": {
+          "base": 171167,
+          "offset": 2084,
+          "swap": 3,
+          "length": 4,
+          "type": "integer",
+          "scale": 100
+        },
+        "active": [
+          {
+            "base": 171167,
+            "offset": 3010,
+            "swap": 3,
+            "length": 2,
+            "eq": 4
+          },
+          {
+            "base": 171167,
+            "offset": 2063,
+            "swap": 3,
+            "min": 1,
+            "max": 9
+          }
+        ]
+      }
+    ]
+  },
+  "88games": {
+    "sha256": "c2fae02ff8459adf6ba72a7e98d21c93e97caff98df4b78aa29352d276279118",
+    "size": 14339,
+    "version": 1,
+    "finalScoreOnInactive": true,
+    "ranges": [
+      [2055, 1],
+      [2110, 2],
+      [10280, 6]
+    ],
+    "readers": [
+      {
+        "score": {
+          "offset": 10280,
+          "length": 3,
+          "type": "bcd"
+        },
+        "active": [
+          {
+            "offset": 2055,
+            "eq": 1
+          },
+          {
+            "any": [
+              {
+                "offset": 2110,
+                "mask": 1,
+                "eq": 1
+              },
+              {
+                "offset": 2111,
+                "mask": 1,
+                "eq": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "score": {
+          "offset": 10283,
+          "length": 3,
+          "type": "bcd"
+        },
+        "active": [
+          {
+            "offset": 2055,
+            "eq": 1
+          },
+          {
+            "any": [
+              {
+                "offset": 2110,
+                "mask": 2,
+                "eq": 2
+              },
+              {
+                "offset": 2111,
+                "mask": 2,
+                "eq": 2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "kof98": {
+    "size": 65536,
+    "readers": [
+      {
+        "score": {
+          "offset": 33276,
+          "swap": 1,
+          "length": 4,
+          "type": "bcd"
+        },
+        "active": [
+          {
+            "offset": 64942,
+            "swap": 1,
+            "eq": 3
+          },
+          {
+            "offset": 64950,
+            "swap": 1,
+            "eq": 1
+          }
+        ]
+      },
+      {
+        "score": {
+          "offset": 33788,
+          "swap": 1,
+          "length": 4,
+          "type": "bcd"
+        },
+        "active": [
+          {
+            "offset": 64942,
+            "swap": 1,
+            "eq": 3
+          },
+          {
+            "offset": 64951,
+            "swap": 1,
+            "eq": 1
+          }
+        ]
+      }
+    ],
+    "armOnActive": true,
+    "ranges": [
+      [33276, 4],
+      [33788, 4],
+      [64942, 2],
+      [64950, 2]
+    ],
+    "sha256": "92ac24fbbbf1fa08a0c707ce31f894dd6f18f18452adcd604340eb04cb4164d9",
+    "version": 1,
+    "finalScoreOnInactive": true
+  },
+  "3wonders": {
+    "size": 65536,
+    "readers": [
+      {
+        "score": {
+          "offset": 3538,
+          "swap": 1,
+          "length": 4,
+          "type": "bcd"
+        },
+        "active": [
+          {
+            "offset": 3457,
+            "swap": 1,
+            "mask": 1,
+            "eq": 1
+          }
+        ]
+      },
+      {
+        "score": {
+          "offset": 3542,
+          "swap": 1,
+          "length": 4,
+          "type": "bcd"
+        },
+        "active": [
+          {
+            "offset": 3457,
+            "swap": 1,
+            "mask": 2,
+            "eq": 2
+          }
+        ]
+      }
+    ],
+    "armOnActive": true,
+    "ranges": [
+      [3456, 2],
+      [3538, 8]
+    ],
+    "sha256": "4e4051be211693cb34fa00bb7a67bb4dc113cb4664a91627bb88c5648b704e39",
+    "version": 1,
+    "finalScoreOnInactive": true
+  },
+  "avsp": {
+    "size": 65536,
+    "armOnActive": true,
+    "readers": [
+      {
+        "score": {
+          "offset": 33888,
+          "swap": 1,
+          "length": 4,
+          "type": "bcd"
+        },
+        "active": [
+          {
+            "offset": 33904,
+            "swap": 1,
+            "min": 1,
+            "max": 4
+          },
+          {
+            "offset": 33905,
+            "swap": 1,
+            "max": 9
+          }
+        ]
+      },
+      {
+        "score": {
+          "offset": 34144,
+          "swap": 1,
+          "length": 4,
+          "type": "bcd"
+        },
+        "active": [
+          {
+            "offset": 34160,
+            "swap": 1,
+            "min": 1,
+            "max": 4
+          },
+          {
+            "offset": 34161,
+            "swap": 1,
+            "max": 9
+          }
+        ]
+      },
+      {
+        "score": {
+          "offset": 34400,
+          "swap": 1,
+          "length": 4,
+          "type": "bcd"
+        },
+        "active": [
+          {
+            "offset": 34416,
+            "swap": 1,
+            "min": 1,
+            "max": 4
+          },
+          {
+            "offset": 34417,
+            "swap": 1,
+            "max": 9
+          }
+        ]
+      }
+    ],
+    "ranges": [
+      [33888, 4],
+      [33904, 2],
+      [34144, 4],
+      [34160, 2],
+      [34400, 4],
+      [34416, 2]
+    ],
+    "sha256": "5d478264a97d35775c8a037d2c707eb53fe789bdd3230f1e2707b3cf7d12cae3",
+    "version": 1,
+    "finalScoreOnInactive": true
+  },
+  "cclimber": {
+    "size": 14592,
+    "readers": [
+      {
+        "score": {
+          "select": {
+            "when": {
+              "offset": 3201,
+              "eq": 0
+            },
+            "then": {
+              "offset": 3289,
+              "length": 3,
+              "type": "bcd",
+              "endian": "little"
+            },
+            "else": {
+              "offset": 3307,
+              "length": 3,
+              "type": "bcd",
+              "endian": "little"
+            }
+          }
+        },
+        "active": [
+          {
+            "offset": 3189,
+            "eq": 1
+          },
+          {
+            "select": {
+              "when": {
+                "offset": 3201,
+                "eq": 0
+              },
+              "then": {
+                "offset": 3288
+              },
+              "else": {
+                "offset": 3306
+              }
+            },
+            "min": 1,
+            "max": 9
+          }
+        ]
+      },
+      {
+        "score": {
+          "select": {
+            "when": {
+              "offset": 3201,
+              "eq": 1
+            },
+            "then": {
+              "offset": 3289,
+              "length": 3,
+              "type": "bcd",
+              "endian": "little"
+            },
+            "else": {
+              "offset": 3325,
+              "length": 3,
+              "type": "bcd",
+              "endian": "little"
+            }
+          }
+        },
+        "active": [
+          {
+            "offset": 3189,
+            "eq": 1
+          },
+          {
+            "offset": 3200,
+            "eq": 1
+          },
+          {
+            "select": {
+              "when": {
+                "offset": 3201,
+                "eq": 1
+              },
+              "then": {
+                "offset": 3288
+              },
+              "else": {
+                "offset": 3324
+              }
+            },
+            "min": 1,
+            "max": 9
+          }
+        ]
+      }
+    ],
+    "armOnActive": true,
+    "ranges": [
+      [3188, 2],
+      [3200, 2],
+      [3288, 4],
+      [3306, 4],
+      [3324, 4]
+    ],
+    "sha256": "789c059c5a220f1a4144682ea6bddc4512bd579dcc50bbb9e7ad546253a485c4",
+    "version": 1,
+    "finalScoreOnInactive": true
+  },
+  "cclimbr2": {
+    "size": 106571,
+    "readers": [
+      {
+        "score": {
+          "offset": 45516,
+          "swap": 1,
+          "length": 4,
+          "type": "bcd"
+        },
+        "active": [
+          {
+            "offset": 45236,
+            "swap": 1,
+            "eq": 1
+          },
+          {
+            "offset": 45555,
+            "swap": 1,
+            "min": 1,
+            "max": 9
+          }
+        ]
+      },
+      {
+        "score": {
+          "offset": 45558,
+          "swap": 1,
+          "length": 4,
+          "type": "bcd"
+        },
+        "active": [
+          {
+            "offset": 45236,
+            "swap": 1,
+            "eq": 1
+          },
+          {
+            "offset": 45597,
+            "swap": 1,
+            "min": 1,
+            "max": 9
+          }
+        ]
+      }
+    ],
+    "armOnActive": true,
+    "ranges": [
+      [45236, 2],
+      [45516, 4],
+      [45554, 2],
+      [45558, 4],
+      [45596, 2]
+    ],
+    "sha256": "61b0b37e798533163e09a42c029f3d1ddcf4bb1d435ff5ebcd4a62d72afc9a9e",
+    "version": 1,
+    "finalScoreOnInactive": true
+  },
+  "demonwld": {
+    "size": 114448,
+    "readers": [
+      {
+        "score": {
+          "offset": 730,
+          "swap": 1,
+          "length": 4,
+          "type": "bcd"
+        },
+        "active": [
+          {
+            "offset": 729,
+            "swap": 1,
+            "eq": 1
+          },
+          {
+            "offset": 761,
+            "swap": 1,
+            "min": 1,
+            "max": 9
+          }
+        ]
+      },
+      {
+        "score": {
+          "offset": 734,
+          "swap": 1,
+          "length": 4,
+          "type": "bcd"
+        },
+        "active": [
+          {
+            "offset": 729,
+            "swap": 1,
+            "eq": 1
+          },
+          {
+            "offset": 763,
+            "swap": 1,
+            "min": 1,
+            "max": 9
+          }
+        ]
+      }
+    ],
+    "armOnActive": true,
+    "ranges": [
+      [728, 10],
+      [760, 4]
+    ],
+    "sha256": "aa5b04ec403fd8d7dc1ab7188a288011c2f97285e040b51e28bc3741eb04d655",
+    "version": 1,
+    "finalScoreOnInactive": true
+  },
+  "frogger": {
+    "size": 7232,
+    "readers": [
+      {
+        "score": {
+          "offset": 1005,
+          "length": 2,
+          "type": "bcd",
+          "endian": "little",
+          "scale": 10
+        },
+        "active": [
+          {
+            "offset": 1022,
+            "min": 1,
+            "max": 2
+          },
+          {
+            "offset": 880,
+            "min": 1,
+            "max": 2
+          },
+          {
+            "offset": 969,
+            "eq": 0
+          }
+        ]
+      },
+      {
+        "score": {
+          "offset": 1003,
+          "length": 2,
+          "type": "bcd",
+          "endian": "little",
+          "scale": 10
+        },
+        "active": [
+          {
+            "offset": 1022,
+            "min": 1,
+            "max": 2
+          },
+          {
+            "offset": 880,
+            "min": 2,
+            "max": 2
+          },
+          {
+            "offset": 970,
+            "eq": 0
+          }
+        ]
+      }
+    ],
+    "armOnActive": true,
+    "ranges": [
+      [880, 2],
+      [968, 4],
+      [1002, 6],
+      [1022, 2]
+    ],
+    "sha256": "cfdbddbf3673b4a952f13304e1e246523239dd273bdc35e97dbb9496ccb5c56f",
+    "version": 1,
+    "finalScoreOnInactive": true
+  },
+  "gijoe": {
+    "size": 75778,
+    "readers": [
+      {
+        "score": {
+          "offset": 3322,
+          "swap": 1,
+          "length": 2
+        },
+        "active": [
+          {
+            "offset": 3314,
+            "swap": 1,
+            "eq": 1
+          }
+        ]
+      },
+      {
+        "score": {
+          "offset": 3578,
+          "swap": 1,
+          "length": 2
+        },
+        "active": [
+          {
+            "offset": 3570,
+            "swap": 1,
+            "eq": 1
+          }
+        ]
+      },
+      {
+        "score": {
+          "offset": 3834,
+          "swap": 1,
+          "length": 2
+        },
+        "active": [
+          {
+            "offset": 3826,
+            "swap": 1,
+            "eq": 1
+          }
+        ]
+      },
+      {
+        "score": {
+          "offset": 4090,
+          "swap": 1,
+          "length": 2
+        },
+        "active": [
+          {
+            "offset": 4082,
+            "swap": 1,
+            "eq": 1
+          }
+        ]
+      }
+    ],
+    "armOnActive": true,
+    "ranges": [
+      [3314, 2],
+      [3322, 2],
+      [3570, 2],
+      [3578, 2],
+      [3826, 2],
+      [3834, 2],
+      [4082, 2],
+      [4090, 2]
+    ],
+    "sha256": "c1fae46200755a0e65b40dda81adade8b6ebc6e40185f6478fe5a058ae938079",
+    "version": 1,
+    "finalScoreOnInactive": true
+  },
+  "gradius": {
+    "size": 387087,
+    "readers": [
+      {
+        "score": {
+          "select": {
+            "when": {
+              "offset": 196640,
+              "swap": 1,
+              "eq": 0
+            },
+            "then": {
+              "offset": 197288,
+              "swap": 1,
+              "length": 4,
+              "type": "bcd"
+            },
+            "else": {
+              "offset": 197352,
+              "swap": 1,
+              "length": 4,
+              "type": "bcd"
+            }
+          }
+        },
+        "active": [
+          {
+            "offset": 196609,
+            "swap": 1,
+            "eq": 2
+          },
+          {
+            "select": {
+              "when": {
+                "offset": 196640,
+                "swap": 1,
+                "eq": 0
+              },
+              "then": {
+                "offset": 197280,
+                "swap": 1
+              },
+              "else": {
+                "offset": 197344,
+                "swap": 1
+              }
+            },
+            "min": 1,
+            "max": 9
+          }
+        ]
+      },
+      {
+        "score": {
+          "select": {
+            "when": {
+              "offset": 196640,
+              "swap": 1,
+              "eq": 1
+            },
+            "then": {
+              "offset": 197288,
+              "swap": 1,
+              "length": 4,
+              "type": "bcd"
+            },
+            "else": {
+              "offset": 197352,
+              "swap": 1,
+              "length": 4,
+              "type": "bcd"
+            }
+          }
+        },
+        "active": [
+          {
+            "offset": 196609,
+            "swap": 1,
+            "eq": 2
+          },
+          {
+            "offset": 196641,
+            "swap": 1,
+            "eq": 1
+          },
+          {
+            "select": {
+              "when": {
+                "offset": 196640,
+                "swap": 1,
+                "eq": 1
+              },
+              "then": {
+                "offset": 197280,
+                "swap": 1
+              },
+              "else": {
+                "offset": 197344,
+                "swap": 1
+              }
+            },
+            "min": 1,
+            "max": 9
+          }
+        ]
+      }
+    ],
+    "armOnActive": true,
+    "ranges": [
+      [196608, 2],
+      [196640, 2],
+      [197280, 2],
+      [197288, 4],
+      [197344, 2],
+      [197352, 4]
+    ],
+    "sha256": "a6ac41072dd811cbc24e80017be023e982a9cebb84718833b87639d2f1f0a6ec",
+    "version": 1,
+    "finalScoreOnInactive": true
+  },
+  "joemac": {
+    "size": 59394,
+    "readers": [
+      {
+        "score": {
+          "offset": 3490,
+          "swap": 1,
+          "length": 4,
+          "type": "bcd"
+        },
+        "active": [
+          {
+            "offset": 13465,
+            "swap": 1,
+            "mask": 1,
+            "eq": 1
+          },
+          {
+            "offset": 3480,
+            "swap": 1,
+            "length": 2,
+            "max": 9
+          }
+        ]
+      },
+      {
+        "score": {
+          "offset": 3554,
+          "swap": 1,
+          "length": 4,
+          "type": "bcd"
+        },
+        "active": [
+          {
+            "offset": 13465,
+            "swap": 1,
+            "mask": 2,
+            "eq": 2
+          },
+          {
+            "offset": 3544,
+            "swap": 1,
+            "length": 2,
+            "max": 9
+          }
+        ]
+      }
+    ],
+    "armOnActive": true,
+    "ranges": [
+      [3480, 2],
+      [3490, 4],
+      [3544, 2],
+      [3554, 4],
+      [13464, 2]
+    ],
+    "sha256": "1a1aed9de1cfd78dbacc9c8b869a0a946af34f3184984eab58832766669aea70",
+    "version": 1,
+    "finalScoreOnInactive": true
+  },
+  "maglord": {
+    "size": 65536,
+    "readers": [
+      {
+        "score": {
+          "offset": 3232,
+          "swap": 1,
+          "length": 4,
+          "type": "bcd",
+          "scale": 10
+        },
+        "active": [
+          {
+            "offset": 64942,
+            "swap": 1,
+            "eq": 3
+          },
+          {
+            "offset": 64950,
+            "swap": 1,
+            "eq": 1
+          },
+          {
+            "offset": 15104,
+            "swap": 1,
+            "max": 9
+          }
+        ]
+      },
+      {
+        "score": {
+          "offset": 3236,
+          "swap": 1,
+          "length": 4,
+          "type": "bcd",
+          "scale": 10
+        },
+        "active": [
+          {
+            "offset": 64942,
+            "swap": 1,
+            "eq": 3
+          },
+          {
+            "offset": 64951,
+            "swap": 1,
+            "eq": 1
+          },
+          {
+            "offset": 15360,
+            "swap": 1,
+            "max": 9
+          }
+        ]
+      }
+    ],
+    "armOnActive": true,
+    "ranges": [
+      [3232, 8],
+      [15104, 2],
+      [15360, 2],
+      [64942, 2],
+      [64950, 2]
+    ],
+    "sha256": "c0f5c76f984df7dc72184541cf7ff33c682660acba773c45641fc0067eb8f837",
+    "version": 1,
+    "finalScoreOnInactive": true
+  },
+  "mercs": {
+    "size": 65536,
+    "readers": [
+      {
+        "score": {
+          "offset": 3960,
+          "swap": 1,
+          "length": 8,
+          "type": "digits"
+        },
+        "active": [
+          {
+            "offset": 3707,
+            "swap": 1,
+            "mask": 192,
+            "neq": 0
+          }
+        ]
+      },
+      {
+        "score": {
+          "offset": 3968,
+          "swap": 1,
+          "length": 8,
+          "type": "digits"
+        },
+        "active": [
+          {
+            "offset": 3708,
+            "swap": 1,
+            "mask": 192,
+            "neq": 0
+          }
+        ]
+      },
+      {
+        "score": {
+          "offset": 3976,
+          "swap": 1,
+          "length": 8,
+          "type": "digits"
+        },
+        "active": [
+          {
+            "offset": 3709,
+            "swap": 1,
+            "mask": 192,
+            "neq": 0
+          }
+        ]
+      }
+    ],
+    "armOnActive": true,
+    "ranges": [
+      [3706, 4],
+      [3960, 24]
+    ],
+    "sha256": "e3c89d4de9d96f537c7de14b729ba90e06e6d9f7c5a576bb120614677d59d791",
+    "version": 1,
+    "finalScoreOnInactive": true
+  },
+  "mwalk": {
+    "size": 100352,
+    "readers": [
+      {
+        "score": {
+          "offset": 6720,
+          "swap": 1,
+          "length": 4,
+          "type": "bcd"
+        },
+        "active": [
+          {
+            "offset": 6744,
+            "swap": 1,
+            "min": 1,
+            "max": 9
+          }
+        ]
+      },
+      {
+        "score": {
+          "offset": 6784,
+          "swap": 1,
+          "length": 4,
+          "type": "bcd"
+        },
+        "active": [
+          {
+            "offset": 6808,
+            "swap": 1,
+            "min": 1,
+            "max": 9
+          }
+        ]
+      },
+      {
+        "score": {
+          "offset": 6848,
+          "swap": 1,
+          "length": 4,
+          "type": "bcd"
+        },
+        "active": [
+          {
+            "offset": 6872,
+            "swap": 1,
+            "min": 1,
+            "max": 9
+          }
+        ]
+      }
+    ],
+    "armOnActive": true,
+    "ranges": [
+      [6720, 4],
+      [6744, 2],
+      [6784, 4],
+      [6808, 2],
+      [6848, 4],
+      [6872, 2]
+    ],
+    "sha256": "64fdd10892c6bb71178eeb263402eef0bec789890b521f2406af93dc4d195ecd",
+    "version": 1,
+    "finalScoreOnInactive": true
+  },
+  "narc": {
+    "size": 688128,
+    "readers": [
+      {
+        "score": {
+          "offset": 546522,
+          "length": 3,
+          "type": "bcd",
+          "endian": "little"
+        },
+        "active": [
+          {
+            "offset": 546742,
+            "min": 1,
+            "max": 2
+          }
+        ]
+      },
+      {
+        "score": {
+          "offset": 546646,
+          "length": 3,
+          "type": "bcd",
+          "endian": "little"
+        },
+        "active": [
+          {
+            "offset": 546742,
+            "min": 1,
+            "max": 2
+          }
+        ]
+      }
+    ],
+    "armOnActive": true,
+    "ranges": [
+      [546522, 4],
+      [546646, 4],
+      [546742, 2]
+    ],
+    "sha256": "006e12467777b2fed79a5704aec11c8ec5749bd6c23c66c2169ae697d25f5fdb",
+    "version": 1,
+    "finalScoreOnInactive": true
+  },
+  "orunners": {
+    "size": 667648,
+    "finalScoreOnInactive": false,
+    "readers": [
+      {
+        "score": {
+          "offset": 64322,
+          "length": 2,
+          "endian": "little"
+        },
+        "active": [
+          {
+            "offset": 64412,
+            "min": 2,
+            "max": 3
+          },
+          {
+            "any": [
+              {
+                "offset": 64362,
+                "length": 2,
+                "endian": "little",
+                "min": 1
+              },
+              {
+                "all": [
+                  {
+                    "offset": 64412,
+                    "eq": 3
+                  },
+                  {
+                    "offset": 64490,
+                    "length": 2,
+                    "endian": "little",
+                    "min": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "score": {
+          "offset": 64450,
+          "length": 2,
+          "endian": "little"
+        },
+        "active": [
+          {
+            "offset": 64540,
+            "min": 2,
+            "max": 3
+          },
+          {
+            "any": [
+              {
+                "offset": 64490,
+                "length": 2,
+                "endian": "little",
+                "min": 1
+              },
+              {
+                "all": [
+                  {
+                    "offset": 64540,
+                    "eq": 3
+                  },
+                  {
+                    "offset": 64362,
+                    "length": 2,
+                    "endian": "little",
+                    "min": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "armOnActive": true,
+    "ranges": [
+      [64322, 2],
+      [64362, 2],
+      [64412, 2],
+      [64450, 2],
+      [64490, 2],
+      [64540, 2]
+    ],
+    "sha256": "5294f9adfd860ec07159c62e9615a5a233929f27499eaffca85da65587c5bf27",
+    "version": 2,
+    "notes": "Mode 2 is standalone play on either cabinet; mode 3 is linked play with a shared countdown. Each standalone player must use their own countdown, so the unoccupied screen cannot earn a score."
+  },
+  "kickoff": {
+    "size": 421888,
+    "readers": [
+      {
+        "score": {
+          "offset": 301,
+          "swap": 1,
+          "length": 1,
+          "type": "bcd"
+        },
+        "active": [
+          {
+            "offset": 4,
+            "swap": 1,
+            "length": 2,
+            "min": 1,
+            "max": 2
+          }
+        ]
+      },
+      {
+        "score": {
+          "offset": 303,
+          "swap": 1,
+          "length": 1,
+          "type": "bcd"
+        },
+        "active": [
+          {
+            "offset": 4,
+            "swap": 1,
+            "length": 2,
+            "min": 2,
+            "max": 2
+          }
+        ]
+      }
+    ],
+    "armOnActive": true,
+    "ranges": [
+      [4, 2],
+      [300, 4]
+    ],
+    "sha256": "61b1a851e72e0242d3b1cb7aae02d7ecd6991bf25f9af394abcf3257559a9cce",
+    "version": 1,
+    "finalScoreOnInactive": true
+  }
+}

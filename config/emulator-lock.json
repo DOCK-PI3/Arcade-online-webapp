@@ -1,0 +1,160 @@
+{
+  "version": "4.2.3",
+  "core": "fbneo",
+  "files": [
+    {
+      "path": "compression/extract7z.js",
+      "url": "https://raw.githubusercontent.com/EmulatorJS/EmulatorJS/v4.2.3/data/compression/extract7z.js",
+      "sha256": "4ac9933b995a516cb6b3ca4027db860278372a20c21c405d93ceb1998498853a",
+      "installedSha256": "4ac9933b995a516cb6b3ca4027db860278372a20c21c405d93ceb1998498853a",
+      "bytes": 280155
+    },
+    {
+      "path": "compression/extractzip.js",
+      "url": "https://raw.githubusercontent.com/EmulatorJS/EmulatorJS/v4.2.3/data/compression/extractzip.js",
+      "sha256": "3cc825428724213acd43d30552a78008e0869b2326de17dee240dbff9ee2f629",
+      "installedSha256": "3cc825428724213acd43d30552a78008e0869b2326de17dee240dbff9ee2f629",
+      "bytes": 196199
+    },
+    {
+      "path": "compression/libunrar.js",
+      "url": "https://raw.githubusercontent.com/EmulatorJS/EmulatorJS/v4.2.3/data/compression/libunrar.js",
+      "sha256": "bc35b98ec95020ec047f4762de3e66629741eee3826022195498d2a1e0fc102c",
+      "installedSha256": "bc35b98ec95020ec047f4762de3e66629741eee3826022195498d2a1e0fc102c",
+      "bytes": 66684
+    },
+    {
+      "path": "compression/libunrar.wasm",
+      "url": "https://raw.githubusercontent.com/EmulatorJS/EmulatorJS/v4.2.3/data/compression/libunrar.wasm",
+      "sha256": "e4ea9bd0b13a9767916b424469e30205f47f267ecd9125ed56fb9ff0b9bc1b58",
+      "installedSha256": "e4ea9bd0b13a9767916b424469e30205f47f267ecd9125ed56fb9ff0b9bc1b58",
+      "bytes": 173799
+    },
+    {
+      "path": "cores/fbneo-legacy-wasm.data",
+      "url": "https://cdn.emulatorjs.org/4.2.3/data/cores/fbneo-legacy-wasm.data",
+      "sha256": "9dbb6242c028f4179549f324688b654353881beb552292f939bc6171a0828b5f",
+      "installedSha256": "9dbb6242c028f4179549f324688b654353881beb552292f939bc6171a0828b5f",
+      "bytes": 8272960
+    },
+    {
+      "path": "cores/fbneo-wasm.data",
+      "url": "https://cdn.emulatorjs.org/4.2.3/data/cores/fbneo-wasm.data",
+      "sha256": "315a25e0bcd61d58ee0d9e8b1dbf3740b9e0ca4b7d0726f848ce1068de73437c",
+      "installedSha256": "315a25e0bcd61d58ee0d9e8b1dbf3740b9e0ca4b7d0726f848ce1068de73437c",
+      "bytes": 8273551
+    },
+    {
+      "path": "cores/mame2003_plus-wasm.data",
+      "url": "https://cdn.emulatorjs.org/4.2.3/data/cores/mame2003_plus-wasm.data",
+      "sha256": "cb6d9c80a88b65d1579d16d02128a678f8d1cd3f51de1479e647cea27b13247b",
+      "installedSha256": "cb6d9c80a88b65d1579d16d02128a678f8d1cd3f51de1479e647cea27b13247b",
+      "bytes": 5391355
+    },
+    {
+      "path": "cores/reports/fbneo.json",
+      "url": "https://cdn.emulatorjs.org/4.2.3/data/cores/reports/fbneo.json",
+      "sha256": "d2c5e07c2afc2b53937f14b721d7d025ad599d111e9627fc77e9b3fd17450e70",
+      "installedSha256": "d2c5e07c2afc2b53937f14b721d7d025ad599d111e9627fc77e9b3fd17450e70",
+      "bytes": 119
+    },
+    {
+      "path": "cores/reports/mame2003_plus.json",
+      "url": "https://cdn.emulatorjs.org/4.2.3/data/cores/reports/mame2003_plus.json",
+      "sha256": "bda548626942b8878beb6de3487043eea80e633bd53dd69e7bae7457373a48a1",
+      "installedSha256": "bda548626942b8878beb6de3487043eea80e633bd53dd69e7bae7457373a48a1",
+      "bytes": 127
+    },
+    {
+      "path": "emulator.css",
+      "url": "https://raw.githubusercontent.com/EmulatorJS/EmulatorJS/v4.2.3/data/emulator.css",
+      "sha256": "0ba5b1ce183b6ecb95c17e54e89fbae77697ebb94ec23caca5fd19f9b569defe",
+      "installedSha256": "0ba5b1ce183b6ecb95c17e54e89fbae77697ebb94ec23caca5fd19f9b569defe",
+      "bytes": 33532
+    },
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/EmulatorJS/EmulatorJS/v4.2.3/LICENSE",
+      "sha256": "a617fab6d251b3302b1cb2c1c94f52d1c584f6fcb2fc218ec1a475bc08053a61",
+      "installedSha256": "a617fab6d251b3302b1cb2c1c94f52d1c584f6fcb2fc218ec1a475bc08053a61",
+      "bytes": 35111
+    },
+    {
+      "path": "loader.js",
+      "url": "https://raw.githubusercontent.com/EmulatorJS/EmulatorJS/v4.2.3/data/loader.js",
+      "sha256": "69e0903bf1e2f62ced78895e7e511fa26e11316f7eb734925c35e919ba1287b2",
+      "installedSha256": "69e0903bf1e2f62ced78895e7e511fa26e11316f7eb734925c35e919ba1287b2",
+      "bytes": 7594
+    },
+    {
+      "path": "localization/es-ES.json",
+      "url": "https://raw.githubusercontent.com/EmulatorJS/EmulatorJS/v4.2.3/data/localization/es-ES.json",
+      "sha256": "88be7f8de1e1fce480ce8883a975fc7c7985208e5b100a297591cea07bc97e46",
+      "installedSha256": "88be7f8de1e1fce480ce8883a975fc7c7985208e5b100a297591cea07bc97e46",
+      "bytes": 9601
+    },
+    {
+      "path": "src/compression.js",
+      "url": "https://raw.githubusercontent.com/EmulatorJS/EmulatorJS/v4.2.3/data/src/compression.js",
+      "sha256": "bd6723ec29fee8de81118cfbddfcb53301b8f41f7c6fb22c2de44dedbf111c2c",
+      "installedSha256": "bd6723ec29fee8de81118cfbddfcb53301b8f41f7c6fb22c2de44dedbf111c2c",
+      "bytes": 6409
+    },
+    {
+      "path": "src/emulator.js",
+      "url": "https://raw.githubusercontent.com/EmulatorJS/EmulatorJS/v4.2.3/data/src/emulator.js",
+      "sha256": "24ebac4baf739892046b82c3bdf01d5b6795b801b77d289e43a4c7d59f9666be",
+      "installedSha256": "f38b0742843b7646961cc2422fea307cec3a0819d129ba093c5506a460318ce5",
+      "bytes": 341730
+    },
+    {
+      "path": "src/GameManager.js",
+      "url": "https://raw.githubusercontent.com/EmulatorJS/EmulatorJS/v4.2.3/data/src/GameManager.js",
+      "sha256": "f026130eda3648557498c54c70cbb5b36fd71b088e7e42e5a13e413aab11d888",
+      "installedSha256": "f026130eda3648557498c54c70cbb5b36fd71b088e7e42e5a13e413aab11d888",
+      "bytes": 19048
+    },
+    {
+      "path": "src/gamepad.js",
+      "url": "https://raw.githubusercontent.com/EmulatorJS/EmulatorJS/v4.2.3/data/src/gamepad.js",
+      "sha256": "27707ee9256cf3e1a6f32d1c3c42f2aed991d637773699fff566008229cc09c8",
+      "installedSha256": "27707ee9256cf3e1a6f32d1c3c42f2aed991d637773699fff566008229cc09c8",
+      "bytes": 6054
+    },
+    {
+      "path": "src/nipplejs.js",
+      "url": "https://raw.githubusercontent.com/EmulatorJS/EmulatorJS/v4.2.3/data/src/nipplejs.js",
+      "sha256": "cf745190f5dc5db942ad54f5683d56c6d6da445646f4b4fc23c049c9985a04df",
+      "installedSha256": "cf745190f5dc5db942ad54f5683d56c6d6da445646f4b4fc23c049c9985a04df",
+      "bytes": 20259
+    },
+    {
+      "path": "src/shaders.js",
+      "url": "https://raw.githubusercontent.com/EmulatorJS/EmulatorJS/v4.2.3/data/src/shaders.js",
+      "sha256": "79bcd4c35740b2858fc28f2f1894ddb8f483f1aba6f564869a713515726fe902",
+      "installedSha256": "79bcd4c35740b2858fc28f2f1894ddb8f483f1aba6f564869a713515726fe902",
+      "bytes": 139565
+    },
+    {
+      "path": "src/socket.io.min.js",
+      "url": "https://raw.githubusercontent.com/EmulatorJS/EmulatorJS/v4.2.3/data/src/socket.io.min.js",
+      "sha256": "b0e735814f8dcfecd6cdb8a7ce95a297a7e1e5f2727a29e6f5901801d52fa0c5",
+      "installedSha256": "b0e735814f8dcfecd6cdb8a7ce95a297a7e1e5f2727a29e6f5901801d52fa0c5",
+      "bytes": 46831
+    },
+    {
+      "path": "src/storage.js",
+      "url": "https://raw.githubusercontent.com/EmulatorJS/EmulatorJS/v4.2.3/data/src/storage.js",
+      "sha256": "06759f310bb2d782d2728e1d3417a0d8f613eff935d2959c1a705670041a6f2e",
+      "installedSha256": "06759f310bb2d782d2728e1d3417a0d8f613eff935d2959c1a705670041a6f2e",
+      "bytes": 4600
+    },
+    {
+      "path": "version.json",
+      "url": "https://raw.githubusercontent.com/EmulatorJS/EmulatorJS/v4.2.3/data/version.json",
+      "sha256": "d8991427000a96fb97daefdb62178071e9bbff911760706148e584ae8d69f9e7",
+      "installedSha256": "d8991427000a96fb97daefdb62178071e9bbff911760706148e584ae8d69f9e7",
+      "bytes": 126
+    }
+  ]
+}

@@ -1,0 +1,299 @@
+[
+  {
+    "name": "attract",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 51216,
+        "hex": "0000000000000000"
+      },
+      {
+        "offset": 51240,
+        "hex": "0c00"
+      },
+      {
+        "offset": 51584,
+        "hex": "0000000000000000"
+      },
+      {
+        "offset": 51608,
+        "hex": "0000"
+      }
+    ]
+  },
+  {
+    "name": "selection",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 51216,
+        "hex": "0000000000000000"
+      },
+      {
+        "offset": 51240,
+        "hex": "8000"
+      },
+      {
+        "offset": 51584,
+        "hex": "0000000000000000"
+      },
+      {
+        "offset": 51608,
+        "hex": "8000"
+      }
+    ]
+  },
+  {
+    "name": "p1-3",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 20222,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 20000,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 51216,
+        "hex": "0000fe4e02002202"
+      },
+      {
+        "offset": 51240,
+        "hex": "0c01"
+      },
+      {
+        "offset": 51584,
+        "hex": "0000204e02000000"
+      },
+      {
+        "offset": 51608,
+        "hex": "0c01"
+      }
+    ]
+  },
+  {
+    "name": "p1-4",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 20342,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 20000,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 51216,
+        "hex": "0000764f02004203"
+      },
+      {
+        "offset": 51240,
+        "hex": "0c01"
+      },
+      {
+        "offset": 51584,
+        "hex": "0000204e02000000"
+      },
+      {
+        "offset": 51608,
+        "hex": "0c01"
+      }
+    ]
+  },
+  {
+    "name": "p1-5",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 20390,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 20000,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 51216,
+        "hex": "0000a64f02009003"
+      },
+      {
+        "offset": 51240,
+        "hex": "b001"
+      },
+      {
+        "offset": 51584,
+        "hex": "0000204e02000000"
+      },
+      {
+        "offset": 51608,
+        "hex": "a801"
+      }
+    ]
+  },
+  {
+    "name": "p1-6",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 20390,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 20000,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 51216,
+        "hex": "0000a64f02009003"
+      },
+      {
+        "offset": 51240,
+        "hex": "3c41"
+      },
+      {
+        "offset": 51584,
+        "hex": "0000204e02000000"
+      },
+      {
+        "offset": 51608,
+        "hex": "a801"
+      }
+    ]
+  },
+  {
+    "name": "p1-7",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 20390,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 20000,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 51216,
+        "hex": "0000a64f02009003"
+      },
+      {
+        "offset": 51240,
+        "hex": "3ce0"
+      },
+      {
+        "offset": 51584,
+        "hex": "0000204e02000000"
+      },
+      {
+        "offset": 51608,
+        "hex": "a801"
+      }
+    ]
+  },
+  {
+    "name": "p2-1",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 20390,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 20000,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 51216,
+        "hex": "0000a64f02009003"
+      },
+      {
+        "offset": 51240,
+        "hex": "3ce0"
+      },
+      {
+        "offset": 51584,
+        "hex": "0000204e02000000"
+      },
+      {
+        "offset": 51608,
+        "hex": "3c41"
+      }
+    ]
+  },
+  {
+    "name": "p2-2",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 20390,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 20000,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 51216,
+        "hex": "0000a64f02009003"
+      },
+      {
+        "offset": 51240,
+        "hex": "3ce0"
+      },
+      {
+        "offset": 51584,
+        "hex": "0000204e02000000"
+      },
+      {
+        "offset": 51608,
+        "hex": "3ce0"
+      }
+    ]
+  }
+]

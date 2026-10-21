@@ -1,0 +1,178 @@
+[
+  {
+    "game": "contra",
+    "capture": "scored",
+    "expected": [
+      [
+        1,
+        4000
+      ],
+      [
+        2,
+        0
+      ]
+    ],
+    "regions": [
+      {
+        "offset": 112,
+        "hex": "000000000000000000000300000040000002000000000300000000000000000002020000000000000000000100000000"
+      }
+    ]
+  },
+  {
+    "game": "contra",
+    "capture": "two",
+    "expected": [
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        3500
+      ]
+    ],
+    "regions": [
+      {
+        "offset": 112,
+        "hex": "020000000000000000000300000000000001000000000300000035000002000003020000000000000000000101000000"
+      }
+    ]
+  },
+  {
+    "game": "mslug",
+    "capture": "scored",
+    "expected": [
+      [
+        1,
+        500
+      ],
+      [
+        2,
+        0
+      ]
+    ],
+    "regions": [
+      {
+        "offset": 880,
+        "hex": "0000100000e2030010004004ffffffffffffffff0000000000000000000000000a000000ffffffffffffffffffffffff0200fa57100060021000000310002001ff0100010000ffffffffffffffff0000ffffffffffff00000000000000000000ffffffffffffffff0000ff00ffffffffffffffff0000ffffffffffffffffffffffffffffffffffff00ff0000ffffffffffffffffffffffff00ff0000ffffffff0100ffffffffffffffffffffffffffff"
+      },
+      {
+        "offset": 28308,
+        "hex": "00000000050000000000000000000000"
+      },
+      {
+        "offset": 64942,
+        "hex": "0203"
+      }
+    ]
+  },
+  {
+    "game": "mslug",
+    "capture": "two",
+    "expected": [
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        200
+      ]
+    ],
+    "regions": [
+      {
+        "offset": 880,
+        "hex": "0000100000e2030010004004ffffffffffffffff0000000000000000000000000a000000ffffffffffffffffffffffff0200fc59100060021000000310002001ff0100010000ffffffffffffffff0000ffffffffffff00000000000000000000ffffffffffffffff0000ff00ffffffffffffffff0000ffffffffffffffffffffffffffffffffffff00ff0000ffffffffffffffffffffffff00ff0000ffffffff0100100006e203001000e004ffffffff"
+      },
+      {
+        "offset": 28308,
+        "hex": "00000000000000000000000002000000"
+      },
+      {
+        "offset": 64942,
+        "hex": "0203"
+      }
+    ]
+  },
+  {
+    "game": "1941",
+    "capture": "two",
+    "expected": [
+      [
+        1,
+        200
+      ],
+      [
+        2,
+        4400
+      ]
+    ],
+    "regions": [
+      {
+        "offset": 3456,
+        "hex": "0003"
+      },
+      {
+        "offset": 3510,
+        "hex": "0000000200000044"
+      }
+    ]
+  },
+  {
+    "game": "tetris",
+    "capture": "atomic-drop",
+    "expected": [
+      [
+        1,
+        64
+      ],
+      [
+        2,
+        0
+      ]
+    ],
+    "regions": [
+      {
+        "offset": 8960,
+        "hex": "0000640000004000000000000000000000000000000000000101101000000e00"
+      },
+      {
+        "offset": 9088,
+        "hex": "0000000000000000000000000000000000000000000000000002000000000000"
+      }
+    ]
+  },
+  {
+    "game": "mslug2",
+    "capture": "two",
+    "expected": [
+      [
+        1,
+        1000
+      ],
+      [
+        2,
+        1900
+      ]
+    ],
+    "regions": [
+      {
+        "offset": 4726,
+        "hex": "0002"
+      },
+      {
+        "offset": 4894,
+        "hex": "0002"
+      },
+      {
+        "offset": 59502,
+        "hex": "0000001000000000000000000019"
+      },
+      {
+        "offset": 64942,
+        "hex": "0203"
+      }
+    ]
+  }
+]

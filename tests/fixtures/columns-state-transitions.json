@@ -1,0 +1,134 @@
+[
+  {
+    "name": "selection",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 51216,
+        "hex": "0000000000000000"
+      },
+      {
+        "offset": 51240,
+        "hex": "0c00"
+      },
+      {
+        "offset": 51584,
+        "hex": "0000000000000000"
+      },
+      {
+        "offset": 51608,
+        "hex": "0000"
+      }
+    ]
+  },
+  {
+    "name": "playing",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 51216,
+        "hex": "0000000000000000"
+      },
+      {
+        "offset": 51240,
+        "hex": "0401"
+      },
+      {
+        "offset": 51584,
+        "hex": "0000000000000000"
+      },
+      {
+        "offset": 51608,
+        "hex": "0000"
+      }
+    ]
+  },
+  {
+    "name": "playing-with-jewel-flags",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 89,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 51216,
+        "hex": "0000590000008900"
+      },
+      {
+        "offset": 51240,
+        "hex": "b007"
+      },
+      {
+        "offset": 51584,
+        "hex": "0000000000000000"
+      },
+      {
+        "offset": 51608,
+        "hex": "0000"
+      }
+    ]
+  },
+  {
+    "name": "game-over",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 89,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 51216,
+        "hex": "0000590000008900"
+      },
+      {
+        "offset": 51240,
+        "hex": "3c86"
+      },
+      {
+        "offset": 51584,
+        "hex": "0000000000000000"
+      },
+      {
+        "offset": 51608,
+        "hex": "0000"
+      }
+    ]
+  }
+]

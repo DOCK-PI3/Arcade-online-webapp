@@ -1,0 +1,954 @@
+[
+  {
+    "id": "1942",
+    "title": "1942",
+    "year": 1984,
+    "maker": "Capcom",
+    "genre": "Disparos",
+    "max_players": 2,
+    "arcade_players": 2,
+    "rom": "1942.zip",
+    "bios": null,
+    "enabled": true,
+    "playMode": "alternating",
+    "startTogether": true,
+    "controlHint": "Dos jugadores por turnos. Insertad ambos crÃ©ditos antes del primer Inicio."
+  },
+  {
+    "id": "1943",
+    "title": "1943: The Battle of Midway",
+    "year": 1987,
+    "maker": "Capcom",
+    "genre": "Disparos",
+    "max_players": 2,
+    "arcade_players": 2,
+    "rom": "1943.zip",
+    "bios": null,
+    "enabled": true,
+    "playMode": "simultaneous",
+    "startTogether": false,
+    "controlHint": ""
+  },
+  {
+    "id": "1943kai",
+    "title": "1943 Kai: Midway Kaisen",
+    "year": 1987,
+    "maker": "Capcom",
+    "genre": "Disparos",
+    "max_players": 2,
+    "arcade_players": 2,
+    "rom": "1943kai.zip",
+    "bios": null,
+    "enabled": true,
+    "playMode": "simultaneous",
+    "startTogether": false,
+    "controlHint": ""
+  },
+  {
+    "id": "1943mii",
+    "title": "1943: The Battle of Midway Mark II",
+    "year": 1987,
+    "maker": "Capcom",
+    "genre": "Disparos",
+    "max_players": 2,
+    "arcade_players": 2,
+    "rom": "1943mii.zip",
+    "bios": null,
+    "enabled": true,
+    "playMode": "simultaneous",
+    "startTogether": false,
+    "controlHint": ""
+  },
+  {
+    "id": "1944",
+    "title": "1944: The Loop Master",
+    "year": 2000,
+    "maker": "Eighting / Raizing (Capcom license)",
+    "genre": "Disparos",
+    "max_players": 2,
+    "arcade_players": 2,
+    "rom": "1944.zip",
+    "bios": null,
+    "enabled": true,
+    "playMode": "simultaneous",
+    "startTogether": false,
+    "controlHint": ""
+  },
+  {
+    "id": "1945kiii",
+    "title": "1945k III",
+    "year": 2000,
+    "maker": "Oriental Soft",
+    "genre": "Disparos",
+    "max_players": 2,
+    "arcade_players": 2,
+    "rom": "1945kiii.zip",
+    "bios": null,
+    "enabled": true,
+    "playMode": "simultaneous",
+    "startTogether": false,
+    "controlHint": "",
+    "coinSlot": 1
+  },
+  {
+    "id": "88games",
+    "title": "88 Games",
+    "year": 1988,
+    "maker": "Konami",
+    "genre": "Deportes",
+    "max_players": 2,
+    "arcade_players": 4,
+    "rom": "88games.zip",
+    "bios": null,
+    "enabled": true,
+    "playMode": "events",
+    "startTogether": true,
+    "controlHint": "Alterna los botones A y B para correr. C: salto, acciÃ³n y confirmar iniciales. El marcador web registra la puntuaciÃ³n total original de las pruebas.",
+    "inputMap": {
+      "a": 0,
+      "b": 1,
+      "c": 8,
+      "d": 9
+    }
+  },
+  {
+    "id": "aliens",
+    "title": "Aliens",
+    "year": 1990,
+    "maker": "Konami",
+    "genre": "Disparos",
+    "max_players": 2,
+    "arcade_players": 2,
+    "rom": "aliens.zip",
+    "bios": null,
+    "enabled": true,
+    "playMode": "simultaneous",
+    "startTogether": false,
+    "controlHint": ""
+  },
+  {
+    "id": "altbeast",
+    "title": "Altered Beast",
+    "year": 1988,
+    "maker": "Sega",
+    "genre": "AcciÃ³n",
+    "max_players": 2,
+    "arcade_players": 2,
+    "rom": "altbeast.zip",
+    "bios": null,
+    "enabled": true,
+    "playMode": "simultaneous",
+    "startTogether": false,
+    "controlHint": ""
+  },
+  {
+    "id": "asterix",
+    "title": "Asterix",
+    "year": 1992,
+    "maker": "Konami",
+    "genre": "AcciÃ³n",
+    "max_players": 2,
+    "arcade_players": 2,
+    "rom": "asterix.zip",
+    "bios": null,
+    "enabled": true,
+    "playMode": "simultaneous",
+    "startTogether": false,
+    "controlHint": ""
+  },
+  {
+    "id": "baddudes",
+    "title": "Bad Dudes vs. Dragonninja",
+    "year": 1988,
+    "maker": "Data East USA",
+    "genre": "AcciÃ³n",
+    "max_players": 2,
+    "arcade_players": 2,
+    "rom": "baddudes.zip",
+    "bios": null,
+    "enabled": true,
+    "playMode": "simultaneous",
+    "startTogether": false,
+    "controlHint": ""
+  },
+  {
+    "id": "darius",
+    "title": "Darius",
+    "year": 1986,
+    "maker": "Taito Corporation Japan",
+    "genre": "Disparos",
+    "max_players": 2,
+    "arcade_players": 2,
+    "rom": "darius.zip",
+    "bios": null,
+    "enabled": true,
+    "playMode": "simultaneous",
+    "startTogether": false,
+    "controlHint": "",
+    "coinSlot": 1
+  },
+  {
+    "id": "galaga88",
+    "title": "Galaga '88",
+    "year": 1987,
+    "maker": "Namco",
+    "genre": "Disparos",
+    "max_players": 2,
+    "arcade_players": 2,
+    "rom": "galaga88.zip",
+    "bios": null,
+    "enabled": true,
+    "playMode": "alternating",
+    "startTogether": true,
+    "controlHint": "Dos jugadores por turnos. Insertad ambos crÃ©ditos antes del primer Inicio."
+  },
+  {
+    "id": "jackal",
+    "title": "Jackal",
+    "year": 1986,
+    "maker": "Konami",
+    "genre": "Disparos",
+    "max_players": 2,
+    "arcade_players": 2,
+    "rom": "jackal.zip",
+    "bios": null,
+    "enabled": true,
+    "playMode": "simultaneous",
+    "startTogether": false,
+    "controlHint": ""
+  },
+  {
+    "id": "pbobble",
+    "title": "Puzzle Bobble",
+    "year": 1994,
+    "maker": "Taito Corporation",
+    "genre": "Puzle",
+    "max_players": 2,
+    "arcade_players": 2,
+    "rom": "pbobble.zip",
+    "bios": null,
+    "enabled": true,
+    "playMode": "simultaneous",
+    "startTogether": false,
+    "controlHint": ""
+  },
+  {
+    "id": "prehisle",
+    "title": "Prehistoric Isle in 1930",
+    "year": 1989,
+    "maker": "SNK",
+    "genre": "Disparos",
+    "max_players": 2,
+    "arcade_players": 2,
+    "rom": "prehisle.zip",
+    "bios": null,
+    "enabled": true,
+    "playMode": "simultaneous",
+    "startTogether": false,
+    "controlHint": ""
+  },
+  {
+    "id": "preisle2",
+    "title": "Prehistoric Isle 2",
+    "year": 1999,
+    "maker": "Yumekobo / Saurus",
+    "genre": "Disparos",
+    "max_players": 2,
+    "arcade_players": 2,
+    "rom": "preisle2.zip",
+    "bios": "neogeo.zip",
+    "enabled": true,
+    "playMode": "simultaneous",
+    "startTogether": false,
+    "controlHint": ""
+  },
+  {
+    "id": "rthunder",
+    "title": "Rolling Thunder",
+    "year": 1986,
+    "maker": "Namco",
+    "genre": "Disparos",
+    "max_players": 2,
+    "arcade_players": 2,
+    "rom": "rthunder.zip",
+    "bios": null,
+    "enabled": true,
+    "playMode": "alternating",
+    "startTogether": true,
+    "controlHint": "Dos jugadores por turnos. Insertad ambos crÃ©ditos antes del primer Inicio.",
+    "coreOptions": {
+      "fbneo-dipswitch-rthunder-Cabinet": "Upright 2 Players",
+      "fbneo-dipswitch-rthunder-Level_Select_(Cheat)": "Off"
+    }
+  },
+  {
+    "id": "rthun2",
+    "title": "Rolling Thunder 2",
+    "year": 1990,
+    "maker": "Namco",
+    "genre": "Disparos",
+    "max_players": 2,
+    "arcade_players": 2,
+    "rom": "rthun2.zip",
+    "bios": null,
+    "enabled": true,
+    "playMode": "simultaneous",
+    "startTogether": false,
+    "controlHint": "El arranque inicial de esta recreativa tarda aproximadamente un minuto y medio. Esperad a que la sala indique que estÃ¡ lista.",
+    "coinSlot": 1,
+    "bootFrames": 1200,
+    "bootSequence": [
+      {
+        "slot": 1,
+        "index": 3,
+        "holdFrames": 15,
+        "settleFrames": 4200
+      }
+    ]
+  },
+  {
+    "id": "salamand",
+    "title": "Salamander",
+    "year": 1986,
+    "maker": "Konami",
+    "genre": "Disparos",
+    "max_players": 2,
+    "arcade_players": 2,
+    "rom": "salamand.zip",
+    "bios": null,
+    "enabled": true,
+    "playMode": "simultaneous",
+    "startTogether": false,
+    "controlHint": ""
+  },
+  {
+    "id": "shinobi",
+    "title": "Shinobi",
+    "year": 1987,
+    "maker": "Sega",
+    "genre": "AcciÃ³n",
+    "max_players": 2,
+    "arcade_players": 2,
+    "rom": "shinobi.zip",
+    "bios": null,
+    "enabled": true,
+    "playMode": "alternating",
+    "startTogether": true,
+    "controlHint": "Dos jugadores por turnos. Insertad ambos crÃ©ditos antes del primer Inicio."
+  },
+  {
+    "id": "tmnt2po",
+    "title": "Teenage Mutant Ninja Turtles (2 jugadores)",
+    "year": 1989,
+    "maker": "Konami",
+    "genre": "AcciÃ³n",
+    "max_players": 2,
+    "arcade_players": 2,
+    "rom": "tmnt2po.zip",
+    "bios": null,
+    "enabled": true,
+    "playMode": "simultaneous",
+    "startTogether": false,
+    "controlHint": ""
+  },
+  {
+    "id": "twinbee",
+    "title": "TwinBee",
+    "year": 1985,
+    "maker": "Konami",
+    "genre": "Disparos",
+    "max_players": 2,
+    "arcade_players": 2,
+    "rom": "twinbee.zip",
+    "bios": null,
+    "enabled": true,
+    "playMode": "simultaneous",
+    "startTogether": true,
+    "controlHint": "Dos jugadores simultÃ¡neos. Insertad ambos crÃ©ditos antes del primer Inicio.",
+    "coreOptions": {
+      "fbneo-dipswitch-twinbee-Players": "2"
+    },
+    "bootFrames": 3600
+  },
+  {
+    "id": "forgottn",
+    "title": "Forgotten Worlds",
+    "year": 1988,
+    "maker": "Capcom",
+    "genre": "Disparos",
+    "max_players": 2,
+    "arcade_players": 2,
+    "rom": "forgottn.zip",
+    "bios": null,
+    "enabled": true,
+    "playMode": "simultaneous",
+    "startTogether": false,
+    "controlHint": "BotÃ³n A: disparar. Botones B y C: girar el arma a izquierda y derecha.",
+    "inputMap": {
+      "a": 11,
+      "b": 0,
+      "c": 8,
+      "d": 9
+    }
+  },
+  {
+    "id": "salmndr2",
+    "title": "Salamander 2",
+    "year": 1996,
+    "maker": "Konami",
+    "genre": "Disparos",
+    "max_players": 2,
+    "arcade_players": 2,
+    "rom": "salmndr2.zip",
+    "bios": "konamigx.zip",
+    "enabled": true,
+    "playMode": "simultaneous",
+    "startTogether": false,
+    "controlHint": "",
+    "core": "mame2003_plus",
+    "bootFrames": 6000,
+    "coinSlot": 1
+  },
+  {
+    "id": "3wonders",
+    "title": "Three Wonders",
+    "year": 1991,
+    "maker": "Capcom",
+    "genre": "Acción",
+    "max_players": 2,
+    "arcade_players": 2,
+    "rom": "3wonders.zip",
+    "bios": null,
+    "enabled": true,
+    "playMode": "simultaneous",
+    "startTogether": false,
+    "controlHint": "",
+    "inputMap": {
+      "a": 0,
+      "b": 8,
+      "c": 1,
+      "d": 9
+    },
+    "coinSlot": 1
+  },
+  {
+    "id": "avsp",
+    "title": "Alien vs. Predator",
+    "year": 1994,
+    "maker": "Capcom",
+    "genre": "Acción",
+    "max_players": 3,
+    "arcade_players": 3,
+    "rom": "avsp.zip",
+    "bios": null,
+    "enabled": true,
+    "playMode": "simultaneous",
+    "startTogether": false,
+    "controlHint": "Hasta tres jugadores simultáneos. Cada uno inserta su crédito y pulsa Inicio; durante la introducción, esperad a la selección de personajes antes de incorporaros. A: atacar; B: saltar; C: disparar.",
+    "inputMap": {
+      "a": 1,
+      "b": 0,
+      "c": 8,
+      "d": 9
+    },
+    "bootSequence": [
+      {
+        "slot": 1,
+        "index": 3,
+        "holdFrames": 200,
+        "settleFrames": 30
+      },
+      {
+        "slot": 1,
+        "index": 5,
+        "holdFrames": 12,
+        "settleFrames": 18
+      },
+      {
+        "slot": 1,
+        "index": 5,
+        "holdFrames": 12,
+        "settleFrames": 18
+      },
+      {
+        "slot": 1,
+        "index": 5,
+        "holdFrames": 12,
+        "settleFrames": 18
+      },
+      {
+        "slot": 1,
+        "index": 5,
+        "holdFrames": 12,
+        "settleFrames": 18
+      },
+      {
+        "slot": 1,
+        "index": 5,
+        "holdFrames": 12,
+        "settleFrames": 18
+      },
+      {
+        "slot": 1,
+        "index": 8,
+        "holdFrames": 12,
+        "settleFrames": 18
+      },
+      {
+        "slot": 1,
+        "index": 8,
+        "holdFrames": 12,
+        "settleFrames": 18
+      },
+      {
+        "slot": 1,
+        "index": 5,
+        "holdFrames": 12,
+        "settleFrames": 18
+      },
+      {
+        "slot": 1,
+        "index": 5,
+        "holdFrames": 12,
+        "settleFrames": 18
+      },
+      {
+        "slot": 1,
+        "index": 5,
+        "holdFrames": 12,
+        "settleFrames": 18
+      },
+      {
+        "slot": 1,
+        "index": 5,
+        "holdFrames": 12,
+        "settleFrames": 18
+      },
+      {
+        "slot": 1,
+        "index": 5,
+        "holdFrames": 12,
+        "settleFrames": 18
+      },
+      {
+        "slot": 1,
+        "index": 7,
+        "holdFrames": 12,
+        "settleFrames": 18
+      },
+      {
+        "slot": 1,
+        "index": 5,
+        "holdFrames": 12,
+        "settleFrames": 18
+      },
+      {
+        "slot": 1,
+        "index": 5,
+        "holdFrames": 12,
+        "settleFrames": 18
+      },
+      {
+        "slot": 1,
+        "index": 5,
+        "holdFrames": 12,
+        "settleFrames": 18
+      },
+      {
+        "slot": 1,
+        "index": 8,
+        "holdFrames": 12,
+        "settleFrames": 18
+      },
+      {
+        "buttons": [
+          {
+            "slot": 1,
+            "index": 3
+          },
+          {
+            "slot": 2,
+            "index": 3
+          }
+        ],
+        "holdFrames": 12,
+        "settleFrames": 30
+      },
+      {
+        "slot": 1,
+        "index": 5,
+        "holdFrames": 12,
+        "settleFrames": 18
+      },
+      {
+        "slot": 1,
+        "index": 5,
+        "holdFrames": 12,
+        "settleFrames": 18
+      },
+      {
+        "slot": 1,
+        "index": 5,
+        "holdFrames": 12,
+        "settleFrames": 18
+      },
+      {
+        "slot": 1,
+        "index": 5,
+        "holdFrames": 12,
+        "settleFrames": 18
+      },
+      {
+        "slot": 1,
+        "index": 5,
+        "holdFrames": 12,
+        "settleFrames": 18
+      },
+      {
+        "slot": 1,
+        "index": 5,
+        "holdFrames": 12,
+        "settleFrames": 18
+      },
+      {
+        "slot": 1,
+        "index": 8,
+        "holdFrames": 12,
+        "settleFrames": 1200
+      }
+    ]
+  },
+  {
+    "id": "cclimber",
+    "title": "Crazy Climber",
+    "year": 1980,
+    "maker": "Nichibutsu",
+    "genre": "Acción",
+    "max_players": 2,
+    "arcade_players": 2,
+    "rom": "cclimber.zip",
+    "bios": null,
+    "enabled": true,
+    "playMode": "alternating",
+    "startTogether": true,
+    "controlHint": "Dos jugadores por turnos. Insertad ambos créditos antes del primer Inicio. Palanca izquierda: cruceta o stick izquierdo; palanca derecha: stick derecho o A (arriba), B (abajo), C (izquierda), D (derecha).",
+    "inputMap": {
+      "a": 23,
+      "b": 22,
+      "c": 21,
+      "d": 20
+    },
+    "inputMode": "twin-stick",
+    "analogInputs": [20, 21, 22, 23],
+    "coinSlot": 1
+  },
+  {
+    "id": "cclimbr2",
+    "title": "Crazy Climber 2",
+    "year": 1988,
+    "maker": "Nichibutsu",
+    "genre": "Acción",
+    "max_players": 2,
+    "arcade_players": 2,
+    "rom": "cclimbr2.zip",
+    "bios": null,
+    "enabled": true,
+    "playMode": "alternating",
+    "startTogether": true,
+    "controlHint": "Dos jugadores por turnos. Insertad ambos créditos antes del primer Inicio. Palanca izquierda: cruceta o stick izquierdo; palanca derecha: stick derecho o A (arriba), B (abajo), C (izquierda), D (derecha).",
+    "inputMap": {
+      "a": 23,
+      "b": 22,
+      "c": 21,
+      "d": 20
+    },
+    "inputMode": "twin-stick",
+    "analogInputs": [20, 21, 22, 23],
+    "coinSlot": 1
+  },
+  {
+    "id": "demonwld",
+    "title": "Demon’s World / Horror Story",
+    "year": 1990,
+    "maker": "Toaplan",
+    "genre": "Acción",
+    "max_players": 2,
+    "arcade_players": 2,
+    "rom": "demonwld.zip",
+    "bios": null,
+    "enabled": true,
+    "playMode": "simultaneous",
+    "startTogether": true,
+    "controlHint": "Dos jugadores simultáneos. Insertad los dos créditos antes del primer Inicio.",
+    "inputMap": {
+      "a": 0,
+      "b": 8,
+      "c": 1,
+      "d": 9
+    },
+    "coinSlot": 1
+  },
+  {
+    "id": "frogger",
+    "title": "Frogger",
+    "year": 1981,
+    "maker": "Konami",
+    "genre": "Acción",
+    "max_players": 2,
+    "arcade_players": 2,
+    "rom": "frogger.zip",
+    "bios": null,
+    "enabled": true,
+    "playMode": "alternating",
+    "startTogether": true,
+    "controlHint": "Dos jugadores por turnos. Insertad ambos créditos antes del primer Inicio.",
+    "inputMap": {
+      "a": 0,
+      "b": 8,
+      "c": 1,
+      "d": 9
+    },
+    "coinSlot": 1
+  },
+  {
+    "id": "gijoe",
+    "title": "G.I. Joe",
+    "year": 1992,
+    "maker": "Konami",
+    "genre": "Acción",
+    "max_players": 4,
+    "arcade_players": 4,
+    "rom": "gijoe.zip",
+    "bios": null,
+    "enabled": true,
+    "playMode": "simultaneous",
+    "startTogether": false,
+    "controlHint": "Hasta cuatro jugadores simultáneos. Cada jugador inserta su crédito y pulsa Inicio para elegir personaje. A: disparar; B: saltar.",
+    "coreOptions": {
+      "fbneo-dipswitch-gijoe-Number_of_Players": "4"
+    },
+    "inputMap": {
+      "a": 0,
+      "b": 8,
+      "c": 1,
+      "d": 9
+    },
+    "coinSlot": 1
+  },
+  {
+    "id": "gradius",
+    "title": "Gradius",
+    "year": 1985,
+    "maker": "Konami",
+    "genre": "Acción",
+    "max_players": 2,
+    "arcade_players": 2,
+    "rom": "gradius.zip",
+    "bios": null,
+    "enabled": true,
+    "playMode": "alternating",
+    "startTogether": true,
+    "controlHint": "Dos jugadores por turnos. Insertad ambos créditos antes del primer Inicio.",
+    "inputMap": {
+      "a": 0,
+      "b": 8,
+      "c": 1,
+      "d": 9
+    },
+    "coinSlot": 1
+  },
+  {
+    "id": "joemac",
+    "title": "Joe & Mac",
+    "year": 1991,
+    "maker": "Data East Corporation",
+    "genre": "Acción",
+    "max_players": 2,
+    "arcade_players": 2,
+    "rom": "joemac.zip",
+    "bios": null,
+    "enabled": true,
+    "playMode": "simultaneous",
+    "startTogether": false,
+    "controlHint": "",
+    "inputMap": {
+      "a": 0,
+      "b": 8,
+      "c": 1,
+      "d": 9
+    },
+    "coinSlot": 1
+  },
+  {
+    "id": "kickoff",
+    "title": "Kick Off: Jaleco Cup",
+    "year": 1988,
+    "maker": "Jaleco",
+    "genre": "Deportes",
+    "max_players": 2,
+    "arcade_players": 2,
+    "rom": "kickoff.zip",
+    "bios": null,
+    "enabled": true,
+    "playMode": "versus",
+    "startTogether": true,
+    "controlHint": "Dos jugadores enfrentados. Insertad los dos créditos antes del primer Inicio. Marcador: mayor número de goles observado durante el crédito.",
+    "coreOptions": {
+      "fbneo-dipswitch-kickoff-Controls": "Joystick"
+    },
+    "inputMap": {
+      "a": 0,
+      "b": 8,
+      "c": 1,
+      "d": 9
+    },
+    "coinSlot": 1,
+    "scoreLabel": "Goles marcados",
+    "scoreUnit": "goles",
+    "rules": "Un crédito por jugador. El marcador registra el mayor número de goles de cada equipo observado durante el crédito. Los empates que reinician el encuentro conservan la mejor marca anterior. Sin continuaciones, trucos ni estados guardados."
+  },
+  {
+    "id": "kof98",
+    "title": "The King of Fighters ’98",
+    "year": 1998,
+    "maker": "SNK",
+    "genre": "Lucha",
+    "max_players": 2,
+    "arcade_players": 2,
+    "rom": "kof98.zip",
+    "bios": "neogeo.zip",
+    "enabled": true,
+    "playMode": "versus",
+    "startTogether": false,
+    "controlHint": "",
+    "inputMap": {
+      "a": 0,
+      "b": 8,
+      "c": 1,
+      "d": 9
+    },
+    "rules": "Un crédito por jugador. El marcador conserva el máximo de puntos nativos observado durante el crédito, incluidos los combates entre jugadores. El juego puede reiniciar o restaurar el contador entre asaltos; se conserva el mejor valor observado. Sin continuaciones, trucos ni estados guardados."
+  },
+  {
+    "id": "maglord",
+    "title": "Magician Lord",
+    "year": 1990,
+    "maker": "Alpha Denshi Co.",
+    "genre": "Acción",
+    "max_players": 2,
+    "arcade_players": 2,
+    "rom": "maglord.zip",
+    "bios": "neogeo.zip",
+    "enabled": true,
+    "playMode": "alternating",
+    "startTogether": true,
+    "controlHint": "Dos jugadores por turnos. Insertad ambos créditos antes del primer Inicio.",
+    "inputMap": {
+      "a": 0,
+      "b": 8,
+      "c": 1,
+      "d": 9
+    }
+  },
+  {
+    "id": "mercs",
+    "title": "Mercs",
+    "year": 1990,
+    "maker": "Capcom",
+    "genre": "Acción",
+    "max_players": 3,
+    "arcade_players": 3,
+    "rom": "mercs.zip",
+    "bios": null,
+    "enabled": true,
+    "playMode": "simultaneous",
+    "startTogether": false,
+    "controlHint": "Hasta tres jugadores simultáneos. Cada puesto tiene su propio crédito. Durante la introducción, esperad a que aparezcan los soldados antes de incorporaros. A: disparar; B: ataque especial.",
+    "inputMap": {
+      "a": 0,
+      "b": 8,
+      "c": 1,
+      "d": 9
+    }
+  },
+  {
+    "id": "mwalk",
+    "title": "Michael Jackson’s Moonwalker",
+    "year": 1990,
+    "maker": "Sega",
+    "genre": "Acción",
+    "max_players": 3,
+    "arcade_players": 3,
+    "rom": "mwalk.zip",
+    "bios": null,
+    "enabled": true,
+    "playMode": "simultaneous",
+    "startTogether": false,
+    "controlHint": "Hasta tres jugadores simultáneos. Cada puesto tiene su propio crédito. A: atacar; B: saltar; C: magia.",
+    "inputMap": {
+      "a": 0,
+      "b": 8,
+      "c": 1,
+      "d": 9
+    }
+  },
+  {
+    "id": "narc",
+    "title": "NARC",
+    "year": 1988,
+    "maker": "Williams",
+    "genre": "Acción",
+    "max_players": 2,
+    "arcade_players": 2,
+    "rom": "narc.zip",
+    "bios": null,
+    "enabled": true,
+    "playMode": "simultaneous",
+    "startTogether": false,
+    "controlHint": "",
+    "inputMap": {
+      "a": 0,
+      "b": 8,
+      "c": 1,
+      "d": 9
+    },
+    "coinSlot": 1,
+    "bootSequence": [
+      {
+        "reset": true,
+        "settleFrames": 1200
+      }
+    ]
+  },
+  {
+    "id": "orunners",
+    "title": "OutRunners",
+    "year": 1992,
+    "maker": "Sega",
+    "genre": "Carreras",
+    "max_players": 2,
+    "arcade_players": 2,
+    "rom": "orunners.zip",
+    "bios": null,
+    "enabled": true,
+    "playMode": "versus",
+    "startTogether": false,
+    "controlHint": "Dos pantallas y dos jugadores simultáneos. Dirección: cruceta o stick izquierdo. A: acelerar; B: frenar; C/D: subir/bajar marcha si eliges cambio manual.",
+    "coreOptions": {
+      "fbneo-dipswitch-orunners-Multi-Screen_Mode": "Enabled"
+    },
+    "inputMap": {
+      "left": 17,
+      "right": 16,
+      "a": 13,
+      "b": 12,
+      "c": 0,
+      "d": 8
+    },
+    "inputMode": "driving",
+    "analogInputs": [12, 13, 16, 17],
+    "scoreLabel": "Recorrido alcanzado",
+    "scoreUnit": "tramos",
+    "rules": "Un crédito por piloto. El marcador del salón registra el mayor recorrido alcanzado, medido en tramos de pista por el motor, aunque se agote el tiempo. Gana el recorrido más largo. Sin continuaciones, trucos ni estados guardados."
+  }
+]

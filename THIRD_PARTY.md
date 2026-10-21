@@ -1,0 +1,13 @@
+# Componentes de terceros
+
+- **EmulatorJS 4.2.3:** https://github.com/EmulatorJS/EmulatorJS/releases/tag/v4.2.3. La licencia GPL-3.0 completa se descarga en `public/emulator/LICENSE`. El instalador conserva los hashes originales y documenta la única modificación del frontal: desactivar la consulta remota de actualizaciones en una instalación fijada y local.
+- **Núcleo FBNeo para EmulatorJS:** binarios oficiales distribuidos por https://cdn.emulatorjs.org/4.2.3/data/. Código del núcleo: https://github.com/finalburnneo/FBNeo. Infraestructura de compilación: https://github.com/EmulatorJS/build. Consulta sus respectivos avisos y términos antes de redistribuir el motor.
+- **Núcleo MAME 2003 Plus para EmulatorJS:** binarios oficiales fijados por hash en `config/emulator-lock.json`. Código y avisos del proyecto: https://github.com/libretro/mame2003-plus-libretro. Se utiliza para Salamander 2; conserva los términos y avisos originales.
+- **Dependencias npm:** las versiones están fijadas en `package-lock.json`; sus licencias y avisos se incluyen en los paquetes instalados. React, Vite, Socket.IO, Express, Sharp, Helmet, Multer, express-rate-limit, tar y Lucide conservan sus licencias originales.
+- **ROMs y BIOS:** aportadas por el propietario desde su colección local. No se han descargado juegos ni BIOS de terceros. Se excluyen del repositorio, del contexto Docker y de las copias de la aplicación.
+- **Capturas del catálogo:** imágenes reales obtenidas durante pruebas de los juegos aportados por el propietario. Los gráficos de los juegos pertenecen a sus respectivos titulares. Se conserva una ilustración SVG geométrica propia como alternativa para fichas sin captura.
+- **Playwright y Chromium:** Playwright 1.64.1 (Apache-2.0), https://github.com/microsoft/playwright/tree/v1.64.1. Chromium y sus avisos se distribuyen con el navegador instalado. El perfil `deploy/chromium-seccomp.json` procede de https://github.com/microsoft/playwright/blob/v1.64.1/utils/docker/seccomp_profile.json; conserva los términos aplicables del proyecto de origen.
+
+Las insignias de las medallas son gráficos SVG propios del proyecto, definidos en `server/medal-art.js` y generados en `public/medals/`. El sistema de medallas funciona con los datos del salón y no utiliza servicios externos de logros.
+
+- **Caddy 2.11.7 para Windows:** Apache-2.0, publicación oficial https://github.com/caddyserver/caddy/releases/tag/v2.11.7. Binario y avisos en `.cache/caddy`; versión y hash de descarga fijados en `config/caddy-lock.json`. El proyecto no instala automáticamente su CA en los almacenes de confianza del sistema.

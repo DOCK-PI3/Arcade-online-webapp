@@ -1,0 +1,5026 @@
+[
+  {
+    "id": "1942",
+    "parent": "1942",
+    "roms": [
+      {
+        "name": "srb-03.m3",
+        "size": 16384,
+        "crc": "d9dafcc3"
+      },
+      {
+        "name": "srb-04.m4",
+        "size": 16384,
+        "crc": "da0cf924"
+      },
+      {
+        "name": "srb-05.m5",
+        "size": 16384,
+        "crc": "d102911c"
+      },
+      {
+        "name": "srb-06.m6",
+        "size": 8192,
+        "crc": "466f8248"
+      },
+      {
+        "name": "srb-07.m7",
+        "size": 16384,
+        "crc": "0d31038c"
+      },
+      {
+        "name": "sr-01.c11",
+        "size": 16384,
+        "crc": "bd87f06b"
+      },
+      {
+        "name": "sr-02.f2",
+        "size": 8192,
+        "crc": "6ebca191"
+      },
+      {
+        "name": "sr-08.a1",
+        "size": 8192,
+        "crc": "3884d9eb"
+      },
+      {
+        "name": "sr-09.a2",
+        "size": 8192,
+        "crc": "999cf6e0"
+      },
+      {
+        "name": "sr-10.a3",
+        "size": 8192,
+        "crc": "8edb273a"
+      },
+      {
+        "name": "sr-11.a4",
+        "size": 8192,
+        "crc": "3a2726c3"
+      },
+      {
+        "name": "sr-12.a5",
+        "size": 8192,
+        "crc": "1bd3d8bb"
+      },
+      {
+        "name": "sr-13.a6",
+        "size": 8192,
+        "crc": "658f02c4"
+      },
+      {
+        "name": "sr-14.l1",
+        "size": 16384,
+        "crc": "2528bec6"
+      },
+      {
+        "name": "sr-15.l2",
+        "size": 16384,
+        "crc": "f89287aa"
+      },
+      {
+        "name": "sr-16.n1",
+        "size": 16384,
+        "crc": "024418f8"
+      },
+      {
+        "name": "sr-17.n2",
+        "size": 16384,
+        "crc": "e2c7e489"
+      },
+      {
+        "name": "sb-5.e8",
+        "size": 256,
+        "crc": "93ab8153"
+      },
+      {
+        "name": "sb-6.e9",
+        "size": 256,
+        "crc": "8ab44f7d"
+      },
+      {
+        "name": "sb-7.e10",
+        "size": 256,
+        "crc": "f4ade9a4"
+      },
+      {
+        "name": "sb-0.f1",
+        "size": 256,
+        "crc": "6047d91b"
+      },
+      {
+        "name": "sb-4.d6",
+        "size": 256,
+        "crc": "4858968d"
+      },
+      {
+        "name": "sb-8.k3",
+        "size": 256,
+        "crc": "f6fad943"
+      },
+      {
+        "name": "sb-2.d1",
+        "size": 256,
+        "crc": "8bb8b3df"
+      },
+      {
+        "name": "sb-3.d2",
+        "size": 256,
+        "crc": "3b0c99af"
+      },
+      {
+        "name": "sb-1.k6",
+        "size": 256,
+        "crc": "712ac508"
+      },
+      {
+        "name": "sb-9.m11",
+        "size": 256,
+        "crc": "4921635c"
+      }
+    ],
+    "expected_sha256": "aeaf3a31612b3e589c5bee5281ea0a3da4db39ea8caf0e68157d1ead6f44e216"
+  },
+  {
+    "id": "1943",
+    "parent": "1943",
+    "roms": [
+      {
+        "name": "bme01.12d",
+        "size": 32768,
+        "crc": "55fd447e"
+      },
+      {
+        "name": "bme02.13d",
+        "size": 65536,
+        "crc": "073fc57c"
+      },
+      {
+        "name": "bme03.14d",
+        "size": 65536,
+        "crc": "835822c2"
+      },
+      {
+        "name": "bm05.4k",
+        "size": 32768,
+        "crc": "ee2bd2d7"
+      },
+      {
+        "name": "bm04.5h",
+        "size": 32768,
+        "crc": "46cb9d3d"
+      },
+      {
+        "name": "bm15.10f",
+        "size": 32768,
+        "crc": "6b1a0443"
+      },
+      {
+        "name": "bm16.11f",
+        "size": 32768,
+        "crc": "23c908c2"
+      },
+      {
+        "name": "bm17.12f",
+        "size": 32768,
+        "crc": "46bcdd07"
+      },
+      {
+        "name": "bm18.14f",
+        "size": 32768,
+        "crc": "e6ae7ba0"
+      },
+      {
+        "name": "bm19.10j",
+        "size": 32768,
+        "crc": "868ababc"
+      },
+      {
+        "name": "bm20.11j",
+        "size": 32768,
+        "crc": "0917e5d4"
+      },
+      {
+        "name": "bm21.12j",
+        "size": 32768,
+        "crc": "9bfb0d89"
+      },
+      {
+        "name": "bm22.14j",
+        "size": 32768,
+        "crc": "04f3c274"
+      },
+      {
+        "name": "bm24.14k",
+        "size": 32768,
+        "crc": "11134036"
+      },
+      {
+        "name": "bm25.14l",
+        "size": 32768,
+        "crc": "092cf9c1"
+      },
+      {
+        "name": "bm06.10a",
+        "size": 32768,
+        "crc": "97acc8af"
+      },
+      {
+        "name": "bm07.11a",
+        "size": 32768,
+        "crc": "d78f7197"
+      },
+      {
+        "name": "bm08.12a",
+        "size": 32768,
+        "crc": "1a626608"
+      },
+      {
+        "name": "bm09.14a",
+        "size": 32768,
+        "crc": "92408400"
+      },
+      {
+        "name": "bm10.10c",
+        "size": 32768,
+        "crc": "8438a44a"
+      },
+      {
+        "name": "bm11.11c",
+        "size": 32768,
+        "crc": "6c69351d"
+      },
+      {
+        "name": "bm12.12c",
+        "size": 32768,
+        "crc": "5e7efdb7"
+      },
+      {
+        "name": "bm13.14c",
+        "size": 32768,
+        "crc": "1143829a"
+      },
+      {
+        "name": "bm14.5f",
+        "size": 32768,
+        "crc": "4d3c6401"
+      },
+      {
+        "name": "bm23.8k",
+        "size": 32768,
+        "crc": "a52aecbd"
+      },
+      {
+        "name": "bm1.12a",
+        "size": 256,
+        "crc": "74421f18"
+      },
+      {
+        "name": "bm2.13a",
+        "size": 256,
+        "crc": "ac27541f"
+      },
+      {
+        "name": "bm3.14a",
+        "size": 256,
+        "crc": "251fb6ff"
+      },
+      {
+        "name": "bm5.7f",
+        "size": 256,
+        "crc": "206713d0"
+      },
+      {
+        "name": "bm10.7l",
+        "size": 256,
+        "crc": "33c2491c"
+      },
+      {
+        "name": "bm9.6l",
+        "size": 256,
+        "crc": "aeea4af7"
+      },
+      {
+        "name": "bm12.12m",
+        "size": 256,
+        "crc": "c18aa136"
+      },
+      {
+        "name": "bm11.12l",
+        "size": 256,
+        "crc": "405aae37"
+      },
+      {
+        "name": "bm8.8c",
+        "size": 256,
+        "crc": "c2010a9e"
+      },
+      {
+        "name": "bm7.7c",
+        "size": 256,
+        "crc": "b56f30c3"
+      },
+      {
+        "name": "bm4.12c",
+        "size": 256,
+        "crc": "91a8a2e1"
+      },
+      {
+        "name": "bm6.4b",
+        "size": 256,
+        "crc": "0eaf5158"
+      },
+      {
+        "name": "bm.7k",
+        "size": 4096,
+        "crc": "cf4781bf"
+      }
+    ],
+    "expected_sha256": "633c7dd609b82706500e985d13dd0325fa5fb748cb180f4b2effc0a5746a6eaa"
+  },
+  {
+    "id": "1943kai",
+    "parent": "1943kai",
+    "roms": [
+      {
+        "name": "bmk01.12d",
+        "size": 32768,
+        "crc": "7d2211db"
+      },
+      {
+        "name": "bmk02.13d",
+        "size": 65536,
+        "crc": "2ebbc8c5"
+      },
+      {
+        "name": "bmk03.14d",
+        "size": 65536,
+        "crc": "475a6ac5"
+      },
+      {
+        "name": "bmk05.4k",
+        "size": 32768,
+        "crc": "25f37957"
+      },
+      {
+        "name": "bmk04.5h",
+        "size": 32768,
+        "crc": "884a8692"
+      },
+      {
+        "name": "bm15.10f",
+        "size": 32768,
+        "crc": "6b1a0443"
+      },
+      {
+        "name": "bmk16.11f",
+        "size": 32768,
+        "crc": "9416fe0d"
+      },
+      {
+        "name": "bmk17.12f",
+        "size": 32768,
+        "crc": "3d5acab9"
+      },
+      {
+        "name": "bmk18.14f",
+        "size": 32768,
+        "crc": "7b62da1d"
+      },
+      {
+        "name": "bm19.10j",
+        "size": 32768,
+        "crc": "868ababc"
+      },
+      {
+        "name": "bmk20.11j",
+        "size": 32768,
+        "crc": "b90364c1"
+      },
+      {
+        "name": "bmk21.12j",
+        "size": 32768,
+        "crc": "8c7fe74a"
+      },
+      {
+        "name": "bmk22.14j",
+        "size": 32768,
+        "crc": "d5ef8a0e"
+      },
+      {
+        "name": "bmk24.14k",
+        "size": 32768,
+        "crc": "bf186ef2"
+      },
+      {
+        "name": "bmk25.14l",
+        "size": 32768,
+        "crc": "a755faf1"
+      },
+      {
+        "name": "bmk06.10a",
+        "size": 32768,
+        "crc": "5f7e38b3"
+      },
+      {
+        "name": "bmk07.11a",
+        "size": 32768,
+        "crc": "ff3751fd"
+      },
+      {
+        "name": "bmk08.12a",
+        "size": 32768,
+        "crc": "159d51bd"
+      },
+      {
+        "name": "bmk09.14a",
+        "size": 32768,
+        "crc": "8683e3d2"
+      },
+      {
+        "name": "bmk10.10c",
+        "size": 32768,
+        "crc": "1e0d9571"
+      },
+      {
+        "name": "bmk11.11c",
+        "size": 32768,
+        "crc": "f1fc5ee1"
+      },
+      {
+        "name": "bmk12.12c",
+        "size": 32768,
+        "crc": "0f50c001"
+      },
+      {
+        "name": "bmk13.14c",
+        "size": 32768,
+        "crc": "fd1acf8e"
+      },
+      {
+        "name": "bmk14.5f",
+        "size": 32768,
+        "crc": "cf0f5a53"
+      },
+      {
+        "name": "bmk23.8k",
+        "size": 32768,
+        "crc": "17f77ef9"
+      },
+      {
+        "name": "bmk1.12a",
+        "size": 256,
+        "crc": "e001ea33"
+      },
+      {
+        "name": "bmk2.13a",
+        "size": 256,
+        "crc": "af34d91a"
+      },
+      {
+        "name": "bmk3.14a",
+        "size": 256,
+        "crc": "43e9f6ef"
+      },
+      {
+        "name": "bmk5.7f",
+        "size": 256,
+        "crc": "41878934"
+      },
+      {
+        "name": "bmk10.7l",
+        "size": 256,
+        "crc": "de44b748"
+      },
+      {
+        "name": "bmk9.6l",
+        "size": 256,
+        "crc": "59ea57c0"
+      },
+      {
+        "name": "bmk12.12m",
+        "size": 256,
+        "crc": "8765f8b0"
+      },
+      {
+        "name": "bmk11.12l",
+        "size": 256,
+        "crc": "87a8854e"
+      },
+      {
+        "name": "bmk8.8c",
+        "size": 256,
+        "crc": "dad17e2d"
+      },
+      {
+        "name": "bmk7.7c",
+        "size": 256,
+        "crc": "76307f8d"
+      },
+      {
+        "name": "bm4.12c",
+        "size": 256,
+        "crc": "91a8a2e1"
+      },
+      {
+        "name": "bm6.4b",
+        "size": 256,
+        "crc": "0eaf5158"
+      },
+      {
+        "name": "bm.7k",
+        "size": 4096,
+        "crc": "cf4781bf"
+      }
+    ],
+    "expected_sha256": "b8ee19f1293f28fd3a26abd82cef47aa56ad41f246085b70d2ca7f1a3be6e0bc"
+  },
+  {
+    "id": "1943mii",
+    "parent": "1943mii",
+    "roms": [
+      {
+        "name": "01.12d",
+        "size": 32768,
+        "crc": "8ba22485"
+      },
+      {
+        "name": "02.13d",
+        "size": 65536,
+        "crc": "659a5455"
+      },
+      {
+        "name": "03.14d",
+        "size": 65536,
+        "crc": "159ea771"
+      },
+      {
+        "name": "05.4k",
+        "size": 32768,
+        "crc": "25f37957"
+      },
+      {
+        "name": "04.5h",
+        "size": 32768,
+        "crc": "8190e092"
+      },
+      {
+        "name": "bm15.10f",
+        "size": 32768,
+        "crc": "6b1a0443"
+      },
+      {
+        "name": "bm16.11f",
+        "size": 32768,
+        "crc": "23c908c2"
+      },
+      {
+        "name": "17.12f",
+        "size": 32768,
+        "crc": "3d5acab9"
+      },
+      {
+        "name": "18.14f",
+        "size": 32768,
+        "crc": "7b62da1d"
+      },
+      {
+        "name": "bm19.10j",
+        "size": 32768,
+        "crc": "868ababc"
+      },
+      {
+        "name": "bm20.11j",
+        "size": 32768,
+        "crc": "0917e5d4"
+      },
+      {
+        "name": "21.12j",
+        "size": 32768,
+        "crc": "8c7fe74a"
+      },
+      {
+        "name": "22.14j",
+        "size": 32768,
+        "crc": "d5ef8a0e"
+      },
+      {
+        "name": "24.14k",
+        "size": 32768,
+        "crc": "a0074c68"
+      },
+      {
+        "name": "25.14l",
+        "size": 32768,
+        "crc": "f979b2f2"
+      },
+      {
+        "name": "06.10a",
+        "size": 32768,
+        "crc": "b261d5d7"
+      },
+      {
+        "name": "07.11a",
+        "size": 32768,
+        "crc": "2af8a6f2"
+      },
+      {
+        "name": "08.12a",
+        "size": 32768,
+        "crc": "159d51bd"
+      },
+      {
+        "name": "09.14a",
+        "size": 32768,
+        "crc": "70d9f9a7"
+      },
+      {
+        "name": "10.10c",
+        "size": 32768,
+        "crc": "de539920"
+      },
+      {
+        "name": "11.11c",
+        "size": 32768,
+        "crc": "a6abf183"
+      },
+      {
+        "name": "12.12c",
+        "size": 32768,
+        "crc": "0f50c001"
+      },
+      {
+        "name": "13.14c",
+        "size": 32768,
+        "crc": "f065f619"
+      },
+      {
+        "name": "14.5f",
+        "size": 32768,
+        "crc": "02a899f1"
+      },
+      {
+        "name": "23.8k",
+        "size": 32768,
+        "crc": "b6dfdf85"
+      },
+      {
+        "name": "bmk1.12a",
+        "size": 256,
+        "crc": "e001ea33"
+      },
+      {
+        "name": "bmk2.13a",
+        "size": 256,
+        "crc": "af34d91a"
+      },
+      {
+        "name": "bmk3.14a",
+        "size": 256,
+        "crc": "43e9f6ef"
+      },
+      {
+        "name": "5.7f",
+        "size": 256,
+        "crc": "41878934"
+      },
+      {
+        "name": "10.7l",
+        "size": 256,
+        "crc": "db53adf0"
+      },
+      {
+        "name": "9.6l",
+        "size": 256,
+        "crc": "75d5cc90"
+      },
+      {
+        "name": "12.12m",
+        "size": 256,
+        "crc": "784bdf33"
+      },
+      {
+        "name": "11.12l",
+        "size": 256,
+        "crc": "6fb2e170"
+      },
+      {
+        "name": "8.8c",
+        "size": 256,
+        "crc": "dad17e2d"
+      },
+      {
+        "name": "7.7c",
+        "size": 256,
+        "crc": "76307f8d"
+      },
+      {
+        "name": "4.12c",
+        "size": 256,
+        "crc": "91a8a2e1"
+      },
+      {
+        "name": "6.4b",
+        "size": 256,
+        "crc": "0eaf5158"
+      },
+      {
+        "name": "bm.7k",
+        "size": 4096,
+        "crc": "cf4781bf"
+      }
+    ],
+    "expected_sha256": "cf5957b6bdb5caec151c50d7494f33a4b465eaa77a742f3cdb1074a502b35b35"
+  },
+  {
+    "id": "1944",
+    "parent": "1944",
+    "roms": [
+      {
+        "name": "nffe.03",
+        "size": 524288,
+        "crc": "7544b926"
+      },
+      {
+        "name": "nffe.04",
+        "size": 524288,
+        "crc": "dba1c66e"
+      },
+      {
+        "name": "nffe.05",
+        "size": 524288,
+        "crc": "d78d31d3"
+      },
+      {
+        "name": "nff.13m",
+        "size": 4194304,
+        "crc": "c9fca741"
+      },
+      {
+        "name": "nff.15m",
+        "size": 4194304,
+        "crc": "f809d898"
+      },
+      {
+        "name": "nff.17m",
+        "size": 4194304,
+        "crc": "15ba4507"
+      },
+      {
+        "name": "nff.19m",
+        "size": 4194304,
+        "crc": "3dd41b8c"
+      },
+      {
+        "name": "nff.14m",
+        "size": 1048576,
+        "crc": "3fe3a54b"
+      },
+      {
+        "name": "nff.16m",
+        "size": 1048576,
+        "crc": "565cd231"
+      },
+      {
+        "name": "nff.18m",
+        "size": 1048576,
+        "crc": "63ca5988"
+      },
+      {
+        "name": "nff.20m",
+        "size": 1048576,
+        "crc": "21eb8f3b"
+      },
+      {
+        "name": "nff.01",
+        "size": 131072,
+        "crc": "d2e44318"
+      },
+      {
+        "name": "nff.11m",
+        "size": 4194304,
+        "crc": "243e4e05"
+      },
+      {
+        "name": "nff.12m",
+        "size": 4194304,
+        "crc": "4fcf1600"
+      },
+      {
+        "name": "1944.key",
+        "size": 20,
+        "crc": "5f22140e"
+      }
+    ],
+    "expected_sha256": "56ead115ac58a9ff628e994a2e80846e805a29fd10a24cab683d03dfea2713f6"
+  },
+  {
+    "id": "1945kiii",
+    "parent": "1945kiii",
+    "roms": [
+      {
+        "name": "prg-1.u51",
+        "size": 524288,
+        "crc": "6b345f27"
+      },
+      {
+        "name": "prg-2.u52",
+        "size": 524288,
+        "crc": "ce09b98c"
+      },
+      {
+        "name": "m16m-1.u62",
+        "size": 2097152,
+        "crc": "0b9a6474"
+      },
+      {
+        "name": "m16m-2.u63",
+        "size": 2097152,
+        "crc": "368a8c2e"
+      },
+      {
+        "name": "m16m-3.u61",
+        "size": 2097152,
+        "crc": "32fc80dd"
+      },
+      {
+        "name": "snd-1.su7",
+        "size": 524288,
+        "crc": "bbb7f0ff"
+      },
+      {
+        "name": "snd-2.su4",
+        "size": 524288,
+        "crc": "47e3952e"
+      }
+    ],
+    "expected_sha256": "c74b84756e1d280cbb54c5e86c0592886b41405ba3b2a8ae5b657e71f8c35f22"
+  },
+  {
+    "id": "88games",
+    "parent": "88games",
+    "roms": [
+      {
+        "name": "861m01.k18",
+        "size": 32768,
+        "crc": "4a4e2959"
+      },
+      {
+        "name": "861m02.k16",
+        "size": 65536,
+        "crc": "e19f15f6"
+      },
+      {
+        "name": "861d01.d9",
+        "size": 32768,
+        "crc": "0ff1dec0"
+      },
+      {
+        "name": "861a08.a",
+        "size": 65536,
+        "crc": "77a00dd6"
+      },
+      {
+        "name": "861a08.c",
+        "size": 65536,
+        "crc": "b422edfc"
+      },
+      {
+        "name": "861a09.a",
+        "size": 65536,
+        "crc": "df8917b6"
+      },
+      {
+        "name": "861a09.c",
+        "size": 65536,
+        "crc": "f577b88f"
+      },
+      {
+        "name": "861a08.b",
+        "size": 65536,
+        "crc": "28a8304f"
+      },
+      {
+        "name": "861a08.d",
+        "size": 65536,
+        "crc": "e01a3802"
+      },
+      {
+        "name": "861a09.b",
+        "size": 65536,
+        "crc": "4917158d"
+      },
+      {
+        "name": "861a09.d",
+        "size": 65536,
+        "crc": "2bb3282c"
+      },
+      {
+        "name": "861a05.a",
+        "size": 65536,
+        "crc": "cedc19d0"
+      },
+      {
+        "name": "861a05.e",
+        "size": 65536,
+        "crc": "725af3fc"
+      },
+      {
+        "name": "861a06.a",
+        "size": 65536,
+        "crc": "85e2e30e"
+      },
+      {
+        "name": "861a06.e",
+        "size": 65536,
+        "crc": "6f96651c"
+      },
+      {
+        "name": "861a05.b",
+        "size": 65536,
+        "crc": "db2a8808"
+      },
+      {
+        "name": "861a05.f",
+        "size": 65536,
+        "crc": "32d830ca"
+      },
+      {
+        "name": "861a06.b",
+        "size": 65536,
+        "crc": "ce17eaf0"
+      },
+      {
+        "name": "861a06.f",
+        "size": 65536,
+        "crc": "88310bf3"
+      },
+      {
+        "name": "861a05.c",
+        "size": 65536,
+        "crc": "cf03c449"
+      },
+      {
+        "name": "861a05.g",
+        "size": 65536,
+        "crc": "fd51c4ea"
+      },
+      {
+        "name": "861a06.c",
+        "size": 65536,
+        "crc": "a568b34e"
+      },
+      {
+        "name": "861a06.g",
+        "size": 65536,
+        "crc": "4a55beb3"
+      },
+      {
+        "name": "861a05.d",
+        "size": 65536,
+        "crc": "97d78c77"
+      },
+      {
+        "name": "861a05.h",
+        "size": 65536,
+        "crc": "60d0c8a5"
+      },
+      {
+        "name": "861a06.d",
+        "size": 65536,
+        "crc": "bc70ab39"
+      },
+      {
+        "name": "861a06.h",
+        "size": 65536,
+        "crc": "d906b79b"
+      },
+      {
+        "name": "861a04.a",
+        "size": 65536,
+        "crc": "092a8b15"
+      },
+      {
+        "name": "861a04.b",
+        "size": 65536,
+        "crc": "75744b56"
+      },
+      {
+        "name": "861a04.c",
+        "size": 65536,
+        "crc": "a00021c5"
+      },
+      {
+        "name": "861a04.d",
+        "size": 65536,
+        "crc": "d208304c"
+      },
+      {
+        "name": "861a07.a",
+        "size": 65536,
+        "crc": "5d035d69"
+      },
+      {
+        "name": "861a07.b",
+        "size": 65536,
+        "crc": "6337dd91"
+      },
+      {
+        "name": "861a07.c",
+        "size": 65536,
+        "crc": "5067a38b"
+      },
+      {
+        "name": "861a07.d",
+        "size": 65536,
+        "crc": "86731451"
+      },
+      {
+        "name": "861.g3",
+        "size": 256,
+        "crc": "429785db"
+      }
+    ],
+    "expected_sha256": "c2fae02ff8459adf6ba72a7e98d21c93e97caff98df4b78aa29352d276279118"
+  },
+  {
+    "id": "aliens",
+    "parent": "aliens",
+    "roms": [
+      {
+        "name": "875_j02.e24",
+        "size": 65536,
+        "crc": "56c20971"
+      },
+      {
+        "name": "875_j01.c24",
+        "size": 131072,
+        "crc": "6a529cd6"
+      },
+      {
+        "name": "875_b03.g04",
+        "size": 32768,
+        "crc": "1ac4d283"
+      },
+      {
+        "name": "875b11.k13",
+        "size": 524288,
+        "crc": "89c5c885"
+      },
+      {
+        "name": "875b12.k19",
+        "size": 524288,
+        "crc": "ea6bdc17"
+      },
+      {
+        "name": "875b07.j13",
+        "size": 262144,
+        "crc": "e9c56d66"
+      },
+      {
+        "name": "875b08.j19",
+        "size": 262144,
+        "crc": "f9387966"
+      },
+      {
+        "name": "875b10.k08",
+        "size": 524288,
+        "crc": "0b1035b1"
+      },
+      {
+        "name": "875b09.k02",
+        "size": 524288,
+        "crc": "e76b3c19"
+      },
+      {
+        "name": "875b06.j08",
+        "size": 262144,
+        "crc": "081a0566"
+      },
+      {
+        "name": "875b05.j02",
+        "size": 262144,
+        "crc": "19a261f2"
+      },
+      {
+        "name": "875b04.e05",
+        "size": 262144,
+        "crc": "4e209ac8"
+      },
+      {
+        "name": "821a08.h14",
+        "size": 256,
+        "crc": "7da55800"
+      }
+    ],
+    "expected_sha256": "4c6ec0add4c6ba1ad9b33d27b7863bbd031365292bdc1c12e680c149320bacbb"
+  },
+  {
+    "id": "altbeast",
+    "parent": "altbeast",
+    "roms": [
+      {
+        "name": "epr-11907.a7",
+        "size": 131072,
+        "crc": "29e0c3ad"
+      },
+      {
+        "name": "epr-11906.a5",
+        "size": 131072,
+        "crc": "4c9e9cd8"
+      },
+      {
+        "name": "opr-11674.a14",
+        "size": 131072,
+        "crc": "a57a66d5"
+      },
+      {
+        "name": "opr-11675.a15",
+        "size": 131072,
+        "crc": "2ef2f144"
+      },
+      {
+        "name": "opr-11676.a16",
+        "size": 131072,
+        "crc": "0c04acac"
+      },
+      {
+        "name": "epr-11677.b1",
+        "size": 131072,
+        "crc": "a01425cd"
+      },
+      {
+        "name": "epr-11681.b5",
+        "size": 131072,
+        "crc": "d9e03363"
+      },
+      {
+        "name": "epr-11678.b2",
+        "size": 131072,
+        "crc": "17a9fc53"
+      },
+      {
+        "name": "epr-11682.b6",
+        "size": 131072,
+        "crc": "e3f77c5e"
+      },
+      {
+        "name": "epr-11679.b3",
+        "size": 131072,
+        "crc": "14dcc245"
+      },
+      {
+        "name": "epr-11683.b7",
+        "size": 131072,
+        "crc": "f9a60f06"
+      },
+      {
+        "name": "epr-11680.b4",
+        "size": 131072,
+        "crc": "f43dcdec"
+      },
+      {
+        "name": "epr-11684.b8",
+        "size": 131072,
+        "crc": "b20c0edb"
+      },
+      {
+        "name": "epr-11671.a10",
+        "size": 32768,
+        "crc": "2b71343b"
+      },
+      {
+        "name": "opr-11672.a11",
+        "size": 131072,
+        "crc": "bbd7f460"
+      },
+      {
+        "name": "opr-11673.a12",
+        "size": 131072,
+        "crc": "400c4a36"
+      },
+      {
+        "name": "317-0078.c2",
+        "size": 4096,
+        "crc": "8101925f"
+      },
+      {
+        "name": "315-5298.b9",
+        "size": 235,
+        "crc": "39b47212"
+      }
+    ],
+    "expected_sha256": "045e4497bb4baa0b03ae93588d9043415e0efe0cc3a9d2c04cd7791861eb10f3"
+  },
+  {
+    "id": "asterix",
+    "parent": "asterix",
+    "roms": [
+      {
+        "name": "068_ea_d01.8c",
+        "size": 131072,
+        "crc": "61d6621d"
+      },
+      {
+        "name": "068_ea_d02.8d",
+        "size": 131072,
+        "crc": "53aac057"
+      },
+      {
+        "name": "068a03.7c",
+        "size": 131072,
+        "crc": "8223ebdc"
+      },
+      {
+        "name": "068a04.7d",
+        "size": 131072,
+        "crc": "9f351828"
+      },
+      {
+        "name": "068_a05.5f",
+        "size": 65536,
+        "crc": "d3d0d77b"
+      },
+      {
+        "name": "068a12.16k",
+        "size": 524288,
+        "crc": "b9da8e9c"
+      },
+      {
+        "name": "068a11.12k",
+        "size": 524288,
+        "crc": "7eb07a81"
+      },
+      {
+        "name": "068a08.7k",
+        "size": 2097152,
+        "crc": "c41278fe"
+      },
+      {
+        "name": "068a07.3k",
+        "size": 2097152,
+        "crc": "32efdbc4"
+      },
+      {
+        "name": "068a06.1e",
+        "size": 2097152,
+        "crc": "6df9ec0e"
+      },
+      {
+        "name": "asterix.nv",
+        "size": 128,
+        "crc": "490085c8"
+      }
+    ],
+    "expected_sha256": "2c1083b35244f5536c12f29b71f998f7f39d61f97065faca0cc03f1b227fdf73"
+  },
+  {
+    "id": "baddudes",
+    "parent": "baddudes",
+    "roms": [
+      {
+        "name": "ei04-1.3c",
+        "size": 65536,
+        "crc": "4bf158a7"
+      },
+      {
+        "name": "ei01-1.3a",
+        "size": 65536,
+        "crc": "74f5110c"
+      },
+      {
+        "name": "ei06.6c",
+        "size": 65536,
+        "crc": "3ff8da57"
+      },
+      {
+        "name": "ei03.6a",
+        "size": 65536,
+        "crc": "f8f2bd94"
+      },
+      {
+        "name": "ei07.8a",
+        "size": 32768,
+        "crc": "9fb1ef4b"
+      },
+      {
+        "name": "ei25.15h",
+        "size": 32768,
+        "crc": "bcf59a69"
+      },
+      {
+        "name": "ei26.16h",
+        "size": 32768,
+        "crc": "9aff67b8"
+      },
+      {
+        "name": "ei18.14d",
+        "size": 65536,
+        "crc": "05cfc3e5"
+      },
+      {
+        "name": "ei20.17d",
+        "size": 65536,
+        "crc": "e11e988f"
+      },
+      {
+        "name": "ei22.14f",
+        "size": 65536,
+        "crc": "b893d880"
+      },
+      {
+        "name": "ei24.17f",
+        "size": 65536,
+        "crc": "6f226dda"
+      },
+      {
+        "name": "ei30.9h",
+        "size": 65536,
+        "crc": "982da0d1"
+      },
+      {
+        "name": "ei28.9f",
+        "size": 65536,
+        "crc": "f01ebb3b"
+      },
+      {
+        "name": "ei15.16c",
+        "size": 65536,
+        "crc": "a38a7d30"
+      },
+      {
+        "name": "ei16.17c",
+        "size": 32768,
+        "crc": "17e42633"
+      },
+      {
+        "name": "ei11.16a",
+        "size": 65536,
+        "crc": "3a77326c"
+      },
+      {
+        "name": "ei12.17a",
+        "size": 32768,
+        "crc": "fea2a134"
+      },
+      {
+        "name": "ei13.13c",
+        "size": 65536,
+        "crc": "e5ae2751"
+      },
+      {
+        "name": "ei14.14c",
+        "size": 32768,
+        "crc": "e83c760a"
+      },
+      {
+        "name": "ei09.13a",
+        "size": 65536,
+        "crc": "6901e628"
+      },
+      {
+        "name": "ei10.14a",
+        "size": 32768,
+        "crc": "eeee8a1a"
+      },
+      {
+        "name": "ei08.2c",
+        "size": 65536,
+        "crc": "3c87463e"
+      },
+      {
+        "name": "ei31.9a",
+        "size": 4096,
+        "crc": "2a8745d2"
+      },
+      {
+        "name": "mb7116e.12c",
+        "size": 512,
+        "crc": "86e775f8"
+      },
+      {
+        "name": "mb7122e.17e",
+        "size": 1024,
+        "crc": "a5cda23e"
+      }
+    ],
+    "expected_sha256": "cd766f167bab2c7919dbd22afa482f46e836bb1001b91be94ed7c81e951d8169"
+  },
+  {
+    "id": "darius",
+    "parent": "darius",
+    "roms": [
+      {
+        "name": "a96_59-1.186",
+        "size": 65536,
+        "crc": "11aab4eb"
+      },
+      {
+        "name": "a96_58-1.152",
+        "size": 65536,
+        "crc": "5f71e697"
+      },
+      {
+        "name": "a96_61-2.187",
+        "size": 65536,
+        "crc": "4736aa9b"
+      },
+      {
+        "name": "a96_66-2.153",
+        "size": 65536,
+        "crc": "4ede5f56"
+      },
+      {
+        "name": "a96_31.188",
+        "size": 65536,
+        "crc": "e9bb5d89"
+      },
+      {
+        "name": "a96_30.154",
+        "size": 65536,
+        "crc": "9eb5e127"
+      },
+      {
+        "name": "a96_33-1.190",
+        "size": 65536,
+        "crc": "ff186048"
+      },
+      {
+        "name": "a96_32-1.157",
+        "size": 65536,
+        "crc": "d9719de8"
+      },
+      {
+        "name": "a96_35-1.191",
+        "size": 65536,
+        "crc": "b3280193"
+      },
+      {
+        "name": "a96_34-1.158",
+        "size": 65536,
+        "crc": "ca3b2573"
+      },
+      {
+        "name": "a96_57.33",
+        "size": 65536,
+        "crc": "33ceb730"
+      },
+      {
+        "name": "a96_56.18",
+        "size": 65536,
+        "crc": "292ef55c"
+      },
+      {
+        "name": "a96_48.24",
+        "size": 65536,
+        "crc": "39c9b3aa"
+      },
+      {
+        "name": "a96_51.47",
+        "size": 65536,
+        "crc": "1bf8f0d3"
+      },
+      {
+        "name": "a96_49.25",
+        "size": 65536,
+        "crc": "37a7d88a"
+      },
+      {
+        "name": "a96_52.48",
+        "size": 65536,
+        "crc": "2d9b2128"
+      },
+      {
+        "name": "a96_50.26",
+        "size": 65536,
+        "crc": "75d738e4"
+      },
+      {
+        "name": "a96_53.49",
+        "size": 65536,
+        "crc": "0173484c"
+      },
+      {
+        "name": "a96_54.143",
+        "size": 16384,
+        "crc": "51c02ae2"
+      },
+      {
+        "name": "a96_55.144",
+        "size": 16384,
+        "crc": "771e4d98"
+      },
+      {
+        "name": "a96_44.179",
+        "size": 65536,
+        "crc": "bbc18878"
+      },
+      {
+        "name": "a96_45.200",
+        "size": 65536,
+        "crc": "616cdd8b"
+      },
+      {
+        "name": "a96_46.180",
+        "size": 65536,
+        "crc": "fec35418"
+      },
+      {
+        "name": "a96_47.201",
+        "size": 65536,
+        "crc": "8df9286a"
+      },
+      {
+        "name": "a96_40.177",
+        "size": 65536,
+        "crc": "b699a51e"
+      },
+      {
+        "name": "a96_41.198",
+        "size": 65536,
+        "crc": "97128a3a"
+      },
+      {
+        "name": "a96_42.178",
+        "size": 65536,
+        "crc": "7f55ee0f"
+      },
+      {
+        "name": "a96_43.199",
+        "size": 65536,
+        "crc": "c7cad469"
+      },
+      {
+        "name": "a96_62.175",
+        "size": 65536,
+        "crc": "9179862c"
+      },
+      {
+        "name": "a96_63.196",
+        "size": 65536,
+        "crc": "fa19cfff"
+      },
+      {
+        "name": "a96_64.176",
+        "size": 65536,
+        "crc": "814c676f"
+      },
+      {
+        "name": "a96_65.197",
+        "size": 65536,
+        "crc": "14eee326"
+      },
+      {
+        "name": "a96-24.163",
+        "size": 1024,
+        "crc": "0fa8be7f"
+      },
+      {
+        "name": "a96-25.164",
+        "size": 1024,
+        "crc": "265508a6"
+      },
+      {
+        "name": "a96-26.165",
+        "size": 1024,
+        "crc": "4891b9c0"
+      }
+    ],
+    "expected_sha256": "ef9ef95a4735df3b7ed7c9265f413ccf778bb6f1a8fa2c367314f7567f406406"
+  },
+  {
+    "id": "galaga88",
+    "parent": "galaga88",
+    "roms": [
+      {
+        "name": "g81_s0.bin",
+        "size": 65536,
+        "crc": "164a3fdc"
+      },
+      {
+        "name": "g81_s1.bin",
+        "size": 65536,
+        "crc": "16a4b784"
+      },
+      {
+        "name": "g81_p0.bin",
+        "size": 65536,
+        "crc": "0f0778ca"
+      },
+      {
+        "name": "g81_p1.bin",
+        "size": 65536,
+        "crc": "e68cb351"
+      },
+      {
+        "name": "g81_p5.bin",
+        "size": 65536,
+        "crc": "4fbd3f6c"
+      },
+      {
+        "name": "g82_p6.bin",
+        "size": 65536,
+        "crc": "403d01c1"
+      },
+      {
+        "name": "g82_p7.bin",
+        "size": 65536,
+        "crc": "df75b7fc"
+      },
+      {
+        "name": "cus64-64a1.mcu",
+        "size": 4096,
+        "crc": "ffb5c0bd"
+      },
+      {
+        "name": "g81_v0.bin",
+        "size": 65536,
+        "crc": "86921dd4"
+      },
+      {
+        "name": "g81_v1.bin",
+        "size": 65536,
+        "crc": "9c300e16"
+      },
+      {
+        "name": "g81_v2.bin",
+        "size": 65536,
+        "crc": "5316b4b0"
+      },
+      {
+        "name": "g81_v3.bin",
+        "size": 65536,
+        "crc": "dc077af4"
+      },
+      {
+        "name": "g81_v4.bin",
+        "size": 65536,
+        "crc": "ac0279a7"
+      },
+      {
+        "name": "g81_v5.bin",
+        "size": 65536,
+        "crc": "014ddba1"
+      },
+      {
+        "name": "g8_chr-8.bin",
+        "size": 131072,
+        "crc": "3862ed0a"
+      },
+      {
+        "name": "g8_chr-0.bin",
+        "size": 131072,
+        "crc": "68559c78"
+      },
+      {
+        "name": "g8_chr-1.bin",
+        "size": 131072,
+        "crc": "3dc0f93f"
+      },
+      {
+        "name": "g8_chr-2.bin",
+        "size": 131072,
+        "crc": "dbf26f1f"
+      },
+      {
+        "name": "g8_chr-3.bin",
+        "size": 131072,
+        "crc": "f5d6cac5"
+      },
+      {
+        "name": "g8_obj-0.bin",
+        "size": 131072,
+        "crc": "d7112e3f"
+      },
+      {
+        "name": "g8_obj-1.bin",
+        "size": 131072,
+        "crc": "680db8e7"
+      },
+      {
+        "name": "g8_obj-2.bin",
+        "size": 131072,
+        "crc": "13c97512"
+      },
+      {
+        "name": "g8_obj-3.bin",
+        "size": 131072,
+        "crc": "3ed3941b"
+      },
+      {
+        "name": "g8_obj-4.bin",
+        "size": 131072,
+        "crc": "370ff4ad"
+      },
+      {
+        "name": "g8_obj-5.bin",
+        "size": 131072,
+        "crc": "b0645169"
+      }
+    ],
+    "expected_sha256": "148dbb8bee57dbf1184ead5541341130181cce88505db0aaa8453b44e6afd9e9"
+  },
+  {
+    "id": "jackal",
+    "parent": "jackal",
+    "roms": [
+      {
+        "name": "631_v02.15d",
+        "size": 65536,
+        "crc": "0b7e0584"
+      },
+      {
+        "name": "631_v03.16d",
+        "size": 16384,
+        "crc": "3e0dfb83"
+      },
+      {
+        "name": "631_t01.11d",
+        "size": 32768,
+        "crc": "b189af6a"
+      },
+      {
+        "name": "631t04.7h",
+        "size": 131072,
+        "crc": "457f42f0"
+      },
+      {
+        "name": "631t05.8h",
+        "size": 131072,
+        "crc": "732b3fc1"
+      },
+      {
+        "name": "631t06.12h",
+        "size": 131072,
+        "crc": "2d10e56e"
+      },
+      {
+        "name": "631t07.13h",
+        "size": 131072,
+        "crc": "4961c397"
+      },
+      {
+        "name": "631r08.9h",
+        "size": 256,
+        "crc": "7553a172"
+      },
+      {
+        "name": "631r09.14h",
+        "size": 256,
+        "crc": "a74dd86c"
+      }
+    ],
+    "expected_sha256": "5609ef9088b3959b83c6917d5d5acf0a5c1947a51b8bf879c0951b6f8540f482"
+  },
+  {
+    "id": "pbobble",
+    "parent": "pbobble",
+    "roms": [
+      {
+        "name": "pb-ic18.ic18",
+        "size": 262144,
+        "crc": "5de14f49"
+      },
+      {
+        "name": "pb-ic2.ic2",
+        "size": 262144,
+        "crc": "2abe07d1"
+      },
+      {
+        "name": "pb-ic27.ic27",
+        "size": 131072,
+        "crc": "26efa4c4"
+      },
+      {
+        "name": "pb-ic14.ic14",
+        "size": 524288,
+        "crc": "55f90ea4"
+      },
+      {
+        "name": "pb-ic9.ic9",
+        "size": 524288,
+        "crc": "3253aac9"
+      },
+      {
+        "name": "pb-ic15.ic15",
+        "size": 1048576,
+        "crc": "0840cbc4"
+      }
+    ],
+    "expected_sha256": "ff52dc42c4866224b05f9220d5ebc3be33ba937ae72f948d84940e3e7908b5e2"
+  },
+  {
+    "id": "prehisle",
+    "parent": "prehisle",
+    "roms": [
+      {
+        "name": "gt-e2.2h",
+        "size": 131072,
+        "crc": "7083245a"
+      },
+      {
+        "name": "gt-e3.3h",
+        "size": 131072,
+        "crc": "6d8cdf58"
+      },
+      {
+        "name": "gt15.b15",
+        "size": 32768,
+        "crc": "ac652412"
+      },
+      {
+        "name": "pi8914.b14",
+        "size": 262144,
+        "crc": "207d6187"
+      },
+      {
+        "name": "pi8916.h16",
+        "size": 262144,
+        "crc": "7cffe0f6"
+      },
+      {
+        "name": "pi8910.k14",
+        "size": 524288,
+        "crc": "5a101b0b"
+      },
+      {
+        "name": "gt5.5",
+        "size": 131072,
+        "crc": "3d3ab273"
+      },
+      {
+        "name": "gt11.11",
+        "size": 65536,
+        "crc": "b4f0fcf0"
+      },
+      {
+        "name": "gt1.1",
+        "size": 65536,
+        "crc": "80a4c093"
+      },
+      {
+        "name": "gt4.4",
+        "size": 131072,
+        "crc": "85dfb9ec"
+      }
+    ],
+    "expected_sha256": "7c70e74e6cf977af5cfa3f615ac604ce3803a7702e06b9a7f22fcbce2a277e6b"
+  },
+  {
+    "id": "preisle2",
+    "parent": "preisle2",
+    "roms": [
+      {
+        "name": "255-p1.p1",
+        "size": 1048576,
+        "crc": "dfa3c0f3"
+      },
+      {
+        "name": "255-p2.sp2",
+        "size": 4194304,
+        "crc": "42050b80"
+      },
+      {
+        "name": "255-c1.c1",
+        "size": 8388608,
+        "crc": "ea06000b"
+      },
+      {
+        "name": "255-c2.c2",
+        "size": 8388608,
+        "crc": "04e67d79"
+      },
+      {
+        "name": "255-c3.c3",
+        "size": 8388608,
+        "crc": "60e31e08"
+      },
+      {
+        "name": "255-c4.c4",
+        "size": 8388608,
+        "crc": "40371d69"
+      },
+      {
+        "name": "255-c5.c5",
+        "size": 8388608,
+        "crc": "0b2e6adf"
+      },
+      {
+        "name": "255-c6.c6",
+        "size": 8388608,
+        "crc": "b001bdd3"
+      },
+      {
+        "name": "255-m1.m1",
+        "size": 131072,
+        "crc": "8efd4014"
+      },
+      {
+        "name": "255-v1.v1",
+        "size": 4194304,
+        "crc": "5a14543d"
+      },
+      {
+        "name": "255-v2.v2",
+        "size": 2097152,
+        "crc": "6610d91a"
+      }
+    ],
+    "expected_sha256": "a1063cdfc10e3287aefc7b1cfb68619dc0091442980d371ab42c71e76d1bafaa"
+  },
+  {
+    "id": "rthunder",
+    "parent": "rthunder",
+    "roms": [
+      {
+        "name": "rt3_1b.9c",
+        "size": 32768,
+        "crc": "7d252a1b"
+      },
+      {
+        "name": "rt3_3.12d",
+        "size": 32768,
+        "crc": "a13f601c"
+      },
+      {
+        "name": "rt3_2b.12c",
+        "size": 32768,
+        "crc": "a7ea46ee"
+      },
+      {
+        "name": "rt1_7.7r",
+        "size": 65536,
+        "crc": "a85efa39"
+      },
+      {
+        "name": "rt1_8.7s",
+        "size": 32768,
+        "crc": "f7a95820"
+      },
+      {
+        "name": "rt1_5.4r",
+        "size": 32768,
+        "crc": "d0fc470b"
+      },
+      {
+        "name": "rt1_6.4s",
+        "size": 16384,
+        "crc": "6b57edb2"
+      },
+      {
+        "name": "rt1_9.12h",
+        "size": 65536,
+        "crc": "8e070561"
+      },
+      {
+        "name": "rt1_10.12k",
+        "size": 65536,
+        "crc": "cb8fb607"
+      },
+      {
+        "name": "rt1_11.12l",
+        "size": 65536,
+        "crc": "2bdf5ed9"
+      },
+      {
+        "name": "rt1_12.12m",
+        "size": 65536,
+        "crc": "e6c6c7dc"
+      },
+      {
+        "name": "rt1_13.12p",
+        "size": 65536,
+        "crc": "489686d7"
+      },
+      {
+        "name": "rt1_14.12r",
+        "size": 65536,
+        "crc": "689e56a8"
+      },
+      {
+        "name": "rt1_15.12t",
+        "size": 65536,
+        "crc": "1d8bf2ca"
+      },
+      {
+        "name": "rt1_16.12u",
+        "size": 65536,
+        "crc": "1bbcf37b"
+      },
+      {
+        "name": "rt1-1.3r",
+        "size": 512,
+        "crc": "8ef3bb9d"
+      },
+      {
+        "name": "rt1-2.3s",
+        "size": 512,
+        "crc": "6510a8f2"
+      },
+      {
+        "name": "rt1-3.4v",
+        "size": 2048,
+        "crc": "95c7d944"
+      },
+      {
+        "name": "rt1-4.5v",
+        "size": 2048,
+        "crc": "1391fec9"
+      },
+      {
+        "name": "rt1-5.6u",
+        "size": 32,
+        "crc": "e4130804"
+      },
+      {
+        "name": "rt3_4.6b",
+        "size": 32768,
+        "crc": "00cf293f"
+      },
+      {
+        "name": "cus60-60a1.mcu",
+        "size": 4096,
+        "crc": "076ea82a"
+      },
+      {
+        "name": "rt1_17.f1",
+        "size": 65536,
+        "crc": "766af455"
+      },
+      {
+        "name": "rt1_18.h1",
+        "size": 65536,
+        "crc": "3f9f2f5d"
+      },
+      {
+        "name": "rt3_19.k1",
+        "size": 65536,
+        "crc": "c16675e9"
+      },
+      {
+        "name": "rt3_20.m1",
+        "size": 65536,
+        "crc": "c470681b"
+      },
+      {
+        "name": "rt1_21.f3",
+        "size": 65536,
+        "crc": "454968f3"
+      },
+      {
+        "name": "rt2_22.h3",
+        "size": 65536,
+        "crc": "fe963e72"
+      }
+    ],
+    "expected_sha256": "58fe3123ab942e0972dfe35f6aa2329cf6b6dab44818f7fb74e4b86eab71c3b3"
+  },
+  {
+    "id": "rthun2",
+    "parent": "rthun2",
+    "roms": [
+      {
+        "name": "rts2_mpr0.11d",
+        "size": 131072,
+        "crc": "e09a3549"
+      },
+      {
+        "name": "rts2_mpr1.13d",
+        "size": 131072,
+        "crc": "09573bff"
+      },
+      {
+        "name": "rts2_spr0.11k",
+        "size": 65536,
+        "crc": "54c22ac5"
+      },
+      {
+        "name": "rts2_spr1.13k",
+        "size": 65536,
+        "crc": "060eb393"
+      },
+      {
+        "name": "rts1_snd0.7j",
+        "size": 131072,
+        "crc": "55b7562a"
+      },
+      {
+        "name": "rts1_snd1.7g",
+        "size": 131072,
+        "crc": "00445a4f"
+      },
+      {
+        "name": "sys2mcpu.bin",
+        "size": 8192,
+        "crc": "a342a97e"
+      },
+      {
+        "name": "sys2c65c.3f",
+        "size": 32768,
+        "crc": "a5b2a4ff"
+      },
+      {
+        "name": "rts_obj0.5b",
+        "size": 524288,
+        "crc": "e5cb82c1"
+      },
+      {
+        "name": "rts_obj1.4b",
+        "size": 524288,
+        "crc": "19ebe9fd"
+      },
+      {
+        "name": "rts_obj2.5d",
+        "size": 524288,
+        "crc": "455c4a2f"
+      },
+      {
+        "name": "rts_obj3.4d",
+        "size": 524288,
+        "crc": "fdcae8a9"
+      },
+      {
+        "name": "rts_chr0.11n",
+        "size": 524288,
+        "crc": "6f0e9a68"
+      },
+      {
+        "name": "rts_chr1.11p",
+        "size": 524288,
+        "crc": "15e44adc"
+      },
+      {
+        "name": "rts_roz0.1a",
+        "size": 524288,
+        "crc": "482d0554"
+      },
+      {
+        "name": "rts_sha0.7n",
+        "size": 524288,
+        "crc": "cf58fbbe"
+      },
+      {
+        "name": "rts1_data0.13s",
+        "size": 131072,
+        "crc": "0baf44ee"
+      },
+      {
+        "name": "rts1_data1.13p",
+        "size": 131072,
+        "crc": "58a8daac"
+      },
+      {
+        "name": "rts1_data2.13r",
+        "size": 131072,
+        "crc": "8e850a2a"
+      },
+      {
+        "name": "rts_voi1.3m",
+        "size": 524288,
+        "crc": "e42027cd"
+      },
+      {
+        "name": "rts_voi2.3l",
+        "size": 524288,
+        "crc": "0c4c2b66"
+      }
+    ],
+    "expected_sha256": "b62480e3143c14432140ce91eb0477c8ce00cd071d12eb5c8f041380dff37498"
+  },
+  {
+    "id": "salamand",
+    "parent": "salamand",
+    "roms": [
+      {
+        "name": "587-d02.18b",
+        "size": 65536,
+        "crc": "a42297f9"
+      },
+      {
+        "name": "587-d05.18c",
+        "size": 65536,
+        "crc": "f9130b0a"
+      },
+      {
+        "name": "587-c03.17b",
+        "size": 131072,
+        "crc": "e5caf6e6"
+      },
+      {
+        "name": "587-c06.17c",
+        "size": 131072,
+        "crc": "c2f567ea"
+      },
+      {
+        "name": "587-d09.11j",
+        "size": 32768,
+        "crc": "5020972c"
+      },
+      {
+        "name": "587-d08.8g",
+        "size": 16384,
+        "crc": "f9ac6b82"
+      },
+      {
+        "name": "587-c01.10a",
+        "size": 131072,
+        "crc": "09fe0632"
+      }
+    ],
+    "expected_sha256": "109c134e4cf851f2172b0f8747f490a6ab1e5e4de49abd5d3584d982b1b11814"
+  },
+  {
+    "id": "shinobi",
+    "parent": "shinobi",
+    "roms": [
+      {
+        "name": "epr-12010.43",
+        "size": 65536,
+        "crc": "7df7f4a2"
+      },
+      {
+        "name": "epr-12008.26",
+        "size": 65536,
+        "crc": "f5ae64cd"
+      },
+      {
+        "name": "epr-12011.42",
+        "size": 65536,
+        "crc": "9d46e707"
+      },
+      {
+        "name": "epr-12009.25",
+        "size": 65536,
+        "crc": "7961d07e"
+      },
+      {
+        "name": "epr-11264.95",
+        "size": 65536,
+        "crc": "46627e7d"
+      },
+      {
+        "name": "epr-11265.94",
+        "size": 65536,
+        "crc": "87d0f321"
+      },
+      {
+        "name": "epr-11266.93",
+        "size": 65536,
+        "crc": "efb4af87"
+      },
+      {
+        "name": "epr-11290.10",
+        "size": 65536,
+        "crc": "611f413a"
+      },
+      {
+        "name": "epr-11294.11",
+        "size": 65536,
+        "crc": "5eb00fc1"
+      },
+      {
+        "name": "epr-11291.17",
+        "size": 65536,
+        "crc": "3c0797c0"
+      },
+      {
+        "name": "epr-11295.18",
+        "size": 65536,
+        "crc": "25307ef8"
+      },
+      {
+        "name": "epr-11292.23",
+        "size": 65536,
+        "crc": "c29ac34e"
+      },
+      {
+        "name": "epr-11296.24",
+        "size": 65536,
+        "crc": "04a437f8"
+      },
+      {
+        "name": "epr-11293.29",
+        "size": 65536,
+        "crc": "41f41063"
+      },
+      {
+        "name": "epr-11297.30",
+        "size": 65536,
+        "crc": "b6e1fd72"
+      },
+      {
+        "name": "epr-11267.12",
+        "size": 32768,
+        "crc": "dd50b745"
+      },
+      {
+        "name": "7751.bin",
+        "size": 1024,
+        "crc": "6a9534fc"
+      },
+      {
+        "name": "epr-11268.1",
+        "size": 32768,
+        "crc": "6d7966da"
+      }
+    ],
+    "expected_sha256": "972d52c3fd3df43273e6bd1342bc3b682f7794519c01366fed4b9854fd456723"
+  },
+  {
+    "id": "tmnt2po",
+    "parent": "tmnt",
+    "roms": [
+      {
+        "name": "tmnt123.j17",
+        "size": 131072,
+        "crc": "2d905183"
+      },
+      {
+        "name": "tmnt124.k17",
+        "size": 131072,
+        "crc": "e0125352"
+      },
+      {
+        "name": "tmnt21.j15",
+        "size": 65536,
+        "crc": "12deeafb"
+      },
+      {
+        "name": "tmnt22.k15",
+        "size": 65536,
+        "crc": "aec4f1c3"
+      },
+      {
+        "name": "963e20.g13",
+        "size": 32768,
+        "crc": "1692a6d6"
+      },
+      {
+        "name": "963a28.h27",
+        "size": 524288,
+        "crc": "db4769a8"
+      },
+      {
+        "name": "963a29.k27",
+        "size": 524288,
+        "crc": "8069cd2e"
+      },
+      {
+        "name": "963a17.h4",
+        "size": 524288,
+        "crc": "b5239a44"
+      },
+      {
+        "name": "963a18.h6",
+        "size": 524288,
+        "crc": "dd51adef"
+      },
+      {
+        "name": "963a15.k4",
+        "size": 524288,
+        "crc": "1f324eed"
+      },
+      {
+        "name": "963a16.k6",
+        "size": 524288,
+        "crc": "d4bd9984"
+      },
+      {
+        "name": "963a30.g7",
+        "size": 256,
+        "crc": "abd82680"
+      },
+      {
+        "name": "963a31.g19",
+        "size": 256,
+        "crc": "f8004a1c"
+      },
+      {
+        "name": "963a26.c13",
+        "size": 131072,
+        "crc": "e2ac3063"
+      },
+      {
+        "name": "963a27.d18",
+        "size": 131072,
+        "crc": "2dfd674b"
+      },
+      {
+        "name": "963a25.d5",
+        "size": 524288,
+        "crc": "fca078c7"
+      }
+    ],
+    "expected_sha256": "f14c845464936cf38d9df7e0f397f95cb734994b6d00d72f994203df78c0815d"
+  },
+  {
+    "id": "twinbee",
+    "parent": "twinbee",
+    "roms": [
+      {
+        "name": "400-a06.15l",
+        "size": 32768,
+        "crc": "b99d8cff"
+      },
+      {
+        "name": "400-a04.10l",
+        "size": 32768,
+        "crc": "d02c9552"
+      },
+      {
+        "name": "412-a07.17l",
+        "size": 131072,
+        "crc": "d93c5499"
+      },
+      {
+        "name": "412-a05.12l",
+        "size": 131072,
+        "crc": "2b357069"
+      },
+      {
+        "name": "400-e03.5l",
+        "size": 8192,
+        "crc": "a5a8e57d"
+      },
+      {
+        "name": "400-a01.fse",
+        "size": 256,
+        "crc": "5827b1e8"
+      },
+      {
+        "name": "400-a02.fse",
+        "size": 256,
+        "crc": "2f44f970"
+      }
+    ],
+    "expected_sha256": "539cebc171075b1d4edc9bd57709b810e142314d72ad883fe4af1cd85a0be971"
+  },
+  {
+    "id": "forgottn",
+    "parent": "forgottn",
+    "roms": [
+      {
+        "name": "lw40.12f",
+        "size": 131072,
+        "crc": "73e920b7"
+      },
+      {
+        "name": "lw41.12h",
+        "size": 131072,
+        "crc": "58210b9e"
+      },
+      {
+        "name": "lw42.13f",
+        "size": 131072,
+        "crc": "bea45994"
+      },
+      {
+        "name": "lw43.13h",
+        "size": 131072,
+        "crc": "539b2339"
+      },
+      {
+        "name": "lw-07.10g",
+        "size": 524288,
+        "crc": "fd252a26"
+      },
+      {
+        "name": "lw_2.2b",
+        "size": 131072,
+        "crc": "4bd75fee"
+      },
+      {
+        "name": "lw_1.2a",
+        "size": 131072,
+        "crc": "65f41485"
+      },
+      {
+        "name": "lw-08.9b",
+        "size": 524288,
+        "crc": "25a8e43c"
+      },
+      {
+        "name": "lw_18.5e",
+        "size": 131072,
+        "crc": "b4b6241b"
+      },
+      {
+        "name": "lw_17.5c",
+        "size": 131072,
+        "crc": "c5eea115"
+      },
+      {
+        "name": "lw_30.8h",
+        "size": 131072,
+        "crc": "b385954e"
+      },
+      {
+        "name": "lw_29.8f",
+        "size": 131072,
+        "crc": "7bda1ac6"
+      },
+      {
+        "name": "lw_4.3b",
+        "size": 131072,
+        "crc": "50cf757f"
+      },
+      {
+        "name": "lw_3.3a",
+        "size": 131072,
+        "crc": "c03ef278"
+      },
+      {
+        "name": "lw_20.7e",
+        "size": 131072,
+        "crc": "df1a3665"
+      },
+      {
+        "name": "lw_19.7c",
+        "size": 131072,
+        "crc": "15af8440"
+      },
+      {
+        "name": "lw_32.9h",
+        "size": 131072,
+        "crc": "30967a15"
+      },
+      {
+        "name": "lw_31.9f",
+        "size": 131072,
+        "crc": "c49d37fb"
+      },
+      {
+        "name": "lw-02.6b",
+        "size": 524288,
+        "crc": "43e6c5c8"
+      },
+      {
+        "name": "lw_14.10b",
+        "size": 131072,
+        "crc": "82862cce"
+      },
+      {
+        "name": "lw_13.10a",
+        "size": 131072,
+        "crc": "b81c0e96"
+      },
+      {
+        "name": "lw-06.9d",
+        "size": 524288,
+        "crc": "5b9edffc"
+      },
+      {
+        "name": "lw_26.10e",
+        "size": 131072,
+        "crc": "57bcd032"
+      },
+      {
+        "name": "lw_25.10c",
+        "size": 131072,
+        "crc": "bac91554"
+      },
+      {
+        "name": "lw_16.11b",
+        "size": 131072,
+        "crc": "40b26554"
+      },
+      {
+        "name": "lw_15.11a",
+        "size": 131072,
+        "crc": "1b7d2e07"
+      },
+      {
+        "name": "lw_28.11e",
+        "size": 131072,
+        "crc": "a805ad30"
+      },
+      {
+        "name": "lw_27.11c",
+        "size": 131072,
+        "crc": "103c1bd2"
+      },
+      {
+        "name": "lw_37.13c",
+        "size": 65536,
+        "crc": "59df2a63"
+      },
+      {
+        "name": "lw-03u.12e",
+        "size": 131072,
+        "crc": "807d051f"
+      },
+      {
+        "name": "lw-04u.13e",
+        "size": 131072,
+        "crc": "e6cd098e"
+      },
+      {
+        "name": "buf1",
+        "size": 279,
+        "crc": "eb122de7"
+      },
+      {
+        "name": "ioa1",
+        "size": 279,
+        "crc": "59c7ee3b"
+      },
+      {
+        "name": "prg1",
+        "size": 279,
+        "crc": "f1129744"
+      },
+      {
+        "name": "rom1",
+        "size": 279,
+        "crc": "41dc73b9"
+      },
+      {
+        "name": "sou1",
+        "size": 279,
+        "crc": "84f4b2fe"
+      },
+      {
+        "name": "lw621.1a",
+        "size": 279,
+        "crc": "5eec6ce9"
+      },
+      {
+        "name": "lwio.12b",
+        "size": 279,
+        "crc": "ad52b90c"
+      }
+    ],
+    "expected_sha256": "6d9b004dd5515e3985f53a0c3ed03dafbc44e25c5cdd7d6b3b16ccd45aac0354"
+  },
+  {
+    "id": "salmndr2",
+    "parent": "salmndr2",
+    "parents": ["salmndr2", "konamigx"],
+    "roms": [
+      {
+        "name": "300a01.34k",
+        "size": 131072,
+        "crc": "d5fa95f5",
+        "zip_date": [2026, 10, 16, 18, 11, 30]
+      },
+      {
+        "name": "521jaa02.31b",
+        "size": 524288,
+        "crc": "f6c3a95b",
+        "zip_date": [2026, 10, 16, 18, 11, 30]
+      },
+      {
+        "name": "521jaa03.27b",
+        "size": 524288,
+        "crc": "c3be5e0a",
+        "zip_date": [2026, 10, 16, 18, 11, 30]
+      },
+      {
+        "name": "521-a04.9c",
+        "size": 65536,
+        "crc": "efddca7a",
+        "zip_date": [2026, 10, 16, 18, 11, 30]
+      },
+      {
+        "name": "521-a05.7c",
+        "size": 65536,
+        "crc": "51a3af2c",
+        "zip_date": [2026, 10, 16, 18, 11, 30]
+      },
+      {
+        "name": "521-a09.17h",
+        "size": 2097152,
+        "crc": "fb9e2f5e",
+        "zip_date": [2026, 10, 16, 18, 11, 30]
+      },
+      {
+        "name": "521-a11.15h",
+        "size": 1048576,
+        "crc": "25e0a6e5",
+        "zip_date": [2026, 10, 16, 18, 11, 30]
+      },
+      {
+        "name": "521-a13.13c",
+        "size": 2097152,
+        "crc": "3ed7441b",
+        "zip_date": [2026, 10, 16, 18, 11, 30]
+      },
+      {
+        "name": "521-a08.25g",
+        "size": 2097152,
+        "crc": "f24f76bd",
+        "zip_date": [2026, 10, 16, 18, 11, 30]
+      },
+      {
+        "name": "521-a07.28g",
+        "size": 2097152,
+        "crc": "50ef9b7a",
+        "zip_date": [2026, 10, 16, 18, 11, 30]
+      },
+      {
+        "name": "521-a06.30g",
+        "size": 2097152,
+        "crc": "cba5db2c",
+        "zip_date": [2026, 10, 16, 18, 11, 30]
+      },
+      {
+        "name": "521-a12.9g",
+        "size": 2097152,
+        "crc": "66614d3b",
+        "zip_date": [2026, 10, 16, 18, 11, 30]
+      },
+      {
+        "name": "521-a13.7g",
+        "size": 1048576,
+        "crc": "c3322475",
+        "zip_date": [2026, 10, 16, 18, 11, 30]
+      }
+    ],
+    "expected_sha256": "1a505e8703c2b04f895547603d1a917e3594f26069ec87039f409880fd5148c6"
+  },
+  {
+    "id": "konamigx",
+    "parent": "konamigx",
+    "parents": ["konamigx"],
+    "roms": [
+      {
+        "name": "300a01.34k",
+        "size": 131072,
+        "crc": "d5fa95f5",
+        "zip_date": [2026, 10, 16, 18, 11, 30]
+      }
+    ],
+    "expected_sha256": "d5bc892feecedd40ec9d6998fa95e4b967ccf8ae69943627a22868c3cd7654f6"
+  },
+  {
+    "id": "3wonders",
+    "parent": "3wonders",
+    "parents": ["3wonders"],
+    "roms": [
+      {
+        "name": "rte_30a.11f",
+        "size": 131072,
+        "crc": "ef5b8b33"
+      },
+      {
+        "name": "rte_35a.11h",
+        "size": 131072,
+        "crc": "7d705529"
+      },
+      {
+        "name": "rte_31a.12f",
+        "size": 131072,
+        "crc": "32835e5e"
+      },
+      {
+        "name": "rte_36a.12h",
+        "size": 131072,
+        "crc": "7637975f"
+      },
+      {
+        "name": "rt_28a.9f",
+        "size": 131072,
+        "crc": "054137c8"
+      },
+      {
+        "name": "rt_33a.9h",
+        "size": 131072,
+        "crc": "7264cb1b"
+      },
+      {
+        "name": "rte_29a.10f",
+        "size": 131072,
+        "crc": "cddaa919"
+      },
+      {
+        "name": "rte_34a.10h",
+        "size": 131072,
+        "crc": "ed52e7e5"
+      },
+      {
+        "name": "rt-5m.7a",
+        "size": 524288,
+        "crc": "86aef804"
+      },
+      {
+        "name": "rt-7m.9a",
+        "size": 524288,
+        "crc": "4f057110"
+      },
+      {
+        "name": "rt-1m.3a",
+        "size": 524288,
+        "crc": "902489d0"
+      },
+      {
+        "name": "rt-3m.5a",
+        "size": 524288,
+        "crc": "e35ce720"
+      },
+      {
+        "name": "rt-6m.8a",
+        "size": 524288,
+        "crc": "13cb0e7c"
+      },
+      {
+        "name": "rt-8m.10a",
+        "size": 524288,
+        "crc": "1f055014"
+      },
+      {
+        "name": "rt-2m.4a",
+        "size": 524288,
+        "crc": "e9a034f4"
+      },
+      {
+        "name": "rt-4m.6a",
+        "size": 524288,
+        "crc": "df0eea8b"
+      },
+      {
+        "name": "rt_9.12b",
+        "size": 65536,
+        "crc": "abfca165"
+      },
+      {
+        "name": "rt_18.11c",
+        "size": 131072,
+        "crc": "26b211ab"
+      },
+      {
+        "name": "rt_19.12c",
+        "size": 131072,
+        "crc": "dbe64ad0"
+      },
+      {
+        "name": "buf1",
+        "size": 279,
+        "crc": "eb122de7"
+      },
+      {
+        "name": "ioa1",
+        "size": 279,
+        "crc": "59c7ee3b"
+      },
+      {
+        "name": "prg1",
+        "size": 279,
+        "crc": "f1129744"
+      },
+      {
+        "name": "rom1",
+        "size": 279,
+        "crc": "41dc73b9"
+      },
+      {
+        "name": "sou1",
+        "size": 279,
+        "crc": "84f4b2fe"
+      },
+      {
+        "name": "rt24b.1a",
+        "size": 279,
+        "crc": "54b85159"
+      },
+      {
+        "name": "iob1.11e",
+        "size": 279,
+        "crc": "3abc0700"
+      },
+      {
+        "name": "ioc1.ic1",
+        "size": 260,
+        "crc": "a399772d"
+      }
+    ],
+    "expected_sha256": "4e4051be211693cb34fa00bb7a67bb4dc113cb4664a91627bb88c5648b704e39"
+  },
+  {
+    "id": "avsp",
+    "parent": "avsp",
+    "parents": ["avsp"],
+    "roms": [
+      {
+        "name": "avpe.03d",
+        "size": 524288,
+        "crc": "774334a9"
+      },
+      {
+        "name": "avpe.04d",
+        "size": 524288,
+        "crc": "7fa83769"
+      },
+      {
+        "name": "avp.05d",
+        "size": 524288,
+        "crc": "fbfb5d7a"
+      },
+      {
+        "name": "avp.06",
+        "size": 524288,
+        "crc": "190b817f"
+      },
+      {
+        "name": "avp.13m",
+        "size": 2097152,
+        "crc": "8f8b5ae4"
+      },
+      {
+        "name": "avp.15m",
+        "size": 2097152,
+        "crc": "b00280df"
+      },
+      {
+        "name": "avp.17m",
+        "size": 2097152,
+        "crc": "94403195"
+      },
+      {
+        "name": "avp.19m",
+        "size": 2097152,
+        "crc": "e1981245"
+      },
+      {
+        "name": "avp.14m",
+        "size": 1048576,
+        "crc": "39933b1e"
+      },
+      {
+        "name": "avp.16m",
+        "size": 1048576,
+        "crc": "85412860"
+      },
+      {
+        "name": "avp.18m",
+        "size": 1048576,
+        "crc": "2e2beb06"
+      },
+      {
+        "name": "avp.20m",
+        "size": 1048576,
+        "crc": "e4798d1a"
+      },
+      {
+        "name": "avp.01",
+        "size": 131072,
+        "crc": "2d3b4220"
+      },
+      {
+        "name": "avp.11m",
+        "size": 2097152,
+        "crc": "83499817"
+      },
+      {
+        "name": "avp.12m",
+        "size": 2097152,
+        "crc": "f4110d49"
+      },
+      {
+        "name": "avsp.key",
+        "size": 20,
+        "crc": "e69fa35b"
+      }
+    ],
+    "expected_sha256": "5d478264a97d35775c8a037d2c707eb53fe789bdd3230f1e2707b3cf7d12cae3"
+  },
+  {
+    "id": "cclimber",
+    "parent": "cclimber",
+    "parents": ["cclimber"],
+    "roms": [
+      {
+        "name": "cc11",
+        "size": 4096,
+        "crc": "217ec4ff"
+      },
+      {
+        "name": "cc10",
+        "size": 4096,
+        "crc": "b3c26cef"
+      },
+      {
+        "name": "cc09",
+        "size": 4096,
+        "crc": "6db0879c"
+      },
+      {
+        "name": "cc08",
+        "size": 4096,
+        "crc": "f48c5fe3"
+      },
+      {
+        "name": "cc07",
+        "size": 4096,
+        "crc": "3e873baf"
+      },
+      {
+        "name": "cc06",
+        "size": 2048,
+        "crc": "481b64cc"
+      },
+      {
+        "name": "cc05",
+        "size": 2048,
+        "crc": "2c33b760"
+      },
+      {
+        "name": "cc04",
+        "size": 2048,
+        "crc": "332347cb"
+      },
+      {
+        "name": "cc03",
+        "size": 2048,
+        "crc": "4e4b3658"
+      },
+      {
+        "name": "cc02",
+        "size": 2048,
+        "crc": "14f3ecc9"
+      },
+      {
+        "name": "cc01",
+        "size": 2048,
+        "crc": "21c0f9fb"
+      },
+      {
+        "name": "cclimber.pr1",
+        "size": 32,
+        "crc": "751c3325"
+      },
+      {
+        "name": "cclimber.pr2",
+        "size": 32,
+        "crc": "ab1940fa"
+      },
+      {
+        "name": "cclimber.pr3",
+        "size": 32,
+        "crc": "71317756"
+      },
+      {
+        "name": "cc13",
+        "size": 4096,
+        "crc": "e0042f75"
+      },
+      {
+        "name": "cc12",
+        "size": 4096,
+        "crc": "5da13aaa"
+      },
+      {
+        "name": "dm7052.cpu",
+        "size": 256,
+        "crc": "f4179117"
+      }
+    ],
+    "expected_sha256": "789c059c5a220f1a4144682ea6bddc4512bd579dcc50bbb9e7ad546253a485c4"
+  },
+  {
+    "id": "cclimbr2",
+    "parent": "cclimbr2",
+    "parents": ["cclimbr2"],
+    "roms": [
+      {
+        "name": "4.bin",
+        "size": 65536,
+        "crc": "7922ea14"
+      },
+      {
+        "name": "1.bin",
+        "size": 65536,
+        "crc": "2ac7ed67"
+      },
+      {
+        "name": "6.bin",
+        "size": 65536,
+        "crc": "7905c992"
+      },
+      {
+        "name": "5.bin",
+        "size": 65536,
+        "crc": "47be6c1e"
+      },
+      {
+        "name": "3.bin",
+        "size": 65536,
+        "crc": "1fb110d6"
+      },
+      {
+        "name": "2.bin",
+        "size": 65536,
+        "crc": "0024c15b"
+      },
+      {
+        "name": "11.bin",
+        "size": 16384,
+        "crc": "fe0175be"
+      },
+      {
+        "name": "12.bin",
+        "size": 32768,
+        "crc": "5ddf18f2"
+      },
+      {
+        "name": "10.bin",
+        "size": 32768,
+        "crc": "7f475266"
+      },
+      {
+        "name": "7.bin",
+        "size": 65536,
+        "crc": "cbdd3906"
+      },
+      {
+        "name": "8.bin",
+        "size": 65536,
+        "crc": "b2a613c0"
+      },
+      {
+        "name": "17.bin",
+        "size": 65536,
+        "crc": "e24bb2d7"
+      },
+      {
+        "name": "18.bin",
+        "size": 65536,
+        "crc": "56834554"
+      },
+      {
+        "name": "15.bin",
+        "size": 65536,
+        "crc": "4bf838be"
+      },
+      {
+        "name": "16.bin",
+        "size": 65536,
+        "crc": "21a265c5"
+      },
+      {
+        "name": "13.bin",
+        "size": 65536,
+        "crc": "6b6ec999"
+      },
+      {
+        "name": "14.bin",
+        "size": 65536,
+        "crc": "f426a4ad"
+      },
+      {
+        "name": "9.bin",
+        "size": 16384,
+        "crc": "740d260f"
+      }
+    ],
+    "expected_sha256": "61b0b37e798533163e09a42c029f3d1ddcf4bb1d435ff5ebcd4a62d72afc9a9e"
+  },
+  {
+    "id": "demonwld",
+    "parent": "demonwld",
+    "parents": ["demonwld"],
+    "roms": [
+      {
+        "name": "o16-10.v2",
+        "size": 131072,
+        "crc": "ca8194f3"
+      },
+      {
+        "name": "o16-09.v2",
+        "size": 131072,
+        "crc": "7baea7ba"
+      },
+      {
+        "name": "rom11.v2",
+        "size": 32768,
+        "crc": "dbe08c85"
+      },
+      {
+        "name": "dsp_21.bin",
+        "size": 2048,
+        "crc": "2d135376"
+      },
+      {
+        "name": "dsp_22.bin",
+        "size": 2048,
+        "crc": "79389a71"
+      },
+      {
+        "name": "rom05",
+        "size": 131072,
+        "crc": "6506c982"
+      },
+      {
+        "name": "rom07",
+        "size": 131072,
+        "crc": "a3a0d993"
+      },
+      {
+        "name": "rom06",
+        "size": 131072,
+        "crc": "4fc5e5f3"
+      },
+      {
+        "name": "rom08",
+        "size": 131072,
+        "crc": "eb53ab09"
+      },
+      {
+        "name": "rom01",
+        "size": 131072,
+        "crc": "1b3724e9"
+      },
+      {
+        "name": "rom02",
+        "size": 131072,
+        "crc": "7b20a44d"
+      },
+      {
+        "name": "rom03",
+        "size": 131072,
+        "crc": "2cacdcd0"
+      },
+      {
+        "name": "rom04",
+        "size": 131072,
+        "crc": "76fd3201"
+      },
+      {
+        "name": "prom12.bpr",
+        "size": 32,
+        "crc": "bc88cced"
+      },
+      {
+        "name": "prom13.bpr",
+        "size": 32,
+        "crc": "a1e17492"
+      }
+    ],
+    "expected_sha256": "aa5b04ec403fd8d7dc1ab7188a288011c2f97285e040b51e28bc3741eb04d655"
+  },
+  {
+    "id": "frogger",
+    "parent": "frogger",
+    "parents": ["frogger"],
+    "roms": [
+      {
+        "name": "frogger.26",
+        "size": 4096,
+        "crc": "597696d6"
+      },
+      {
+        "name": "frogger.27",
+        "size": 4096,
+        "crc": "b6e6fcc3"
+      },
+      {
+        "name": "frsm3.7",
+        "size": 4096,
+        "crc": "aca22ae0"
+      },
+      {
+        "name": "frogger.608",
+        "size": 2048,
+        "crc": "e8ab0256"
+      },
+      {
+        "name": "frogger.609",
+        "size": 2048,
+        "crc": "7380a48f"
+      },
+      {
+        "name": "frogger.610",
+        "size": 2048,
+        "crc": "31d7eb27"
+      },
+      {
+        "name": "frogger.607",
+        "size": 2048,
+        "crc": "05f7d883"
+      },
+      {
+        "name": "frogger.606",
+        "size": 2048,
+        "crc": "f524ee30"
+      },
+      {
+        "name": "pr-91.6l",
+        "size": 32,
+        "crc": "413703bf"
+      }
+    ],
+    "expected_sha256": "cfdbddbf3673b4a952f13304e1e246523239dd273bdc35e97dbb9496ccb5c56f"
+  },
+  {
+    "id": "gijoe",
+    "parent": "gijoe",
+    "parents": ["gijoe"],
+    "roms": [
+      {
+        "name": "069eab03.14e",
+        "size": 262144,
+        "crc": "dd2d533f"
+      },
+      {
+        "name": "069eab02.18e",
+        "size": 262144,
+        "crc": "6bb11c87"
+      },
+      {
+        "name": "069a12.13e",
+        "size": 262144,
+        "crc": "75a7585c"
+      },
+      {
+        "name": "069a11.16e",
+        "size": 262144,
+        "crc": "3153e788"
+      },
+      {
+        "name": "069a01.7c",
+        "size": 65536,
+        "crc": "74172b99"
+      },
+      {
+        "name": "069a10.18j",
+        "size": 1048576,
+        "crc": "4c6743ee"
+      },
+      {
+        "name": "069a09.16j",
+        "size": 1048576,
+        "crc": "e6e36b05"
+      },
+      {
+        "name": "069a08.6h",
+        "size": 1048576,
+        "crc": "325477d4"
+      },
+      {
+        "name": "069a05.1h",
+        "size": 1048576,
+        "crc": "c4ab07ed"
+      },
+      {
+        "name": "069a07.4h",
+        "size": 1048576,
+        "crc": "ccaa3971"
+      },
+      {
+        "name": "069a06.2h",
+        "size": 1048576,
+        "crc": "63eba8e1"
+      },
+      {
+        "name": "069a04.1e",
+        "size": 2097152,
+        "crc": "11d6dcd6"
+      },
+      {
+        "name": "er5911.7d",
+        "size": 128,
+        "crc": "a0d50a79"
+      }
+    ],
+    "expected_sha256": "c1fae46200755a0e65b40dda81adade8b6ebc6e40185f6478fe5a058ae938079"
+  },
+  {
+    "id": "gradius",
+    "parent": "nemesis",
+    "parents": ["gradius", "nemesis"],
+    "roms": [
+      {
+        "name": "400-a06.15l",
+        "size": 32768,
+        "crc": "b99d8cff"
+      },
+      {
+        "name": "400-a04.10l",
+        "size": 32768,
+        "crc": "d02c9552"
+      },
+      {
+        "name": "456-a07.17l",
+        "size": 131072,
+        "crc": "92df792c"
+      },
+      {
+        "name": "456-a05.12l",
+        "size": 131072,
+        "crc": "5cafb263"
+      },
+      {
+        "name": "400-e03.5l",
+        "size": 8192,
+        "crc": "a5a8e57d"
+      },
+      {
+        "name": "400-a01.fse",
+        "size": 256,
+        "crc": "5827b1e8"
+      },
+      {
+        "name": "400-a02.fse",
+        "size": 256,
+        "crc": "2f44f970"
+      }
+    ],
+    "expected_sha256": "a6ac41072dd811cbc24e80017be023e982a9cebb84718833b87639d2f1f0a6ec"
+  },
+  {
+    "id": "joemac",
+    "parent": "cninja",
+    "parents": ["joemac", "cninja"],
+    "roms": [
+      {
+        "name": "gl-02-2.1k",
+        "size": 131072,
+        "crc": "80da12e2"
+      },
+      {
+        "name": "gl-05-2.3k",
+        "size": 131072,
+        "crc": "fe4dbbbb"
+      },
+      {
+        "name": "gl-01-2.1j",
+        "size": 131072,
+        "crc": "0b245307"
+      },
+      {
+        "name": "gl-04-2.3j",
+        "size": 131072,
+        "crc": "1b331f61"
+      },
+      {
+        "name": "gn-00.1h",
+        "size": 131072,
+        "crc": "0b110b16"
+      },
+      {
+        "name": "gn-03.1k",
+        "size": 131072,
+        "crc": "1e28e697"
+      },
+      {
+        "name": "gl-07.13k",
+        "size": 65536,
+        "crc": "ca8bef96"
+      },
+      {
+        "name": "gl-08.6y",
+        "size": 65536,
+        "crc": "33a2b400"
+      },
+      {
+        "name": "gl-09.6z",
+        "size": 65536,
+        "crc": "5a2d4752"
+      },
+      {
+        "name": "mag-02.4z",
+        "size": 524288,
+        "crc": "de89c69a"
+      },
+      {
+        "name": "mag-00.1y",
+        "size": 524288,
+        "crc": "a8f05d33"
+      },
+      {
+        "name": "mag-01.1z",
+        "size": 524288,
+        "crc": "5b399eed"
+      },
+      {
+        "name": "mag-03.9y",
+        "size": 524288,
+        "crc": "2220eb9f"
+      },
+      {
+        "name": "mag-05.12y",
+        "size": 524288,
+        "crc": "56a53254"
+      },
+      {
+        "name": "mag-04.9z",
+        "size": 524288,
+        "crc": "144b94cc"
+      },
+      {
+        "name": "mag-06.12z",
+        "size": 524288,
+        "crc": "82d44749"
+      },
+      {
+        "name": "gl-06.13j",
+        "size": 131072,
+        "crc": "d92e519d"
+      },
+      {
+        "name": "mag-07.13f",
+        "size": 524288,
+        "crc": "08eb5264"
+      },
+      {
+        "name": "mb7122h.7v",
+        "size": 1024,
+        "crc": "a1267336"
+      },
+      {
+        "name": "tj-00.9j",
+        "size": 279,
+        "crc": "46defe8f"
+      },
+      {
+        "name": "tj-01.9h",
+        "size": 279,
+        "crc": "7a86902d"
+      },
+      {
+        "name": "tj-02.9h",
+        "size": 279,
+        "crc": "b476d59c"
+      },
+      {
+        "name": "tj-03.9e",
+        "size": 279,
+        "crc": "cfb6e4aa"
+      },
+      {
+        "name": "tj-04.5n",
+        "size": 279,
+        "crc": "bca07086"
+      },
+      {
+        "name": "tj-05.1r",
+        "size": 279,
+        "crc": "0dfc091b"
+      }
+    ],
+    "expected_sha256": "1a1aed9de1cfd78dbacc9c8b869a0a946af34f3184984eab58832766669aea70"
+  },
+  {
+    "id": "kickoff",
+    "parent": "kickoff",
+    "parents": ["kickoff"],
+    "roms": [
+      {
+        "name": "kioff03.rom",
+        "size": 65536,
+        "crc": "3b01be65"
+      },
+      {
+        "name": "kioff01.rom",
+        "size": 65536,
+        "crc": "ae6e68a1"
+      },
+      {
+        "name": "kioff09.rom",
+        "size": 65536,
+        "crc": "1770e980"
+      },
+      {
+        "name": "kioff19.rom",
+        "size": 65536,
+        "crc": "1b03bbe4"
+      },
+      {
+        "name": "kioff05.rom",
+        "size": 131072,
+        "crc": "e7232103"
+      },
+      {
+        "name": "kioff06.rom",
+        "size": 131072,
+        "crc": "a0b3cb75"
+      },
+      {
+        "name": "kioff07.rom",
+        "size": 131072,
+        "crc": "ed649919"
+      },
+      {
+        "name": "kioff10.rom",
+        "size": 131072,
+        "crc": "fd739fec"
+      },
+      {
+        "name": "kioff16.rom",
+        "size": 131072,
+        "crc": "22c46314"
+      },
+      {
+        "name": "kioff27.rom",
+        "size": 131072,
+        "crc": "ca221ae2"
+      },
+      {
+        "name": "kioff18.rom",
+        "size": 131072,
+        "crc": "d7909ada"
+      },
+      {
+        "name": "kioff17.rom",
+        "size": 131072,
+        "crc": "f171559e"
+      },
+      {
+        "name": "kioff26.rom",
+        "size": 131072,
+        "crc": "2a90df1b"
+      },
+      {
+        "name": "kioff20.rom",
+        "size": 131072,
+        "crc": "5c28bd2d"
+      },
+      {
+        "name": "kioff21.rom",
+        "size": 131072,
+        "crc": "195940cf"
+      },
+      {
+        "name": "kick.14m",
+        "size": 512,
+        "crc": "85b30ac4"
+      }
+    ],
+    "expected_sha256": "61b1a851e72e0242d3b1cb7aae02d7ecd6991bf25f9af394abcf3257559a9cce"
+  },
+  {
+    "id": "kof98",
+    "parent": "kof98",
+    "parents": ["kof98"],
+    "roms": [
+      {
+        "name": "242-p1.p1",
+        "size": 2097152,
+        "crc": "8893df89"
+      },
+      {
+        "name": "242-p2.sp2",
+        "size": 4194304,
+        "crc": "980aba4c"
+      },
+      {
+        "name": "242-s1.s1",
+        "size": 131072,
+        "crc": "7f7b4805"
+      },
+      {
+        "name": "242-c1.c1",
+        "size": 8388608,
+        "crc": "e564ecd6"
+      },
+      {
+        "name": "242-c2.c2",
+        "size": 8388608,
+        "crc": "bd959b60"
+      },
+      {
+        "name": "242-c3.c3",
+        "size": 8388608,
+        "crc": "22127b4f"
+      },
+      {
+        "name": "242-c4.c4",
+        "size": 8388608,
+        "crc": "0b4fa044"
+      },
+      {
+        "name": "242-c5.c5",
+        "size": 8388608,
+        "crc": "9d10bed3"
+      },
+      {
+        "name": "242-c6.c6",
+        "size": 8388608,
+        "crc": "da07b6a2"
+      },
+      {
+        "name": "242-c7.c7",
+        "size": 8388608,
+        "crc": "f6d7a38a"
+      },
+      {
+        "name": "242-c8.c8",
+        "size": 8388608,
+        "crc": "c823e045"
+      },
+      {
+        "name": "242-m1.m1",
+        "size": 262144,
+        "crc": "4ef7016b"
+      },
+      {
+        "name": "242-v1.v1",
+        "size": 4194304,
+        "crc": "b9ea8051"
+      },
+      {
+        "name": "242-v2.v2",
+        "size": 4194304,
+        "crc": "cc11106e"
+      },
+      {
+        "name": "242-v3.v3",
+        "size": 4194304,
+        "crc": "044ea4e1"
+      },
+      {
+        "name": "242-v4.v4",
+        "size": 4194304,
+        "crc": "7985ea30"
+      }
+    ],
+    "expected_sha256": "92ac24fbbbf1fa08a0c707ce31f894dd6f18f18452adcd604340eb04cb4164d9"
+  },
+  {
+    "id": "maglord",
+    "parent": "maglord",
+    "parents": ["maglord"],
+    "roms": [
+      {
+        "name": "005-pg1.p1",
+        "size": 524288,
+        "crc": "bd0a492d"
+      },
+      {
+        "name": "005-s1.s1",
+        "size": 131072,
+        "crc": "1c5369a2"
+      },
+      {
+        "name": "005-c1.c1",
+        "size": 524288,
+        "crc": "806aee34"
+      },
+      {
+        "name": "005-c2.c2",
+        "size": 524288,
+        "crc": "34aa9a86"
+      },
+      {
+        "name": "005-c3.c3",
+        "size": 524288,
+        "crc": "c4c2b926"
+      },
+      {
+        "name": "005-c4.c4",
+        "size": 524288,
+        "crc": "9c46dcf4"
+      },
+      {
+        "name": "005-c5.c5",
+        "size": 524288,
+        "crc": "69086dec"
+      },
+      {
+        "name": "005-c6.c6",
+        "size": 524288,
+        "crc": "ab7ac142"
+      },
+      {
+        "name": "005-m1.m1",
+        "size": 262144,
+        "crc": "26259f0f"
+      },
+      {
+        "name": "005-v11.v11",
+        "size": 524288,
+        "crc": "cc0455fd"
+      },
+      {
+        "name": "005-v21.v21",
+        "size": 524288,
+        "crc": "f94ab5b7"
+      },
+      {
+        "name": "005-v22.v22",
+        "size": 524288,
+        "crc": "232cfd04"
+      }
+    ],
+    "expected_sha256": "c0f5c76f984df7dc72184541cf7ff33c682660acba773c45641fc0067eb8f837"
+  },
+  {
+    "id": "mercs",
+    "parent": "mercs",
+    "parents": ["mercs"],
+    "roms": [
+      {
+        "name": "so2_30e.11f",
+        "size": 131072,
+        "crc": "e17f9bf7"
+      },
+      {
+        "name": "so2_35e.11h",
+        "size": 131072,
+        "crc": "78e63575"
+      },
+      {
+        "name": "so2_31e.12f",
+        "size": 131072,
+        "crc": "51204d36"
+      },
+      {
+        "name": "so2_36e.12h",
+        "size": 131072,
+        "crc": "9cfba8b4"
+      },
+      {
+        "name": "so2-32m.8h",
+        "size": 524288,
+        "crc": "2eb5cf0c"
+      },
+      {
+        "name": "so2-6m.8a",
+        "size": 524288,
+        "crc": "aa6102af"
+      },
+      {
+        "name": "so2-8m.10a",
+        "size": 524288,
+        "crc": "839e6869"
+      },
+      {
+        "name": "so2-2m.4a",
+        "size": 524288,
+        "crc": "597c2875"
+      },
+      {
+        "name": "so2-4m.6a",
+        "size": 524288,
+        "crc": "912a9ca0"
+      },
+      {
+        "name": "so2_24.7d",
+        "size": 131072,
+        "crc": "3f254efe"
+      },
+      {
+        "name": "so2_14.7c",
+        "size": 131072,
+        "crc": "f5a8905e"
+      },
+      {
+        "name": "so2_26.9d",
+        "size": 131072,
+        "crc": "f3aa5a4a"
+      },
+      {
+        "name": "so2_16.9c",
+        "size": 131072,
+        "crc": "b43cd1a8"
+      },
+      {
+        "name": "so2_20.3d",
+        "size": 131072,
+        "crc": "8ca751a3"
+      },
+      {
+        "name": "so2_10.3c",
+        "size": 131072,
+        "crc": "e9f569fd"
+      },
+      {
+        "name": "so2_22.5d",
+        "size": 131072,
+        "crc": "fce9a377"
+      },
+      {
+        "name": "so2_12.5c",
+        "size": 131072,
+        "crc": "b7df8a06"
+      },
+      {
+        "name": "so2_09.12b",
+        "size": 65536,
+        "crc": "d09d7c7a"
+      },
+      {
+        "name": "so2_18.11c",
+        "size": 131072,
+        "crc": "bbea1643"
+      },
+      {
+        "name": "so2_19.12c",
+        "size": 131072,
+        "crc": "ac58aa71"
+      },
+      {
+        "name": "buf1",
+        "size": 279,
+        "crc": "eb122de7"
+      },
+      {
+        "name": "ioa1",
+        "size": 279,
+        "crc": "59c7ee3b"
+      },
+      {
+        "name": "prg1",
+        "size": 279,
+        "crc": "f1129744"
+      },
+      {
+        "name": "rom1",
+        "size": 279,
+        "crc": "41dc73b9"
+      },
+      {
+        "name": "sou1",
+        "size": 279,
+        "crc": "84f4b2fe"
+      },
+      {
+        "name": "o224b.1a",
+        "size": 279,
+        "crc": "c211c8cd"
+      },
+      {
+        "name": "iob1.11e",
+        "size": 279,
+        "crc": "3abc0700"
+      },
+      {
+        "name": "c628",
+        "size": 279,
+        "crc": "662e090f"
+      }
+    ],
+    "expected_sha256": "e3c89d4de9d96f537c7de14b729ba90e06e6d9f7c5a576bb120614677d59d791"
+  },
+  {
+    "id": "mwalk",
+    "parent": "mwalk",
+    "parents": ["mwalk"],
+    "roms": [
+      {
+        "name": "epr-13235.a6",
+        "size": 262144,
+        "crc": "6983e129"
+      },
+      {
+        "name": "epr-13234.a5",
+        "size": 262144,
+        "crc": "c9fd20f2"
+      },
+      {
+        "name": "mpr-13216.b1",
+        "size": 262144,
+        "crc": "862d2c03"
+      },
+      {
+        "name": "mpr-13217.b2",
+        "size": 262144,
+        "crc": "7d1ac3ec"
+      },
+      {
+        "name": "mpr-13218.b3",
+        "size": 262144,
+        "crc": "56d3393c"
+      },
+      {
+        "name": "mpr-13224.b11",
+        "size": 262144,
+        "crc": "c59f107b"
+      },
+      {
+        "name": "mpr-13231.a11",
+        "size": 262144,
+        "crc": "a5e96346"
+      },
+      {
+        "name": "mpr-13223.b10",
+        "size": 262144,
+        "crc": "364f60ff"
+      },
+      {
+        "name": "mpr-13230.a10",
+        "size": 262144,
+        "crc": "9550091f"
+      },
+      {
+        "name": "mpr-13222.b9",
+        "size": 262144,
+        "crc": "523df3ed"
+      },
+      {
+        "name": "mpr-13229.a9",
+        "size": 262144,
+        "crc": "f40dc45d"
+      },
+      {
+        "name": "epr-13221.b8",
+        "size": 262144,
+        "crc": "9ae7546a"
+      },
+      {
+        "name": "epr-13228.a8",
+        "size": 262144,
+        "crc": "de3786be"
+      },
+      {
+        "name": "epr-13225.a4",
+        "size": 131072,
+        "crc": "56c2e82b"
+      },
+      {
+        "name": "mpr-13219.b4",
+        "size": 262144,
+        "crc": "19e2061f"
+      },
+      {
+        "name": "mpr-13220.b5",
+        "size": 262144,
+        "crc": "58d4d9ce"
+      },
+      {
+        "name": "mpr-13249.b6",
+        "size": 262144,
+        "crc": "623edc5d"
+      },
+      {
+        "name": "317-0159.key",
+        "size": 8192,
+        "crc": "507838f0"
+      },
+      {
+        "name": "315-5437.ic4",
+        "size": 4096,
+        "crc": "4bf63bc1"
+      }
+    ],
+    "expected_sha256": "64fdd10892c6bb71178eeb263402eef0bec789890b521f2406af93dc4d195ecd"
+  },
+  {
+    "id": "narc",
+    "parent": "narc",
+    "parents": ["narc"],
+    "roms": [
+      {
+        "name": "rev2_narc_sound_rom_u4.u4",
+        "size": 65536,
+        "crc": "450a591a"
+      },
+      {
+        "name": "rev2_narc_sound_rom_u5.u5",
+        "size": 65536,
+        "crc": "e551e5e3"
+      },
+      {
+        "name": "rev2_narc_sound_rom_u35.u35",
+        "size": 65536,
+        "crc": "81295892"
+      },
+      {
+        "name": "rev2_narc_sound_rom_u36.u36",
+        "size": 65536,
+        "crc": "16cdbb13"
+      },
+      {
+        "name": "rev2_narc_sound_rom_u37.u37",
+        "size": 65536,
+        "crc": "29dbeffd"
+      },
+      {
+        "name": "rev2_narc_sound_rom_u38.u38",
+        "size": 65536,
+        "crc": "09b03b80"
+      },
+      {
+        "name": "rev7_narc_game_rom_u42.u42",
+        "size": 131072,
+        "crc": "d1111b76"
+      },
+      {
+        "name": "rev7_narc_game_rom_u24.u24",
+        "size": 131072,
+        "crc": "aa0d3082"
+      },
+      {
+        "name": "rev7_narc_game_rom_u41.u41",
+        "size": 131072,
+        "crc": "3903191f"
+      },
+      {
+        "name": "rev7_narc_game_rom_u23.u23",
+        "size": 131072,
+        "crc": "7a316582"
+      },
+      {
+        "name": "rev2_narc_image_rom_u94.u94",
+        "size": 65536,
+        "crc": "ca3194e4"
+      },
+      {
+        "name": "rev2_narc_image_rom_u93.u93",
+        "size": 65536,
+        "crc": "0ed7f7f5"
+      },
+      {
+        "name": "rev2_narc_image_rom_u92.u92",
+        "size": 65536,
+        "crc": "40d2fc66"
+      },
+      {
+        "name": "rev2_narc_image_rom_u91.u91",
+        "size": 65536,
+        "crc": "f39325e0"
+      },
+      {
+        "name": "rev2_narc_image_rom_u90.u90",
+        "size": 65536,
+        "crc": "0132aefa"
+      },
+      {
+        "name": "rev2_narc_image_rom_u89.u89",
+        "size": 65536,
+        "crc": "f7260c9e"
+      },
+      {
+        "name": "rev2_narc_image_rom_u88.u88",
+        "size": 65536,
+        "crc": "edc19f42"
+      },
+      {
+        "name": "rev2_narc_image_rom_u87.u87",
+        "size": 65536,
+        "crc": "d9b42ff9"
+      },
+      {
+        "name": "rev2_narc_image_rom_u86.u86",
+        "size": 65536,
+        "crc": "af7daad3"
+      },
+      {
+        "name": "rev2_narc_image_rom_u85.u85",
+        "size": 65536,
+        "crc": "095fae6b"
+      },
+      {
+        "name": "rev2_narc_image_rom_u84.u84",
+        "size": 65536,
+        "crc": "3fdf2057"
+      },
+      {
+        "name": "rev2_narc_image_rom_u83.u83",
+        "size": 65536,
+        "crc": "f2d27c9f"
+      },
+      {
+        "name": "rev2_narc_image_rom_u82.u82",
+        "size": 65536,
+        "crc": "962ce47c"
+      },
+      {
+        "name": "rev2_narc_image_rom_u81.u81",
+        "size": 65536,
+        "crc": "00fe59ec"
+      },
+      {
+        "name": "rev2_narc_image_rom_u80.u80",
+        "size": 65536,
+        "crc": "147ba8e9"
+      },
+      {
+        "name": "rev2_narc_image_rom_u76.u76",
+        "size": 65536,
+        "crc": "1cd897f4"
+      },
+      {
+        "name": "rev2_narc_image_rom_u75.u75",
+        "size": 65536,
+        "crc": "78abfa01"
+      },
+      {
+        "name": "rev2_narc_image_rom_u74.u74",
+        "size": 65536,
+        "crc": "66d2a234"
+      },
+      {
+        "name": "rev2_narc_image_rom_u73.u73",
+        "size": 65536,
+        "crc": "efa5cd4e"
+      },
+      {
+        "name": "rev2_narc_image_rom_u72.u72",
+        "size": 65536,
+        "crc": "70638eb5"
+      },
+      {
+        "name": "rev2_narc_image_rom_u71.u71",
+        "size": 65536,
+        "crc": "61226883"
+      },
+      {
+        "name": "rev2_narc_image_rom_u70.u70",
+        "size": 65536,
+        "crc": "c808849f"
+      },
+      {
+        "name": "rev2_narc_image_rom_u69.u69",
+        "size": 65536,
+        "crc": "e7f9c34f"
+      },
+      {
+        "name": "rev2_narc_image_rom_u68.u68",
+        "size": 65536,
+        "crc": "88a634d5"
+      },
+      {
+        "name": "rev2_narc_image_rom_u67.u67",
+        "size": 65536,
+        "crc": "4ab8b69e"
+      },
+      {
+        "name": "rev2_narc_image_rom_u66.u66",
+        "size": 65536,
+        "crc": "e1da4b25"
+      },
+      {
+        "name": "rev2_narc_image_rom_u65.u65",
+        "size": 65536,
+        "crc": "6df0d125"
+      },
+      {
+        "name": "rev2_narc_image_rom_u64.u64",
+        "size": 65536,
+        "crc": "abab1b16"
+      },
+      {
+        "name": "rev2_narc_image_rom_u63.u63",
+        "size": 65536,
+        "crc": "80602f31"
+      },
+      {
+        "name": "rev2_narc_image_rom_u62.u62",
+        "size": 65536,
+        "crc": "c2a476d1"
+      },
+      {
+        "name": "rev2_narc_image_rom_u58.u58",
+        "size": 65536,
+        "crc": "8a7501e3"
+      },
+      {
+        "name": "rev2_narc_image_rom_u57.u57",
+        "size": 65536,
+        "crc": "a504735f"
+      },
+      {
+        "name": "rev2_narc_image_rom_u56.u56",
+        "size": 65536,
+        "crc": "55f8cca7"
+      },
+      {
+        "name": "rev2_narc_image_rom_u55.u55",
+        "size": 65536,
+        "crc": "d3c932c1"
+      },
+      {
+        "name": "rev2_narc_image_rom_u54.u54",
+        "size": 65536,
+        "crc": "c7f4134b"
+      },
+      {
+        "name": "rev2_narc_image_rom_u53.u53",
+        "size": 65536,
+        "crc": "6be4da56"
+      },
+      {
+        "name": "rev2_narc_image_rom_u52.u52",
+        "size": 65536,
+        "crc": "1ea36a4a"
+      },
+      {
+        "name": "rev2_narc_image_rom_u51.u51",
+        "size": 65536,
+        "crc": "9d4b0324"
+      },
+      {
+        "name": "rev2_narc_image_rom_u50.u50",
+        "size": 65536,
+        "crc": "6f9f0c26"
+      },
+      {
+        "name": "rev2_narc_image_rom_u49.u49",
+        "size": 65536,
+        "crc": "80386fce"
+      },
+      {
+        "name": "rev2_narc_image_rom_u48.u48",
+        "size": 65536,
+        "crc": "05c16185"
+      },
+      {
+        "name": "rev2_narc_image_rom_u47.u47",
+        "size": 65536,
+        "crc": "4c0151f1"
+      },
+      {
+        "name": "rev2_narc_image_rom_u46.u46",
+        "size": 65536,
+        "crc": "5670bfcb"
+      },
+      {
+        "name": "rev2_narc_image_rom_u45.u45",
+        "size": 65536,
+        "crc": "27f10d98"
+      },
+      {
+        "name": "rev2_narc_image_rom_u44.u44",
+        "size": 65536,
+        "crc": "93b8eaa4"
+      },
+      {
+        "name": "rev2_narc_image_rom_u40.u40",
+        "size": 65536,
+        "crc": "7fcaebc7"
+      },
+      {
+        "name": "rev2_narc_image_rom_u39.u39",
+        "size": 65536,
+        "crc": "7db5cf52"
+      },
+      {
+        "name": "rev2_narc_image_rom_u38.u38",
+        "size": 65536,
+        "crc": "3f9f3ef7"
+      },
+      {
+        "name": "rev2_narc_image_rom_u37.u37",
+        "size": 65536,
+        "crc": "ed81826c"
+      },
+      {
+        "name": "rev2_narc_image_rom_u36.u36",
+        "size": 65536,
+        "crc": "e5d855c0"
+      },
+      {
+        "name": "rev2_narc_image_rom_u35.u35",
+        "size": 65536,
+        "crc": "3a7b1329"
+      },
+      {
+        "name": "rev2_narc_image_rom_u34.u34",
+        "size": 65536,
+        "crc": "fe982b0e"
+      },
+      {
+        "name": "rev2_narc_image_rom_u33.u33",
+        "size": 65536,
+        "crc": "6bc7eb0f"
+      },
+      {
+        "name": "rev2_narc_image_rom_u32.u32",
+        "size": 65536,
+        "crc": "5875a6d3"
+      },
+      {
+        "name": "rev2_narc_image_rom_u31.u31",
+        "size": 65536,
+        "crc": "2fa4b8e5"
+      },
+      {
+        "name": "rev2_narc_image_rom_u30.u30",
+        "size": 65536,
+        "crc": "7e4bb8ee"
+      },
+      {
+        "name": "rev2_narc_image_rom_u29.u29",
+        "size": 65536,
+        "crc": "45136fd9"
+      },
+      {
+        "name": "rev2_narc_image_rom_u28.u28",
+        "size": 65536,
+        "crc": "d6cdac24"
+      },
+      {
+        "name": "rev2_narc_image_rom_u27.u27",
+        "size": 65536,
+        "crc": "4d33bbec"
+      },
+      {
+        "name": "rev2_narc_image_rom_u26.u26",
+        "size": 65536,
+        "crc": "cb19f784"
+      },
+      {
+        "name": "a-5346-3036-1_narc_pls153.u28",
+        "size": 235,
+        "crc": "4db36615"
+      },
+      {
+        "name": "a-5346-3036-2_narc_pls153.u78",
+        "size": 235,
+        "crc": "4b151863"
+      },
+      {
+        "name": "a-5346-3036-3_narc_pls153.u79",
+        "size": 235,
+        "crc": "35bd6ed8"
+      },
+      {
+        "name": "a-5346-3036-4_narc_pls153.u80",
+        "size": 235,
+        "crc": "9c10e4cf"
+      },
+      {
+        "name": "a-5346-3036-5_narc_pls153.u83",
+        "size": 235,
+        "crc": "3a2f21b2"
+      }
+    ],
+    "expected_sha256": "006e12467777b2fed79a5704aec11c8ec5749bd6c23c66c2169ae697d25f5fdb"
+  },
+  {
+    "id": "orunners",
+    "parent": "orunners",
+    "parents": ["orunners"],
+    "roms": [
+      {
+        "name": "epr-15620.ic37",
+        "size": 131072,
+        "crc": "84f5ad92"
+      },
+      {
+        "name": "epr-15621.ic40",
+        "size": 131072,
+        "crc": "d98b765a"
+      },
+      {
+        "name": "mpr-15538.ic36",
+        "size": 524288,
+        "crc": "93958820"
+      },
+      {
+        "name": "mpr-15539.ic39",
+        "size": 524288,
+        "crc": "219760fa"
+      },
+      {
+        "name": "epr-15550.ic31",
+        "size": 524288,
+        "crc": "0205d2ed"
+      },
+      {
+        "name": "mpr-15548.ic3",
+        "size": 2097152,
+        "crc": "b6470a66"
+      },
+      {
+        "name": "mpr-15549.ic11",
+        "size": 2097152,
+        "crc": "81d12520"
+      },
+      {
+        "name": "mpr-15540.ic14",
+        "size": 2097152,
+        "crc": "a10d72b4"
+      },
+      {
+        "name": "mpr-15542.ic15",
+        "size": 2097152,
+        "crc": "40952374"
+      },
+      {
+        "name": "mpr-15544.ic10",
+        "size": 2097152,
+        "crc": "39e3df45"
+      },
+      {
+        "name": "mpr-15546.ic38",
+        "size": 2097152,
+        "crc": "e3fcc12c"
+      },
+      {
+        "name": "mpr-15541.ic22",
+        "size": 2097152,
+        "crc": "a2003c2d"
+      },
+      {
+        "name": "mpr-15543.ic23",
+        "size": 2097152,
+        "crc": "933e8e7b"
+      },
+      {
+        "name": "mpr-15545.ic18",
+        "size": 2097152,
+        "crc": "53dd0235"
+      },
+      {
+        "name": "mpr-15547.ic41",
+        "size": 2097152,
+        "crc": "edcb2a43"
+      },
+      {
+        "name": "mpr-15551.ic1",
+        "size": 2097152,
+        "crc": "4894bc73"
+      },
+      {
+        "name": "mpr-15552.ic2",
+        "size": 2097152,
+        "crc": "1c4b5e73"
+      }
+    ],
+    "expected_sha256": "5294f9adfd860ec07159c62e9615a5a233929f27499eaffca85da65587c5bf27"
+  },
+  {
+    "id": "columns",
+    "parent": "columns",
+    "copy_approved_archive": true,
+    "roms": [
+      {
+        "name": "epr-13113.ic31",
+        "size": 131072,
+        "crc": "9a426d9b"
+      },
+      {
+        "name": "epr-13114.ic32",
+        "size": 131072,
+        "crc": "ff78f740"
+      }
+    ],
+    "expected_sha256": "3b6c6da0b6f5f202ed15e32b14d2d78679395d4ecbb2e961723b9b84030ff9dd"
+  },
+  {
+    "id": "contra",
+    "parent": "contra",
+    "copy_approved_archive": true,
+    "roms": [
+      {
+        "name": "633e01.12a",
+        "size": 32768,
+        "crc": "d1549255"
+      },
+      {
+        "name": "633e04.7d",
+        "size": 262144,
+        "crc": "14ddc542"
+      },
+      {
+        "name": "633e05.7f",
+        "size": 262144,
+        "crc": "42185044"
+      },
+      {
+        "name": "633e06.16d",
+        "size": 262144,
+        "crc": "9cf6faae"
+      },
+      {
+        "name": "633e07.16f",
+        "size": 262144,
+        "crc": "f2d06638"
+      },
+      {
+        "name": "633e08.10g",
+        "size": 256,
+        "crc": "9f0949fa"
+      },
+      {
+        "name": "633f11.20g",
+        "size": 256,
+        "crc": "14ca5e19"
+      },
+      {
+        "name": "633e09.12g",
+        "size": 256,
+        "crc": "14ca5e19"
+      },
+      {
+        "name": "633f10.18g",
+        "size": 256,
+        "crc": "2b244d84"
+      },
+      {
+        "name": "633i02.17a",
+        "size": 65536,
+        "crc": "b2f7bd9a"
+      },
+      {
+        "name": "633m03.18a",
+        "size": 65536,
+        "crc": "d045e1da"
+      }
+    ],
+    "expected_sha256": "95cb6d23478d8d303e5a62d3ef0e4f99614fc5c8dc39b39c24e026e503ae15b7"
+  },
+  {
+    "id": "mslug",
+    "parent": "mslug",
+    "copy_approved_archive": true,
+    "roms": [
+      {
+        "name": "201-c1.c1",
+        "size": 4194304,
+        "crc": "72813676"
+      },
+      {
+        "name": "201-c2.c2",
+        "size": 4194304,
+        "crc": "96f62574"
+      },
+      {
+        "name": "201-c3.c3",
+        "size": 4194304,
+        "crc": "5121456a"
+      },
+      {
+        "name": "201-c4.c4",
+        "size": 4194304,
+        "crc": "f4ad59a3"
+      },
+      {
+        "name": "201-m1.m1",
+        "size": 131072,
+        "crc": "c28b3253"
+      },
+      {
+        "name": "201-p1.p1",
+        "size": 2097152,
+        "crc": "08d8daa5"
+      },
+      {
+        "name": "201-s1.s1",
+        "size": 131072,
+        "crc": "2f55958d"
+      },
+      {
+        "name": "201-v1.v1",
+        "size": 4194304,
+        "crc": "23d22ed1"
+      },
+      {
+        "name": "201-v2.v2",
+        "size": 4194304,
+        "crc": "472cf9db"
+      }
+    ],
+    "expected_sha256": "67d9497fcf821f690a24ecb39b19bc38cc0052d0a5437f9b697ac3cc197cb4f0"
+  },
+  {
+    "id": "mslug2",
+    "parent": "mslug2",
+    "copy_approved_archive": true,
+    "roms": [
+      {
+        "name": "241-c1.c1",
+        "size": 8388608,
+        "crc": "394b5e0d"
+      },
+      {
+        "name": "241-c2.c2",
+        "size": 8388608,
+        "crc": "e5806221"
+      },
+      {
+        "name": "241-c3.c3",
+        "size": 8388608,
+        "crc": "9f6bfa6f"
+      },
+      {
+        "name": "241-c4.c4",
+        "size": 8388608,
+        "crc": "7d3e306f"
+      },
+      {
+        "name": "241-m1.m1",
+        "size": 131072,
+        "crc": "94520ebd"
+      },
+      {
+        "name": "241-p1.p1",
+        "size": 1048576,
+        "crc": "2a53c5da"
+      },
+      {
+        "name": "241-p2.sp2",
+        "size": 2097152,
+        "crc": "38883f44"
+      },
+      {
+        "name": "241-s1.s1",
+        "size": 131072,
+        "crc": "f3d32f0f"
+      },
+      {
+        "name": "241-v1.v1",
+        "size": 4194304,
+        "crc": "99ec20e8"
+      },
+      {
+        "name": "241-v2.v2",
+        "size": 4194304,
+        "crc": "ecb16799"
+      }
+    ],
+    "expected_sha256": "1c5946b1959ae9dfca6569164d592df3649f5db30e127ad0c4cd6c2c7b44baad"
+  },
+  {
+    "id": "1941",
+    "parent": "1941",
+    "copy_approved_archive": true,
+    "roms": [
+      {
+        "name": "41-1m.3a",
+        "size": 524288,
+        "crc": "ff77985a"
+      },
+      {
+        "name": "41-32m.8h",
+        "size": 524288,
+        "crc": "4e9648ca"
+      },
+      {
+        "name": "41-3m.5a",
+        "size": 524288,
+        "crc": "983be58f"
+      },
+      {
+        "name": "41-5m.7a",
+        "size": 524288,
+        "crc": "01d1cb11"
+      },
+      {
+        "name": "41-7m.9a",
+        "size": 524288,
+        "crc": "aeaa3509"
+      },
+      {
+        "name": "41_18.11c",
+        "size": 131072,
+        "crc": "d1f15aeb"
+      },
+      {
+        "name": "41_19.12c",
+        "size": 131072,
+        "crc": "15aec3a6"
+      },
+      {
+        "name": "41_9.12b",
+        "size": 65536,
+        "crc": "0f9d8527"
+      },
+      {
+        "name": "41em_30.11f",
+        "size": 131072,
+        "crc": "4249ec61"
+      },
+      {
+        "name": "41em_31.12f",
+        "size": 131072,
+        "crc": "584e88e5"
+      },
+      {
+        "name": "41em_35.11h",
+        "size": 131072,
+        "crc": "ddbee5eb"
+      },
+      {
+        "name": "41em_36.12h",
+        "size": 131072,
+        "crc": "3cfc31d0"
+      },
+      {
+        "name": "buf1",
+        "size": 279,
+        "crc": "eb122de7"
+      },
+      {
+        "name": "ioa1",
+        "size": 279,
+        "crc": "59c7ee3b"
+      },
+      {
+        "name": "iob1.11e",
+        "size": 279,
+        "crc": "3abc0700"
+      },
+      {
+        "name": "prg1",
+        "size": 279,
+        "crc": "f1129744"
+      },
+      {
+        "name": "rom1",
+        "size": 279,
+        "crc": "41dc73b9"
+      },
+      {
+        "name": "sou1",
+        "size": 279,
+        "crc": "84f4b2fe"
+      },
+      {
+        "name": "yi24b.1a",
+        "size": 279,
+        "crc": "3004dcdf"
+      }
+    ],
+    "expected_sha256": "d2774da919800192790d718c457dee3c4d57036c57cf71398e1ca1988f1443ba"
+  },
+  {
+    "id": "neogeo",
+    "parent": "neogeo",
+    "copy_approved_archive": true,
+    "roms": [
+      {
+        "name": "000-lo.lo",
+        "size": 131072,
+        "crc": "5a86cff2"
+      },
+      {
+        "name": "sfix.sfix",
+        "size": 131072,
+        "crc": "c2ea0cfd"
+      },
+      {
+        "name": "japan-j3.bin",
+        "size": 131072,
+        "crc": "dff6d41f"
+      },
+      {
+        "name": "neo-epo.bin",
+        "size": 131072,
+        "crc": "d27a71f1"
+      },
+      {
+        "name": "neo-po.bin",
+        "size": 131072,
+        "crc": "16d0c132"
+      },
+      {
+        "name": "neodebug.bin",
+        "size": 131072,
+        "crc": "698ebb7d"
+      },
+      {
+        "name": "neopen.sp1",
+        "size": 131072,
+        "crc": "cb915e76"
+      },
+      {
+        "name": "sm1.sm1",
+        "size": 131072,
+        "crc": "94416d67"
+      },
+      {
+        "name": "sp-1v1_3db8c.bin",
+        "size": 131072,
+        "crc": "162f0ebe"
+      },
+      {
+        "name": "sp-45.sp1",
+        "size": 524288,
+        "crc": "03cc9f6a"
+      },
+      {
+        "name": "sp-e.sp1",
+        "size": 131072,
+        "crc": "2723a5b5"
+      },
+      {
+        "name": "sp-j2.sp1",
+        "size": 131072,
+        "crc": "acede59c"
+      },
+      {
+        "name": "sp-j3.sp1",
+        "size": 524288,
+        "crc": "486cb450"
+      },
+      {
+        "name": "sp-s.sp1",
+        "size": 131072,
+        "crc": "c7f2fa45"
+      },
+      {
+        "name": "sp-s2.sp1",
+        "size": 131072,
+        "crc": "9036d879"
+      },
+      {
+        "name": "sp-s3.sp1",
+        "size": 131072,
+        "crc": "91b64be3"
+      },
+      {
+        "name": "sp-u2.sp1",
+        "size": 131072,
+        "crc": "e72943de"
+      },
+      {
+        "name": "sp1-j3.bin",
+        "size": 131072,
+        "crc": "fbc6d469"
+      },
+      {
+        "name": "sp1-u2",
+        "size": 131072,
+        "crc": "62f021f4"
+      },
+      {
+        "name": "sp1-u3.bin",
+        "size": 131072,
+        "crc": "2025b7a2"
+      },
+      {
+        "name": "sp1-u4.bin",
+        "size": 131072,
+        "crc": "1179a30f"
+      },
+      {
+        "name": "sp1.jipan.1024",
+        "size": 131072,
+        "crc": "9fb0abe4"
+      },
+      {
+        "name": "uni-bios_1_0.rom",
+        "size": 131072,
+        "crc": "0ce453a0"
+      },
+      {
+        "name": "uni-bios_1_1.rom",
+        "size": 131072,
+        "crc": "5dda0d84"
+      },
+      {
+        "name": "uni-bios_1_2.rom",
+        "size": 131072,
+        "crc": "4fa698e9"
+      },
+      {
+        "name": "uni-bios_1_2o.rom",
+        "size": 131072,
+        "crc": "e19d3ce9"
+      },
+      {
+        "name": "uni-bios_1_3.rom",
+        "size": 131072,
+        "crc": "b24b44a0"
+      },
+      {
+        "name": "uni-bios_2_0.rom",
+        "size": 131072,
+        "crc": "0c12c2ad"
+      },
+      {
+        "name": "uni-bios_2_1.rom",
+        "size": 131072,
+        "crc": "8dabf76b"
+      },
+      {
+        "name": "uni-bios_2_2.rom",
+        "size": 131072,
+        "crc": "2d50996a"
+      },
+      {
+        "name": "uni-bios_2_3.rom",
+        "size": 131072,
+        "crc": "27664eb5"
+      },
+      {
+        "name": "uni-bios_2_3o.rom",
+        "size": 131072,
+        "crc": "601720ae"
+      },
+      {
+        "name": "uni-bios_3_0.rom",
+        "size": 131072,
+        "crc": "a97c89a9"
+      },
+      {
+        "name": "uni-bios_3_1.rom",
+        "size": 131072,
+        "crc": "0c58093f"
+      },
+      {
+        "name": "uni-bios_3_2.rom",
+        "size": 131072,
+        "crc": "a4e8b9b3"
+      },
+      {
+        "name": "uni-bios_3_3.rom",
+        "size": 131072,
+        "crc": "24858466"
+      },
+      {
+        "name": "uni-bios_4_0.rom",
+        "size": 131072,
+        "crc": "a7aab458"
+      },
+      {
+        "name": "vs-bios.rom",
+        "size": 131072,
+        "crc": "f0e8f27d"
+      }
+    ],
+    "expected_sha256": "00692b80cf7ad6bdddcc436d065c5e2453ca272632aae1d791f672eb280dd457"
+  }
+]

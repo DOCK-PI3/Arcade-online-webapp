@@ -1,0 +1,10266 @@
+[
+  {
+    "game": "1942",
+    "stage": "before",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 0,
+        "hex": "00"
+      },
+      {
+        "offset": 72,
+        "hex": "00000000000000000000000000000000"
+      },
+      {
+        "offset": 256,
+        "hex": "0203"
+      },
+      {
+        "offset": 384,
+        "hex": "0000"
+      }
+    ]
+  },
+  {
+    "game": "1942",
+    "stage": "start",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 0,
+        "hex": "83"
+      },
+      {
+        "offset": 72,
+        "hex": "00000000000000000000000000000000"
+      },
+      {
+        "offset": 256,
+        "hex": "0003"
+      },
+      {
+        "offset": 384,
+        "hex": "0103"
+      }
+    ]
+  },
+  {
+    "game": "1942",
+    "stage": "score",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 300,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 0,
+        "hex": "83"
+      },
+      {
+        "offset": 72,
+        "hex": "00000000000300000000000000000000"
+      },
+      {
+        "offset": 256,
+        "hex": "0103"
+      },
+      {
+        "offset": 384,
+        "hex": "0002"
+      }
+    ]
+  },
+  {
+    "game": "1942",
+    "stage": "later",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 300,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 200,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 0,
+        "hex": "83"
+      },
+      {
+        "offset": 72,
+        "hex": "00000000000300000000000000020000"
+      },
+      {
+        "offset": 256,
+        "hex": "0002"
+      },
+      {
+        "offset": 384,
+        "hex": "0102"
+      }
+    ]
+  },
+  {
+    "game": "1943",
+    "stage": "before",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 784,
+        "hex": "00"
+      },
+      {
+        "offset": 8710,
+        "hex": "3c"
+      },
+      {
+        "offset": 8764,
+        "hex": "00000000"
+      },
+      {
+        "offset": 8838,
+        "hex": "3c"
+      },
+      {
+        "offset": 8892,
+        "hex": "00000000"
+      }
+    ]
+  },
+  {
+    "game": "1943",
+    "stage": "start",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 784,
+        "hex": "01"
+      },
+      {
+        "offset": 8710,
+        "hex": "40"
+      },
+      {
+        "offset": 8764,
+        "hex": "00000000"
+      },
+      {
+        "offset": 8838,
+        "hex": "40"
+      },
+      {
+        "offset": 8892,
+        "hex": "00000000"
+      }
+    ]
+  },
+  {
+    "game": "1943",
+    "stage": "score",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 3600,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 2100,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 784,
+        "hex": "01"
+      },
+      {
+        "offset": 8710,
+        "hex": "1a"
+      },
+      {
+        "offset": 8764,
+        "hex": "03060000"
+      },
+      {
+        "offset": 8838,
+        "hex": "3a"
+      },
+      {
+        "offset": 8892,
+        "hex": "02010000"
+      }
+    ]
+  },
+  {
+    "game": "1943",
+    "stage": "later",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 5400,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 5100,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 784,
+        "hex": "01"
+      },
+      {
+        "offset": 8710,
+        "hex": "00"
+      },
+      {
+        "offset": 8764,
+        "hex": "05040000"
+      },
+      {
+        "offset": 8838,
+        "hex": "35"
+      },
+      {
+        "offset": 8892,
+        "hex": "05010000"
+      }
+    ]
+  },
+  {
+    "game": "1943kai",
+    "stage": "before",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 784,
+        "hex": "00"
+      },
+      {
+        "offset": 8710,
+        "hex": "24"
+      },
+      {
+        "offset": 8764,
+        "hex": "00000000"
+      },
+      {
+        "offset": 8838,
+        "hex": "2c"
+      },
+      {
+        "offset": 8892,
+        "hex": "00000000"
+      }
+    ]
+  },
+  {
+    "game": "1943kai",
+    "stage": "start",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 784,
+        "hex": "01"
+      },
+      {
+        "offset": 8710,
+        "hex": "40"
+      },
+      {
+        "offset": 8764,
+        "hex": "00000000"
+      },
+      {
+        "offset": 8838,
+        "hex": "40"
+      },
+      {
+        "offset": 8892,
+        "hex": "00000000"
+      }
+    ]
+  },
+  {
+    "game": "1943kai",
+    "stage": "score",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 1900,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 1100,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 784,
+        "hex": "01"
+      },
+      {
+        "offset": 8710,
+        "hex": "33"
+      },
+      {
+        "offset": 8764,
+        "hex": "01090000"
+      },
+      {
+        "offset": 8838,
+        "hex": "3c"
+      },
+      {
+        "offset": 8892,
+        "hex": "01010000"
+      }
+    ]
+  },
+  {
+    "game": "1943kai",
+    "stage": "later",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 4000,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 2900,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 784,
+        "hex": "01"
+      },
+      {
+        "offset": 8710,
+        "hex": "06"
+      },
+      {
+        "offset": 8764,
+        "hex": "04000000"
+      },
+      {
+        "offset": 8838,
+        "hex": "1b"
+      },
+      {
+        "offset": 8892,
+        "hex": "02090000"
+      }
+    ]
+  },
+  {
+    "game": "1943mii",
+    "stage": "before",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 784,
+        "hex": "00"
+      },
+      {
+        "offset": 8710,
+        "hex": "14"
+      },
+      {
+        "offset": 8764,
+        "hex": "00000000"
+      },
+      {
+        "offset": 8838,
+        "hex": "2c"
+      },
+      {
+        "offset": 8892,
+        "hex": "00000000"
+      }
+    ]
+  },
+  {
+    "game": "1943mii",
+    "stage": "start",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 784,
+        "hex": "01"
+      },
+      {
+        "offset": 8710,
+        "hex": "40"
+      },
+      {
+        "offset": 8764,
+        "hex": "00000000"
+      },
+      {
+        "offset": 8838,
+        "hex": "40"
+      },
+      {
+        "offset": 8892,
+        "hex": "00000000"
+      }
+    ]
+  },
+  {
+    "game": "1943mii",
+    "stage": "score",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 2800,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 1400,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 784,
+        "hex": "01"
+      },
+      {
+        "offset": 8710,
+        "hex": "13"
+      },
+      {
+        "offset": 8764,
+        "hex": "02080000"
+      },
+      {
+        "offset": 8838,
+        "hex": "3b"
+      },
+      {
+        "offset": 8892,
+        "hex": "01040000"
+      }
+    ]
+  },
+  {
+    "game": "1943mii",
+    "stage": "later",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 3600,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 6600,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 784,
+        "hex": "01"
+      },
+      {
+        "offset": 8710,
+        "hex": "00"
+      },
+      {
+        "offset": 8764,
+        "hex": "03060000"
+      },
+      {
+        "offset": 8838,
+        "hex": "15"
+      },
+      {
+        "offset": 8892,
+        "hex": "06060000"
+      }
+    ]
+  },
+  {
+    "game": "altbeast",
+    "stage": "before",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 8192,
+        "hex": "00000000"
+      },
+      {
+        "offset": 8213,
+        "hex": "00"
+      },
+      {
+        "offset": 8217,
+        "hex": "01"
+      },
+      {
+        "offset": 8320,
+        "hex": "00000000"
+      },
+      {
+        "offset": 8341,
+        "hex": "00"
+      },
+      {
+        "offset": 8345,
+        "hex": "01"
+      }
+    ]
+  },
+  {
+    "game": "altbeast",
+    "stage": "start",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 8192,
+        "hex": "00000000"
+      },
+      {
+        "offset": 8213,
+        "hex": "07"
+      },
+      {
+        "offset": 8217,
+        "hex": "03"
+      },
+      {
+        "offset": 8320,
+        "hex": "00000000"
+      },
+      {
+        "offset": 8341,
+        "hex": "07"
+      },
+      {
+        "offset": 8345,
+        "hex": "03"
+      }
+    ]
+  },
+  {
+    "game": "altbeast",
+    "stage": "score",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 1100,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 200,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 8192,
+        "hex": "00000011"
+      },
+      {
+        "offset": 8213,
+        "hex": "08"
+      },
+      {
+        "offset": 8217,
+        "hex": "03"
+      },
+      {
+        "offset": 8320,
+        "hex": "00000002"
+      },
+      {
+        "offset": 8341,
+        "hex": "08"
+      },
+      {
+        "offset": 8345,
+        "hex": "03"
+      }
+    ]
+  },
+  {
+    "game": "altbeast",
+    "stage": "later",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 1100,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 400,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 8192,
+        "hex": "00000011"
+      },
+      {
+        "offset": 8213,
+        "hex": "08"
+      },
+      {
+        "offset": 8217,
+        "hex": "02"
+      },
+      {
+        "offset": 8320,
+        "hex": "00000004"
+      },
+      {
+        "offset": 8341,
+        "hex": "08"
+      },
+      {
+        "offset": 8345,
+        "hex": "02"
+      }
+    ]
+  },
+  {
+    "game": "altbeast",
+    "stage": "end",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 1100,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 400,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 8192,
+        "hex": "00000011"
+      },
+      {
+        "offset": 8213,
+        "hex": "09"
+      },
+      {
+        "offset": 8217,
+        "hex": "00"
+      },
+      {
+        "offset": 8320,
+        "hex": "00000004"
+      },
+      {
+        "offset": 8341,
+        "hex": "09"
+      },
+      {
+        "offset": 8345,
+        "hex": "00"
+      }
+    ]
+  },
+  {
+    "game": "aliens",
+    "stage": "before",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 2048,
+        "hex": "00"
+      },
+      {
+        "offset": 2112,
+        "hex": "0000000000000000"
+      },
+      {
+        "offset": 6400,
+        "hex": "0000"
+      },
+      {
+        "offset": 6464,
+        "hex": "0000"
+      }
+    ]
+  },
+  {
+    "game": "aliens",
+    "stage": "start",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 2048,
+        "hex": "01"
+      },
+      {
+        "offset": 2112,
+        "hex": "0000000000000000"
+      },
+      {
+        "offset": 6400,
+        "hex": "0102"
+      },
+      {
+        "offset": 6464,
+        "hex": "0102"
+      }
+    ]
+  },
+  {
+    "game": "aliens",
+    "stage": "score",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 2048,
+        "hex": "01"
+      },
+      {
+        "offset": 2112,
+        "hex": "0000000000000000"
+      },
+      {
+        "offset": 6400,
+        "hex": "0102"
+      },
+      {
+        "offset": 6464,
+        "hex": "0102"
+      }
+    ]
+  },
+  {
+    "game": "aliens",
+    "stage": "later",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 300,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 2048,
+        "hex": "01"
+      },
+      {
+        "offset": 2112,
+        "hex": "0000000000000300"
+      },
+      {
+        "offset": 6400,
+        "hex": "0102"
+      },
+      {
+        "offset": 6464,
+        "hex": "0102"
+      }
+    ]
+  },
+  {
+    "game": "baddudes",
+    "stage": "before",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 460,
+        "hex": "0000000000000000"
+      },
+      {
+        "offset": 540,
+        "hex": "00"
+      },
+      {
+        "offset": 8795,
+        "hex": "00"
+      },
+      {
+        "offset": 9115,
+        "hex": "00"
+      }
+    ]
+  },
+  {
+    "game": "baddudes",
+    "stage": "start",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 460,
+        "hex": "0000000000000000"
+      },
+      {
+        "offset": 540,
+        "hex": "01"
+      },
+      {
+        "offset": 8795,
+        "hex": "02"
+      },
+      {
+        "offset": 9115,
+        "hex": "02"
+      }
+    ]
+  },
+  {
+    "game": "baddudes",
+    "stage": "score",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 400,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 460,
+        "hex": "0000000400000000"
+      },
+      {
+        "offset": 540,
+        "hex": "01"
+      },
+      {
+        "offset": 8795,
+        "hex": "02"
+      },
+      {
+        "offset": 9115,
+        "hex": "02"
+      }
+    ]
+  },
+  {
+    "game": "baddudes",
+    "stage": "later",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 800,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 400,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 460,
+        "hex": "0000000800000004"
+      },
+      {
+        "offset": 540,
+        "hex": "01"
+      },
+      {
+        "offset": 8795,
+        "hex": "02"
+      },
+      {
+        "offset": 9115,
+        "hex": "02"
+      }
+    ]
+  },
+  {
+    "game": "baddudes",
+    "stage": "end",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 800,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 400,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 460,
+        "hex": "0000000800000004"
+      },
+      {
+        "offset": 540,
+        "hex": "01"
+      },
+      {
+        "offset": 8795,
+        "hex": "02"
+      },
+      {
+        "offset": 9115,
+        "hex": "01"
+      }
+    ]
+  },
+  {
+    "game": "jackal",
+    "stage": "before",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 4920,
+        "hex": "0000000000000000"
+      },
+      {
+        "offset": 5240,
+        "hex": "00"
+      },
+      {
+        "offset": 5304,
+        "hex": "00"
+      }
+    ]
+  },
+  {
+    "game": "jackal",
+    "stage": "start",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 4920,
+        "hex": "0000000000000000"
+      },
+      {
+        "offset": 5240,
+        "hex": "01"
+      },
+      {
+        "offset": 5304,
+        "hex": "01"
+      }
+    ]
+  },
+  {
+    "game": "jackal",
+    "stage": "score",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 200,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 100,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 4920,
+        "hex": "0000020000000100"
+      },
+      {
+        "offset": 5240,
+        "hex": "01"
+      },
+      {
+        "offset": 5304,
+        "hex": "01"
+      }
+    ]
+  },
+  {
+    "game": "jackal",
+    "stage": "later",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 200,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 100,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 4920,
+        "hex": "0000020000000100"
+      },
+      {
+        "offset": 5240,
+        "hex": "01"
+      },
+      {
+        "offset": 5304,
+        "hex": "01"
+      }
+    ]
+  },
+  {
+    "game": "jackal",
+    "stage": "end",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 200,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 100,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 4920,
+        "hex": "0000020000000100"
+      },
+      {
+        "offset": 5240,
+        "hex": "00"
+      },
+      {
+        "offset": 5304,
+        "hex": "01"
+      }
+    ]
+  },
+  {
+    "game": "forgottn",
+    "stage": "before",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 36916,
+        "hex": "38"
+      },
+      {
+        "offset": 36948,
+        "hex": "38"
+      },
+      {
+        "offset": 45744,
+        "hex": "00"
+      },
+      {
+        "offset": 45750,
+        "hex": "0000000000000000"
+      }
+    ]
+  },
+  {
+    "game": "forgottn",
+    "stage": "start",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 36916,
+        "hex": "38"
+      },
+      {
+        "offset": 36948,
+        "hex": "38"
+      },
+      {
+        "offset": 45744,
+        "hex": "03"
+      },
+      {
+        "offset": 45750,
+        "hex": "0000000000000000"
+      }
+    ]
+  },
+  {
+    "game": "forgottn",
+    "stage": "score",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 3200,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 2000,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 36916,
+        "hex": "08"
+      },
+      {
+        "offset": 36948,
+        "hex": "08"
+      },
+      {
+        "offset": 45744,
+        "hex": "03"
+      },
+      {
+        "offset": 45750,
+        "hex": "0000003200000020"
+      }
+    ]
+  },
+  {
+    "game": "forgottn",
+    "stage": "later",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 36916,
+        "hex": "00"
+      },
+      {
+        "offset": 36948,
+        "hex": "00"
+      },
+      {
+        "offset": 45744,
+        "hex": "03"
+      },
+      {
+        "offset": 45750,
+        "hex": "0000000000000000"
+      }
+    ]
+  },
+  {
+    "game": "forgottn",
+    "stage": "end",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 36916,
+        "hex": "38"
+      },
+      {
+        "offset": 36948,
+        "hex": "38"
+      },
+      {
+        "offset": 45744,
+        "hex": "00"
+      },
+      {
+        "offset": 45750,
+        "hex": "0000000000000000"
+      }
+    ]
+  },
+  {
+    "game": "1945kiii",
+    "stage": "before",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 1000,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 42164,
+        "hex": "0000e803"
+      },
+      {
+        "offset": 42171,
+        "hex": "02"
+      },
+      {
+        "offset": 42198,
+        "hex": "00"
+      },
+      {
+        "offset": 42210,
+        "hex": "00000000"
+      },
+      {
+        "offset": 42217,
+        "hex": "02"
+      },
+      {
+        "offset": 42244,
+        "hex": "00"
+      }
+    ]
+  },
+  {
+    "game": "1945kiii",
+    "stage": "start",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 42164,
+        "hex": "00000000"
+      },
+      {
+        "offset": 42171,
+        "hex": "02"
+      },
+      {
+        "offset": 42198,
+        "hex": "01"
+      },
+      {
+        "offset": 42210,
+        "hex": "00000000"
+      },
+      {
+        "offset": 42217,
+        "hex": "02"
+      },
+      {
+        "offset": 42244,
+        "hex": "01"
+      }
+    ]
+  },
+  {
+    "game": "1945kiii",
+    "stage": "score",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 9100,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 5000,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 42164,
+        "hex": "00008c23"
+      },
+      {
+        "offset": 42171,
+        "hex": "02"
+      },
+      {
+        "offset": 42198,
+        "hex": "01"
+      },
+      {
+        "offset": 42210,
+        "hex": "00008813"
+      },
+      {
+        "offset": 42217,
+        "hex": "02"
+      },
+      {
+        "offset": 42244,
+        "hex": "02"
+      }
+    ]
+  },
+  {
+    "game": "1945kiii",
+    "stage": "later",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 28700,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 11400,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 42164,
+        "hex": "00001c70"
+      },
+      {
+        "offset": 42171,
+        "hex": "00"
+      },
+      {
+        "offset": 42198,
+        "hex": "01"
+      },
+      {
+        "offset": 42210,
+        "hex": "0000882c"
+      },
+      {
+        "offset": 42217,
+        "hex": "00"
+      },
+      {
+        "offset": 42244,
+        "hex": "01"
+      }
+    ]
+  },
+  {
+    "game": "1945kiii",
+    "stage": "end",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 79700,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 11400,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 42164,
+        "hex": "01005437"
+      },
+      {
+        "offset": 42171,
+        "hex": "ff"
+      },
+      {
+        "offset": 42198,
+        "hex": "02"
+      },
+      {
+        "offset": 42210,
+        "hex": "0000882c"
+      },
+      {
+        "offset": 42217,
+        "hex": "ff"
+      },
+      {
+        "offset": 42244,
+        "hex": "01"
+      }
+    ]
+  },
+  {
+    "game": "asterix",
+    "stage": "bot-before",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 16953,
+        "hex": "00"
+      },
+      {
+        "offset": 17920,
+        "hex": "0000"
+      },
+      {
+        "offset": 17925,
+        "hex": "00"
+      },
+      {
+        "offset": 17952,
+        "hex": "0000"
+      },
+      {
+        "offset": 17957,
+        "hex": "00"
+      }
+    ]
+  },
+  {
+    "game": "asterix",
+    "stage": "bot-start",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 16953,
+        "hex": "01"
+      },
+      {
+        "offset": 17920,
+        "hex": "0000"
+      },
+      {
+        "offset": 17925,
+        "hex": "03"
+      },
+      {
+        "offset": 17952,
+        "hex": "0000"
+      },
+      {
+        "offset": 17957,
+        "hex": "03"
+      }
+    ]
+  },
+  {
+    "game": "asterix",
+    "stage": "bot-score",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 300,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 16953,
+        "hex": "01"
+      },
+      {
+        "offset": 17920,
+        "hex": "0000"
+      },
+      {
+        "offset": 17925,
+        "hex": "03"
+      },
+      {
+        "offset": 17952,
+        "hex": "0300"
+      },
+      {
+        "offset": 17957,
+        "hex": "03"
+      }
+    ]
+  },
+  {
+    "game": "asterix",
+    "stage": "bot-later",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 300,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 16953,
+        "hex": "01"
+      },
+      {
+        "offset": 17920,
+        "hex": "0000"
+      },
+      {
+        "offset": 17925,
+        "hex": "03"
+      },
+      {
+        "offset": 17952,
+        "hex": "0300"
+      },
+      {
+        "offset": 17957,
+        "hex": "03"
+      }
+    ]
+  },
+  {
+    "game": "asterix",
+    "stage": "bot-end",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 16953,
+        "hex": "01"
+      },
+      {
+        "offset": 17920,
+        "hex": "0000"
+      },
+      {
+        "offset": 17925,
+        "hex": "02"
+      },
+      {
+        "offset": 17952,
+        "hex": "0000"
+      },
+      {
+        "offset": 17957,
+        "hex": "00"
+      }
+    ]
+  },
+  {
+    "game": "asterix",
+    "stage": "attack-start",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 16953,
+        "hex": "01"
+      },
+      {
+        "offset": 17920,
+        "hex": "0000"
+      },
+      {
+        "offset": 17925,
+        "hex": "03"
+      },
+      {
+        "offset": 17952,
+        "hex": "0000"
+      },
+      {
+        "offset": 17957,
+        "hex": "03"
+      }
+    ]
+  },
+  {
+    "game": "asterix",
+    "stage": "attack-score",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 200,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 16953,
+        "hex": "01"
+      },
+      {
+        "offset": 17920,
+        "hex": "0200"
+      },
+      {
+        "offset": 17925,
+        "hex": "03"
+      },
+      {
+        "offset": 17952,
+        "hex": "0000"
+      },
+      {
+        "offset": 17957,
+        "hex": "03"
+      }
+    ]
+  },
+  {
+    "game": "asterix",
+    "stage": "attack-later",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 200,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 16953,
+        "hex": "01"
+      },
+      {
+        "offset": 17920,
+        "hex": "0200"
+      },
+      {
+        "offset": 17925,
+        "hex": "03"
+      },
+      {
+        "offset": 17952,
+        "hex": "0000"
+      },
+      {
+        "offset": 17957,
+        "hex": "03"
+      }
+    ]
+  },
+  {
+    "game": "asterix",
+    "stage": "attack-end",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 200,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 16953,
+        "hex": "01"
+      },
+      {
+        "offset": 17920,
+        "hex": "0200"
+      },
+      {
+        "offset": 17925,
+        "hex": "03"
+      },
+      {
+        "offset": 17952,
+        "hex": "0000"
+      },
+      {
+        "offset": 17957,
+        "hex": "02"
+      }
+    ]
+  },
+  {
+    "game": "1944",
+    "stage": "before",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 138732,
+        "hex": "0000000000000000"
+      },
+      {
+        "offset": 141064,
+        "hex": "00"
+      },
+      {
+        "offset": 141320,
+        "hex": "00"
+      }
+    ]
+  },
+  {
+    "game": "1944",
+    "stage": "start",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 138732,
+        "hex": "0000000000000000"
+      },
+      {
+        "offset": 141064,
+        "hex": "4b"
+      },
+      {
+        "offset": 141320,
+        "hex": "4b"
+      }
+    ]
+  },
+  {
+    "game": "1944",
+    "stage": "score",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 7310,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 10280,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 138732,
+        "hex": "0000107301008002"
+      },
+      {
+        "offset": 141064,
+        "hex": "4b"
+      },
+      {
+        "offset": 141320,
+        "hex": "00"
+      }
+    ]
+  },
+  {
+    "game": "1944",
+    "stage": "later",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 28380,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 10280,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 138732,
+        "hex": "0200808301008002"
+      },
+      {
+        "offset": 141064,
+        "hex": "32"
+      },
+      {
+        "offset": 141320,
+        "hex": "00"
+      }
+    ]
+  },
+  {
+    "game": "1944",
+    "stage": "end",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 29520,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 10280,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 138732,
+        "hex": "0200209501008002"
+      },
+      {
+        "offset": 141064,
+        "hex": "00"
+      },
+      {
+        "offset": 141320,
+        "hex": "00"
+      }
+    ]
+  },
+  {
+    "game": "galaga88",
+    "stage": "before",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 36866,
+        "hex": "00"
+      },
+      {
+        "offset": 36982,
+        "hex": "00"
+      },
+      {
+        "offset": 37092,
+        "hex": "00"
+      },
+      {
+        "offset": 39443,
+        "hex": "000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "game": "galaga88",
+    "stage": "start",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 36866,
+        "hex": "00"
+      },
+      {
+        "offset": 36982,
+        "hex": "03"
+      },
+      {
+        "offset": 37092,
+        "hex": "03"
+      },
+      {
+        "offset": 39443,
+        "hex": "000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "game": "galaga88",
+    "stage": "score",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 1030,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 36866,
+        "hex": "00"
+      },
+      {
+        "offset": 36982,
+        "hex": "03"
+      },
+      {
+        "offset": 37092,
+        "hex": "03"
+      },
+      {
+        "offset": 39443,
+        "hex": "000000010003000000000000"
+      }
+    ]
+  },
+  {
+    "game": "galaga88",
+    "stage": "later",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 5860,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 36866,
+        "hex": "00"
+      },
+      {
+        "offset": 36982,
+        "hex": "03"
+      },
+      {
+        "offset": 37092,
+        "hex": "03"
+      },
+      {
+        "offset": 39443,
+        "hex": "000000050806000000000000"
+      }
+    ]
+  },
+  {
+    "game": "galaga88",
+    "stage": "end",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 5860,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 36866,
+        "hex": "00"
+      },
+      {
+        "offset": 36982,
+        "hex": "01"
+      },
+      {
+        "offset": 37092,
+        "hex": "01"
+      },
+      {
+        "offset": 39443,
+        "hex": "000000050806000000000000"
+      }
+    ]
+  },
+  {
+    "game": "pbobble",
+    "stage": "before",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 28754,
+        "hex": "00"
+      },
+      {
+        "offset": 28760,
+        "hex": "00000000"
+      },
+      {
+        "offset": 28888,
+        "hex": "00"
+      },
+      {
+        "offset": 28894,
+        "hex": "00000000"
+      }
+    ]
+  },
+  {
+    "game": "pbobble",
+    "stage": "start",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 28754,
+        "hex": "01"
+      },
+      {
+        "offset": 28760,
+        "hex": "00000000"
+      },
+      {
+        "offset": 28888,
+        "hex": "00"
+      },
+      {
+        "offset": 28894,
+        "hex": "00000000"
+      }
+    ]
+  },
+  {
+    "game": "pbobble",
+    "stage": "score",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 140,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 100,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 28754,
+        "hex": "01"
+      },
+      {
+        "offset": 28760,
+        "hex": "00008c00"
+      },
+      {
+        "offset": 28888,
+        "hex": "01"
+      },
+      {
+        "offset": 28894,
+        "hex": "00006400"
+      }
+    ]
+  },
+  {
+    "game": "pbobble",
+    "stage": "later",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 170,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 130,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 28754,
+        "hex": "01"
+      },
+      {
+        "offset": 28760,
+        "hex": "0000aa00"
+      },
+      {
+        "offset": 28888,
+        "hex": "01"
+      },
+      {
+        "offset": 28894,
+        "hex": "00008200"
+      }
+    ]
+  },
+  {
+    "game": "pbobble",
+    "stage": "end",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 200,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 130,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 28754,
+        "hex": "01"
+      },
+      {
+        "offset": 28760,
+        "hex": "0000c800"
+      },
+      {
+        "offset": 28888,
+        "hex": "01"
+      },
+      {
+        "offset": 28894,
+        "hex": "00008200"
+      }
+    ]
+  },
+  {
+    "game": "galaga88",
+    "stage": "passive-3",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 36866,
+        "hex": "00"
+      },
+      {
+        "offset": 36982,
+        "hex": "00"
+      },
+      {
+        "offset": 37092,
+        "hex": "01"
+      },
+      {
+        "offset": 39443,
+        "hex": "000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "game": "galaga88",
+    "stage": "passive-6",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 36866,
+        "hex": "00"
+      },
+      {
+        "offset": 36982,
+        "hex": "00"
+      },
+      {
+        "offset": 37092,
+        "hex": "00"
+      },
+      {
+        "offset": 39443,
+        "hex": "000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "game": "galaga88",
+    "stage": "passive-9",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 36866,
+        "hex": "10"
+      },
+      {
+        "offset": 36982,
+        "hex": "03"
+      },
+      {
+        "offset": 37092,
+        "hex": "00"
+      },
+      {
+        "offset": 39443,
+        "hex": "000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "game": "pbobble",
+    "stage": "passive-8",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 28754,
+        "hex": "01"
+      },
+      {
+        "offset": 28760,
+        "hex": "00000000"
+      },
+      {
+        "offset": 28888,
+        "hex": "01"
+      },
+      {
+        "offset": 28894,
+        "hex": "00000000"
+      }
+    ]
+  },
+  {
+    "game": "pbobble",
+    "stage": "passive-9",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 28754,
+        "hex": "01"
+      },
+      {
+        "offset": 28760,
+        "hex": "00000000"
+      },
+      {
+        "offset": 28888,
+        "hex": "00"
+      },
+      {
+        "offset": 28894,
+        "hex": "00000000"
+      }
+    ]
+  },
+  {
+    "game": "preisle2",
+    "stage": "before",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 20564,
+        "hex": "00"
+      },
+      {
+        "offset": 25300,
+        "hex": "00"
+      },
+      {
+        "offset": 49572,
+        "hex": "0000000000000000"
+      }
+    ]
+  },
+  {
+    "game": "preisle2",
+    "stage": "start",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 20564,
+        "hex": "03"
+      },
+      {
+        "offset": 25300,
+        "hex": "03"
+      },
+      {
+        "offset": 49572,
+        "hex": "0000000000000000"
+      }
+    ]
+  },
+  {
+    "game": "preisle2",
+    "stage": "score",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 5000,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 20564,
+        "hex": "03"
+      },
+      {
+        "offset": 25300,
+        "hex": "03"
+      },
+      {
+        "offset": 49572,
+        "hex": "0000000000005000"
+      }
+    ]
+  },
+  {
+    "game": "preisle2",
+    "stage": "later",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 33000,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 47000,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 20564,
+        "hex": "03"
+      },
+      {
+        "offset": 25300,
+        "hex": "03"
+      },
+      {
+        "offset": 49572,
+        "hex": "0000300300007004"
+      }
+    ]
+  },
+  {
+    "game": "preisle2",
+    "stage": "end",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 35000,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 47000,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 20564,
+        "hex": "00"
+      },
+      {
+        "offset": 25300,
+        "hex": "00"
+      },
+      {
+        "offset": 49572,
+        "hex": "0000500300007004"
+      }
+    ]
+  },
+  {
+    "game": "prehisle",
+    "stage": "before",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 48,
+        "hex": "000000000000000000000000"
+      },
+      {
+        "offset": 302,
+        "hex": "00"
+      },
+      {
+        "offset": 1710,
+        "hex": "00"
+      }
+    ]
+  },
+  {
+    "game": "prehisle",
+    "stage": "start",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 200,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 48,
+        "hex": "000000002000000000000000"
+      },
+      {
+        "offset": 302,
+        "hex": "02"
+      },
+      {
+        "offset": 1710,
+        "hex": "03"
+      }
+    ]
+  },
+  {
+    "game": "prehisle",
+    "stage": "score",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 2200,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 1600,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 48,
+        "hex": "000002002000000001006000"
+      },
+      {
+        "offset": 302,
+        "hex": "01"
+      },
+      {
+        "offset": 1710,
+        "hex": "01"
+      }
+    ]
+  },
+  {
+    "game": "prehisle",
+    "stage": "later",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 2200,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 3600,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 48,
+        "hex": "000002002000000003006000"
+      },
+      {
+        "offset": 302,
+        "hex": "00"
+      },
+      {
+        "offset": 1710,
+        "hex": "01"
+      }
+    ]
+  },
+  {
+    "game": "prehisle",
+    "stage": "end",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 2200,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 3600,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 48,
+        "hex": "000002002000000003006000"
+      },
+      {
+        "offset": 302,
+        "hex": "00"
+      },
+      {
+        "offset": 1710,
+        "hex": "00"
+      }
+    ]
+  },
+  {
+    "game": "rthunder",
+    "stage": "before",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 5203,
+        "hex": "0000000000000000"
+      },
+      {
+        "offset": 5248,
+        "hex": "00"
+      },
+      {
+        "offset": 5280,
+        "hex": "00"
+      },
+      {
+        "offset": 5634,
+        "hex": "03"
+      }
+    ]
+  },
+  {
+    "game": "rthunder",
+    "stage": "start",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 300,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 5203,
+        "hex": "0000003000000000"
+      },
+      {
+        "offset": 5248,
+        "hex": "03"
+      },
+      {
+        "offset": 5280,
+        "hex": "03"
+      },
+      {
+        "offset": 5634,
+        "hex": "06"
+      }
+    ]
+  },
+  {
+    "game": "rthunder",
+    "stage": "score",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 300,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 5203,
+        "hex": "0000003000000000"
+      },
+      {
+        "offset": 5248,
+        "hex": "03"
+      },
+      {
+        "offset": 5280,
+        "hex": "03"
+      },
+      {
+        "offset": 5634,
+        "hex": "06"
+      }
+    ]
+  },
+  {
+    "game": "rthunder",
+    "stage": "later",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 300,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 5203,
+        "hex": "0000003000000000"
+      },
+      {
+        "offset": 5248,
+        "hex": "03"
+      },
+      {
+        "offset": 5280,
+        "hex": "03"
+      },
+      {
+        "offset": 5634,
+        "hex": "06"
+      }
+    ]
+  },
+  {
+    "game": "rthunder",
+    "stage": "end",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 300,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 5203,
+        "hex": "0000003000000000"
+      },
+      {
+        "offset": 5248,
+        "hex": "03"
+      },
+      {
+        "offset": 5280,
+        "hex": "03"
+      },
+      {
+        "offset": 5634,
+        "hex": "06"
+      }
+    ]
+  },
+  {
+    "game": "salamand",
+    "stage": "before",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 897,
+        "hex": "0000000000"
+      },
+      {
+        "offset": 961,
+        "hex": "0000000000"
+      }
+    ]
+  },
+  {
+    "game": "salamand",
+    "stage": "start",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 300,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 600,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 897,
+        "hex": "0300000003"
+      },
+      {
+        "offset": 961,
+        "hex": "0200000006"
+      }
+    ]
+  },
+  {
+    "game": "salamand",
+    "stage": "score",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 5500,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 1200,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 897,
+        "hex": "0100000055"
+      },
+      {
+        "offset": 961,
+        "hex": "0000000012"
+      }
+    ]
+  },
+  {
+    "game": "salamand",
+    "stage": "later",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 7500,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 1200,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 897,
+        "hex": "0000000075"
+      },
+      {
+        "offset": 961,
+        "hex": "0000000012"
+      }
+    ]
+  },
+  {
+    "game": "salamand",
+    "stage": "end",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 7500,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 1200,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 897,
+        "hex": "1000000075"
+      },
+      {
+        "offset": 961,
+        "hex": "0000000012"
+      }
+    ]
+  },
+  {
+    "game": "tmnt2po",
+    "stage": "before",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 256,
+        "hex": "00"
+      },
+      {
+        "offset": 260,
+        "hex": "0000"
+      },
+      {
+        "offset": 263,
+        "hex": "0000"
+      },
+      {
+        "offset": 268,
+        "hex": "0000"
+      },
+      {
+        "offset": 271,
+        "hex": "00"
+      }
+    ]
+  },
+  {
+    "game": "tmnt2po",
+    "stage": "start",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 256,
+        "hex": "01"
+      },
+      {
+        "offset": 260,
+        "hex": "0000"
+      },
+      {
+        "offset": 263,
+        "hex": "0a01"
+      },
+      {
+        "offset": 268,
+        "hex": "0000"
+      },
+      {
+        "offset": 271,
+        "hex": "0a"
+      }
+    ]
+  },
+  {
+    "game": "tmnt2po",
+    "stage": "score",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 1,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 4,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 256,
+        "hex": "01"
+      },
+      {
+        "offset": 260,
+        "hex": "0100"
+      },
+      {
+        "offset": 263,
+        "hex": "0a01"
+      },
+      {
+        "offset": 268,
+        "hex": "0400"
+      },
+      {
+        "offset": 271,
+        "hex": "0a"
+      }
+    ]
+  },
+  {
+    "game": "tmnt2po",
+    "stage": "later",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 3,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 16,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 256,
+        "hex": "01"
+      },
+      {
+        "offset": 260,
+        "hex": "0300"
+      },
+      {
+        "offset": 263,
+        "hex": "0001"
+      },
+      {
+        "offset": 268,
+        "hex": "1000"
+      },
+      {
+        "offset": 271,
+        "hex": "01"
+      }
+    ]
+  },
+  {
+    "game": "tmnt2po",
+    "stage": "end",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 3,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 16,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 256,
+        "hex": "00"
+      },
+      {
+        "offset": 260,
+        "hex": "0300"
+      },
+      {
+        "offset": 263,
+        "hex": "0000"
+      },
+      {
+        "offset": 268,
+        "hex": "1000"
+      },
+      {
+        "offset": 271,
+        "hex": "0a"
+      }
+    ]
+  },
+  {
+    "game": "darius",
+    "stage": "before",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 421,
+        "hex": "00"
+      },
+      {
+        "offset": 11132,
+        "hex": "03"
+      },
+      {
+        "offset": 11184,
+        "hex": "00"
+      },
+      {
+        "offset": 11238,
+        "hex": "00000000"
+      },
+      {
+        "offset": 11260,
+        "hex": "00000000"
+      }
+    ]
+  },
+  {
+    "game": "darius",
+    "stage": "start",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 600,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 300,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 421,
+        "hex": "01"
+      },
+      {
+        "offset": 11132,
+        "hex": "02"
+      },
+      {
+        "offset": 11184,
+        "hex": "03"
+      },
+      {
+        "offset": 11238,
+        "hex": "00005802"
+      },
+      {
+        "offset": 11260,
+        "hex": "00002c01"
+      }
+    ]
+  },
+  {
+    "game": "darius",
+    "stage": "score",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 10900,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 910,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 421,
+        "hex": "01"
+      },
+      {
+        "offset": 11132,
+        "hex": "03"
+      },
+      {
+        "offset": 11184,
+        "hex": "03"
+      },
+      {
+        "offset": 11238,
+        "hex": "0000942a"
+      },
+      {
+        "offset": 11260,
+        "hex": "00008e03"
+      }
+    ]
+  },
+  {
+    "game": "darius",
+    "stage": "later",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 23500,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 1520,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 421,
+        "hex": "01"
+      },
+      {
+        "offset": 11132,
+        "hex": "03"
+      },
+      {
+        "offset": 11184,
+        "hex": "03"
+      },
+      {
+        "offset": 11238,
+        "hex": "0000cc5b"
+      },
+      {
+        "offset": 11260,
+        "hex": "0000f005"
+      }
+    ]
+  },
+  {
+    "game": "darius",
+    "stage": "end",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 23500,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 1520,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 421,
+        "hex": "00"
+      },
+      {
+        "offset": 11132,
+        "hex": "06"
+      },
+      {
+        "offset": 11184,
+        "hex": "06"
+      },
+      {
+        "offset": 11238,
+        "hex": "0000cc5b"
+      },
+      {
+        "offset": 11260,
+        "hex": "0000f005"
+      }
+    ]
+  },
+  {
+    "game": "twinbee",
+    "stage": "before",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 59992,
+        "hex": "74ac"
+      },
+      {
+        "offset": 60032,
+        "hex": "03"
+      },
+      {
+        "offset": 60034,
+        "hex": "00000000"
+      },
+      {
+        "offset": 60096,
+        "hex": "03"
+      },
+      {
+        "offset": 60098,
+        "hex": "00000000"
+      }
+    ]
+  },
+  {
+    "game": "twinbee",
+    "stage": "start",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 50,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 59992,
+        "hex": "44ac"
+      },
+      {
+        "offset": 60032,
+        "hex": "03"
+      },
+      {
+        "offset": 60034,
+        "hex": "00000000"
+      },
+      {
+        "offset": 60096,
+        "hex": "03"
+      },
+      {
+        "offset": 60098,
+        "hex": "00005000"
+      }
+    ]
+  },
+  {
+    "game": "twinbee",
+    "stage": "score",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 400,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 1250,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 59992,
+        "hex": "3cac"
+      },
+      {
+        "offset": 60032,
+        "hex": "01"
+      },
+      {
+        "offset": 60034,
+        "hex": "00000004"
+      },
+      {
+        "offset": 60096,
+        "hex": "01"
+      },
+      {
+        "offset": 60098,
+        "hex": "00005012"
+      }
+    ]
+  },
+  {
+    "game": "twinbee",
+    "stage": "later",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 650,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 3050,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 59992,
+        "hex": "3cac"
+      },
+      {
+        "offset": 60032,
+        "hex": "00"
+      },
+      {
+        "offset": 60034,
+        "hex": "00005006"
+      },
+      {
+        "offset": 60096,
+        "hex": "01"
+      },
+      {
+        "offset": 60098,
+        "hex": "00005030"
+      }
+    ]
+  },
+  {
+    "game": "twinbee",
+    "stage": "end",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 650,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 3100,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 59992,
+        "hex": "80ac"
+      },
+      {
+        "offset": 60032,
+        "hex": "00"
+      },
+      {
+        "offset": 60034,
+        "hex": "00005006"
+      },
+      {
+        "offset": 60096,
+        "hex": "00"
+      },
+      {
+        "offset": 60098,
+        "hex": "00000031"
+      }
+    ]
+  },
+  {
+    "game": "rthun2",
+    "stage": "before",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 131116,
+        "hex": "0000000000000000"
+      },
+      {
+        "offset": 131128,
+        "hex": "00"
+      },
+      {
+        "offset": 131940,
+        "hex": "00"
+      },
+      {
+        "offset": 131962,
+        "hex": "00"
+      },
+      {
+        "offset": 132078,
+        "hex": "00"
+      },
+      {
+        "offset": 132100,
+        "hex": "00"
+      }
+    ]
+  },
+  {
+    "game": "rthun2",
+    "stage": "start",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 131116,
+        "hex": "0000000000000000"
+      },
+      {
+        "offset": 131128,
+        "hex": "00"
+      },
+      {
+        "offset": 131940,
+        "hex": "01"
+      },
+      {
+        "offset": 131962,
+        "hex": "02"
+      },
+      {
+        "offset": 132078,
+        "hex": "02"
+      },
+      {
+        "offset": 132100,
+        "hex": "02"
+      }
+    ]
+  },
+  {
+    "game": "rthun2",
+    "stage": "score",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 400,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 2000,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 131116,
+        "hex": "0000000400000020"
+      },
+      {
+        "offset": 131128,
+        "hex": "00"
+      },
+      {
+        "offset": 131940,
+        "hex": "01"
+      },
+      {
+        "offset": 131962,
+        "hex": "02"
+      },
+      {
+        "offset": 132078,
+        "hex": "02"
+      },
+      {
+        "offset": 132100,
+        "hex": "02"
+      }
+    ]
+  },
+  {
+    "game": "rthun2",
+    "stage": "later",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 800,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 3200,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 131116,
+        "hex": "0000000800000032"
+      },
+      {
+        "offset": 131128,
+        "hex": "00"
+      },
+      {
+        "offset": 131940,
+        "hex": "01"
+      },
+      {
+        "offset": 131962,
+        "hex": "01"
+      },
+      {
+        "offset": 132078,
+        "hex": "02"
+      },
+      {
+        "offset": 132100,
+        "hex": "01"
+      }
+    ]
+  },
+  {
+    "game": "rthun2",
+    "stage": "end",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 800,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 3200,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 131116,
+        "hex": "0000000800000032"
+      },
+      {
+        "offset": 131128,
+        "hex": "00"
+      },
+      {
+        "offset": 131940,
+        "hex": "01"
+      },
+      {
+        "offset": 131962,
+        "hex": "01"
+      },
+      {
+        "offset": 132078,
+        "hex": "02"
+      },
+      {
+        "offset": 132100,
+        "hex": "01"
+      }
+    ]
+  },
+  {
+    "game": "rthun2",
+    "stage": "calibration-last-life",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 131116,
+        "hex": "0000000000000000"
+      },
+      {
+        "offset": 131128,
+        "hex": "00"
+      },
+      {
+        "offset": 131940,
+        "hex": "01"
+      },
+      {
+        "offset": 131962,
+        "hex": "00"
+      },
+      {
+        "offset": 132078,
+        "hex": "02"
+      },
+      {
+        "offset": 132100,
+        "hex": "00"
+      }
+    ]
+  },
+  {
+    "game": "rthun2",
+    "stage": "calibration-score",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 400,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 2000,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 131116,
+        "hex": "0000000400000020"
+      },
+      {
+        "offset": 131128,
+        "hex": "00"
+      },
+      {
+        "offset": 131940,
+        "hex": "01"
+      },
+      {
+        "offset": 131962,
+        "hex": "00"
+      },
+      {
+        "offset": 132078,
+        "hex": "02"
+      },
+      {
+        "offset": 132100,
+        "hex": "00"
+      }
+    ]
+  },
+  {
+    "game": "rthun2",
+    "stage": "calibration-gameover",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 131116,
+        "hex": "0000000000000000"
+      },
+      {
+        "offset": 131128,
+        "hex": "00"
+      },
+      {
+        "offset": 131940,
+        "hex": "00"
+      },
+      {
+        "offset": 131962,
+        "hex": "00"
+      },
+      {
+        "offset": 132078,
+        "hex": "00"
+      },
+      {
+        "offset": 132100,
+        "hex": "00"
+      }
+    ]
+  },
+  {
+    "game": "shinobi",
+    "stage": "before",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 5952,
+        "hex": "00000000"
+      },
+      {
+        "offset": 5969,
+        "hex": "00"
+      },
+      {
+        "offset": 6048,
+        "hex": "00000000"
+      },
+      {
+        "offset": 6065,
+        "hex": "00"
+      },
+      {
+        "offset": 12327,
+        "hex": "01"
+      },
+      {
+        "offset": 12437,
+        "hex": "ff"
+      }
+    ]
+  },
+  {
+    "game": "shinobi",
+    "stage": "start",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 5952,
+        "hex": "00000000"
+      },
+      {
+        "offset": 5969,
+        "hex": "03"
+      },
+      {
+        "offset": 6048,
+        "hex": "00000000"
+      },
+      {
+        "offset": 6065,
+        "hex": "03"
+      },
+      {
+        "offset": 12327,
+        "hex": "04"
+      },
+      {
+        "offset": 12437,
+        "hex": "f9"
+      }
+    ]
+  },
+  {
+    "game": "shinobi",
+    "stage": "score",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 100,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 5952,
+        "hex": "00000001"
+      },
+      {
+        "offset": 5969,
+        "hex": "03"
+      },
+      {
+        "offset": 6048,
+        "hex": "00000000"
+      },
+      {
+        "offset": 6065,
+        "hex": "03"
+      },
+      {
+        "offset": 12327,
+        "hex": "04"
+      },
+      {
+        "offset": 12437,
+        "hex": "f9"
+      }
+    ]
+  },
+  {
+    "game": "shinobi",
+    "stage": "later",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 100,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 5952,
+        "hex": "00000001"
+      },
+      {
+        "offset": 5969,
+        "hex": "03"
+      },
+      {
+        "offset": 6048,
+        "hex": "00000000"
+      },
+      {
+        "offset": 6065,
+        "hex": "03"
+      },
+      {
+        "offset": 12327,
+        "hex": "04"
+      },
+      {
+        "offset": 12437,
+        "hex": "f9"
+      }
+    ]
+  },
+  {
+    "game": "shinobi",
+    "stage": "end",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 100,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 5952,
+        "hex": "00000001"
+      },
+      {
+        "offset": 5969,
+        "hex": "01"
+      },
+      {
+        "offset": 6048,
+        "hex": "00000000"
+      },
+      {
+        "offset": 6065,
+        "hex": "01"
+      },
+      {
+        "offset": 12327,
+        "hex": "04"
+      },
+      {
+        "offset": 12437,
+        "hex": "f9"
+      }
+    ]
+  },
+  {
+    "game": "shinobi",
+    "stage": "turn-back",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 100,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 5952,
+        "hex": "00000001"
+      },
+      {
+        "offset": 5969,
+        "hex": "02"
+      },
+      {
+        "offset": 6048,
+        "hex": "00000000"
+      },
+      {
+        "offset": 6065,
+        "hex": "02"
+      },
+      {
+        "offset": 12327,
+        "hex": "04"
+      },
+      {
+        "offset": 12437,
+        "hex": "f9"
+      }
+    ]
+  },
+  {
+    "game": "shinobi",
+    "stage": "p1-gameover",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 100,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 5952,
+        "hex": "00000001"
+      },
+      {
+        "offset": 5969,
+        "hex": "00"
+      },
+      {
+        "offset": 6048,
+        "hex": "00000000"
+      },
+      {
+        "offset": 6065,
+        "hex": "01"
+      },
+      {
+        "offset": 12327,
+        "hex": "04"
+      },
+      {
+        "offset": 12437,
+        "hex": "fb"
+      }
+    ]
+  },
+  {
+    "game": "shinobi",
+    "stage": "both-gameover",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 100,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 5952,
+        "hex": "00000000"
+      },
+      {
+        "offset": 5969,
+        "hex": "00"
+      },
+      {
+        "offset": 6048,
+        "hex": "00000001"
+      },
+      {
+        "offset": 6065,
+        "hex": "00"
+      },
+      {
+        "offset": 12327,
+        "hex": "06"
+      },
+      {
+        "offset": 12437,
+        "hex": "ff"
+      }
+    ]
+  },
+  {
+    "game": "shinobi",
+    "stage": "calibration-both-scores",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 2345,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 1234,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 5952,
+        "hex": "00003412"
+      },
+      {
+        "offset": 5969,
+        "hex": "03"
+      },
+      {
+        "offset": 6048,
+        "hex": "00004523"
+      },
+      {
+        "offset": 6065,
+        "hex": "02"
+      },
+      {
+        "offset": 12327,
+        "hex": "06"
+      },
+      {
+        "offset": 12437,
+        "hex": "f9"
+      }
+    ]
+  },
+  {
+    "game": "salmndr2",
+    "stage": "before",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 3900,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 4200,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 172289,
+        "hex": "06"
+      },
+      {
+        "offset": 172307,
+        "hex": "0000"
+      },
+      {
+        "offset": 172313,
+        "hex": "2700"
+      },
+      {
+        "offset": 173227,
+        "hex": "06"
+      },
+      {
+        "offset": 173251,
+        "hex": "2a000000"
+      },
+      {
+        "offset": 174175,
+        "hex": "0200"
+      }
+    ]
+  },
+  {
+    "game": "salmndr2",
+    "stage": "start",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 1400,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 1700,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 172289,
+        "hex": "02"
+      },
+      {
+        "offset": 172307,
+        "hex": "0000"
+      },
+      {
+        "offset": 172313,
+        "hex": "0e00"
+      },
+      {
+        "offset": 173227,
+        "hex": "02"
+      },
+      {
+        "offset": 173251,
+        "hex": "11000000"
+      },
+      {
+        "offset": 174175,
+        "hex": "0400"
+      }
+    ]
+  },
+  {
+    "game": "salmndr2",
+    "stage": "score",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 2500,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 3500,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 172289,
+        "hex": "01"
+      },
+      {
+        "offset": 172307,
+        "hex": "0000"
+      },
+      {
+        "offset": 172313,
+        "hex": "1900"
+      },
+      {
+        "offset": 173227,
+        "hex": "01"
+      },
+      {
+        "offset": 173251,
+        "hex": "23000000"
+      },
+      {
+        "offset": 174175,
+        "hex": "0400"
+      }
+    ]
+  },
+  {
+    "game": "salmndr2",
+    "stage": "later",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 2700,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 3700,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 172289,
+        "hex": "00"
+      },
+      {
+        "offset": 172307,
+        "hex": "0000"
+      },
+      {
+        "offset": 172313,
+        "hex": "1b00"
+      },
+      {
+        "offset": 173227,
+        "hex": "00"
+      },
+      {
+        "offset": 173251,
+        "hex": "25000000"
+      },
+      {
+        "offset": 174175,
+        "hex": "0400"
+      }
+    ]
+  },
+  {
+    "game": "salmndr2",
+    "stage": "end",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 172289,
+        "hex": "00"
+      },
+      {
+        "offset": 172307,
+        "hex": "0000"
+      },
+      {
+        "offset": 172313,
+        "hex": "0000"
+      },
+      {
+        "offset": 173227,
+        "hex": "00"
+      },
+      {
+        "offset": 173251,
+        "hex": "00000000"
+      },
+      {
+        "offset": 174175,
+        "hex": "0100"
+      }
+    ]
+  },
+  {
+    "game": "88games",
+    "stage": "before",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 2055,
+        "hex": "00"
+      },
+      {
+        "offset": 2110,
+        "hex": "0000"
+      },
+      {
+        "offset": 10280,
+        "hex": "000000000000"
+      }
+    ]
+  },
+  {
+    "game": "88games",
+    "stage": "start",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 2055,
+        "hex": "01"
+      },
+      {
+        "offset": 2110,
+        "hex": "0303"
+      },
+      {
+        "offset": 10280,
+        "hex": "000000000000"
+      }
+    ]
+  },
+  {
+    "game": "88games",
+    "stage": "score",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 1856,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 1856,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 2055,
+        "hex": "01"
+      },
+      {
+        "offset": 2110,
+        "hex": "0303"
+      },
+      {
+        "offset": 10280,
+        "hex": "001856001856"
+      }
+    ]
+  },
+  {
+    "game": "88games",
+    "stage": "later",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 1856,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 1856,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 2055,
+        "hex": "01"
+      },
+      {
+        "offset": 2110,
+        "hex": "0303"
+      },
+      {
+        "offset": 10280,
+        "hex": "001856001856"
+      }
+    ]
+  },
+  {
+    "game": "88games",
+    "stage": "end",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 1856,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 1856,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 2055,
+        "hex": "01"
+      },
+      {
+        "offset": 2110,
+        "hex": "0303"
+      },
+      {
+        "offset": 10280,
+        "hex": "001856001856"
+      }
+    ]
+  },
+  {
+    "game": "88games",
+    "stage": "eliminated-results",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 2055,
+        "hex": "01"
+      },
+      {
+        "offset": 2110,
+        "hex": "0003"
+      },
+      {
+        "offset": 10280,
+        "hex": "000000000000"
+      }
+    ]
+  },
+  {
+    "game": "88games",
+    "stage": "both-gameover",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 2055,
+        "hex": "00"
+      },
+      {
+        "offset": 2110,
+        "hex": "0003"
+      },
+      {
+        "offset": 10280,
+        "hex": "000000000000"
+      }
+    ]
+  },
+  {
+    "game": "orunners",
+    "stage": "attract",
+    "source": "FBNeo native RAM capture orunners-attract",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 255,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 64322,
+        "hex": "ff00"
+      },
+      {
+        "offset": 64362,
+        "hex": "0000"
+      },
+      {
+        "offset": 64412,
+        "hex": "0000"
+      },
+      {
+        "offset": 64450,
+        "hex": "0000"
+      },
+      {
+        "offset": 64540,
+        "hex": "0000"
+      }
+    ]
+  },
+  {
+    "game": "orunners",
+    "stage": "start",
+    "source": "FBNeo native RAM capture orunners-start",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 64322,
+        "hex": "0000"
+      },
+      {
+        "offset": 64362,
+        "hex": "0000"
+      },
+      {
+        "offset": 64412,
+        "hex": "0300"
+      },
+      {
+        "offset": 64450,
+        "hex": "0000"
+      },
+      {
+        "offset": 64540,
+        "hex": "0303"
+      }
+    ]
+  },
+  {
+    "game": "orunners",
+    "stage": "score",
+    "source": "FBNeo native RAM capture orunners-score",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 16,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 16,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 64322,
+        "hex": "1000"
+      },
+      {
+        "offset": 64362,
+        "hex": "5c04"
+      },
+      {
+        "offset": 64412,
+        "hex": "0300"
+      },
+      {
+        "offset": 64450,
+        "hex": "1000"
+      },
+      {
+        "offset": 64540,
+        "hex": "0303"
+      }
+    ]
+  },
+  {
+    "game": "orunners",
+    "stage": "end",
+    "source": "FBNeo native RAM capture orunners-end",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 16,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 16,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 64322,
+        "hex": "1000"
+      },
+      {
+        "offset": 64362,
+        "hex": "5f00"
+      },
+      {
+        "offset": 64412,
+        "hex": "0300"
+      },
+      {
+        "offset": 64450,
+        "hex": "1000"
+      },
+      {
+        "offset": 64540,
+        "hex": "0303"
+      }
+    ]
+  },
+  {
+    "game": "orunners",
+    "stage": "score",
+    "source": "FBNeo native RAM capture orunners-drivepoints",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 315,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 319,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 64322,
+        "hex": "3b01"
+      },
+      {
+        "offset": 64362,
+        "hex": "6503"
+      },
+      {
+        "offset": 64412,
+        "hex": "0300"
+      },
+      {
+        "offset": 64450,
+        "hex": "3f01"
+      },
+      {
+        "offset": 64540,
+        "hex": "0303"
+      }
+    ]
+  },
+  {
+    "game": "orunners",
+    "stage": "brakeconfirmed",
+    "source": "FBNeo native RAM capture orunners-brakeconfirmed",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 450,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 379,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 64322,
+        "hex": "c201"
+      },
+      {
+        "offset": 64362,
+        "hex": "0403"
+      },
+      {
+        "offset": 64412,
+        "hex": "0300"
+      },
+      {
+        "offset": 64450,
+        "hex": "7b01"
+      },
+      {
+        "offset": 64540,
+        "hex": "0303"
+      }
+    ]
+  },
+  {
+    "game": "orunners",
+    "stage": "gas-check",
+    "source": "FBNeo native RAM capture orunners-gas-check",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 810,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 857,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 64322,
+        "hex": "2a03"
+      },
+      {
+        "offset": 64362,
+        "hex": "d905"
+      },
+      {
+        "offset": 64412,
+        "hex": "0300"
+      },
+      {
+        "offset": 64450,
+        "hex": "5903"
+      },
+      {
+        "offset": 64540,
+        "hex": "0303"
+      }
+    ]
+  },
+  {
+    "game": "orunners",
+    "stage": "drivebot-70",
+    "source": "FBNeo native RAM capture orunners-drivebot-70",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 1908,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 1906,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 64322,
+        "hex": "7407"
+      },
+      {
+        "offset": 64362,
+        "hex": "b501"
+      },
+      {
+        "offset": 64412,
+        "hex": "0300"
+      },
+      {
+        "offset": 64450,
+        "hex": "7207"
+      },
+      {
+        "offset": 64540,
+        "hex": "0303"
+      }
+    ]
+  },
+  {
+    "game": "orunners",
+    "stage": "drivebot-105",
+    "source": "FBNeo native RAM capture orunners-drivebot-105",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 2335,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 2316,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 64322,
+        "hex": "1f09"
+      },
+      {
+        "offset": 64362,
+        "hex": "0000"
+      },
+      {
+        "offset": 64412,
+        "hex": "0300"
+      },
+      {
+        "offset": 64450,
+        "hex": "0c09"
+      },
+      {
+        "offset": 64540,
+        "hex": "0303"
+      }
+    ]
+  },
+  {
+    "game": "orunners",
+    "stage": "drivebot-210",
+    "source": "FBNeo native RAM capture orunners-drivebot-210",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 89,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 88,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 64322,
+        "hex": "5900"
+      },
+      {
+        "offset": 64362,
+        "hex": "0000"
+      },
+      {
+        "offset": 64412,
+        "hex": "0300"
+      },
+      {
+        "offset": 64450,
+        "hex": "5800"
+      },
+      {
+        "offset": 64540,
+        "hex": "0303"
+      }
+    ]
+  },
+  {
+    "game": "orunners",
+    "stage": "drivebot-245",
+    "source": "FBNeo native RAM capture orunners-drivebot-245",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 64322,
+        "hex": "0000"
+      },
+      {
+        "offset": 64362,
+        "hex": "0000"
+      },
+      {
+        "offset": 64412,
+        "hex": "0300"
+      },
+      {
+        "offset": 64450,
+        "hex": "0000"
+      },
+      {
+        "offset": 64540,
+        "hex": "0303"
+      }
+    ]
+  },
+  {
+    "game": "kickoff",
+    "stage": "attract",
+    "source": "FBNeo native RAM capture kickoff-attract",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 4,
+        "hex": "0000"
+      },
+      {
+        "offset": 300,
+        "hex": "00000000"
+      }
+    ]
+  },
+  {
+    "game": "kickoff",
+    "stage": "start",
+    "source": "FBNeo native RAM capture kickoff-start",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 4,
+        "hex": "0100"
+      },
+      {
+        "offset": 300,
+        "hex": "00000000"
+      }
+    ]
+  },
+  {
+    "game": "kickoff",
+    "stage": "score",
+    "source": "FBNeo native RAM capture kickoff-score",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 4,
+        "hex": "0100"
+      },
+      {
+        "offset": 300,
+        "hex": "00000000"
+      }
+    ]
+  },
+  {
+    "game": "kickoff",
+    "stage": "end",
+    "source": "FBNeo native RAM capture kickoff-end",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 1,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 4,
+        "hex": "0100"
+      },
+      {
+        "offset": 300,
+        "hex": "00000100"
+      }
+    ]
+  },
+  {
+    "game": "kickoff",
+    "stage": "v3-attract",
+    "source": "FBNeo native RAM capture kickoff-v3-attract",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 4,
+        "hex": "0000"
+      },
+      {
+        "offset": 300,
+        "hex": "00000000"
+      }
+    ]
+  },
+  {
+    "game": "kickoff",
+    "stage": "v3-start",
+    "source": "FBNeo native RAM capture kickoff-v3-start",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 4,
+        "hex": "0200"
+      },
+      {
+        "offset": 300,
+        "hex": "00000000"
+      }
+    ]
+  },
+  {
+    "game": "kickoff",
+    "stage": "v3-score",
+    "source": "FBNeo native RAM capture kickoff-v3-score",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 4,
+        "hex": "0200"
+      },
+      {
+        "offset": 300,
+        "hex": "00000000"
+      }
+    ]
+  },
+  {
+    "game": "kickoff",
+    "stage": "v3-end",
+    "source": "FBNeo native RAM capture kickoff-v3-end",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 4,
+        "hex": "0200"
+      },
+      {
+        "offset": 300,
+        "hex": "00000000"
+      }
+    ]
+  },
+  {
+    "game": "kickoff",
+    "stage": "score",
+    "source": "FBNeo native RAM capture kickoff-football-goal",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 1,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 4,
+        "hex": "0200"
+      },
+      {
+        "offset": 300,
+        "hex": "00000100"
+      }
+    ]
+  },
+  {
+    "game": "kickoff",
+    "stage": "football-end",
+    "source": "FBNeo native RAM capture kickoff-football-end",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 1,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 4,
+        "hex": "0200"
+      },
+      {
+        "offset": 300,
+        "hex": "00000100"
+      }
+    ]
+  },
+  {
+    "game": "kickoff",
+    "stage": "soccer-bot",
+    "source": "FBNeo native RAM capture kickoff-soccer-bot",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 4,
+        "hex": "0000"
+      },
+      {
+        "offset": 300,
+        "hex": "00000000"
+      }
+    ]
+  },
+  {
+    "game": "kof98",
+    "stage": "attract",
+    "source": "FBNeo native RAM capture kof98-attract",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 33276,
+        "hex": "00000000"
+      },
+      {
+        "offset": 33788,
+        "hex": "00000000"
+      },
+      {
+        "offset": 64942,
+        "hex": "0102"
+      },
+      {
+        "offset": 64950,
+        "hex": "0000"
+      }
+    ]
+  },
+  {
+    "game": "kof98",
+    "stage": "start",
+    "source": "FBNeo native RAM capture kof98-start",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 33276,
+        "hex": "00000000"
+      },
+      {
+        "offset": 33788,
+        "hex": "00000000"
+      },
+      {
+        "offset": 64942,
+        "hex": "0203"
+      },
+      {
+        "offset": 64950,
+        "hex": "0101"
+      }
+    ]
+  },
+  {
+    "game": "kof98",
+    "stage": "score",
+    "source": "FBNeo native RAM capture kof98-score",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 800,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 33276,
+        "hex": "00000000"
+      },
+      {
+        "offset": 33788,
+        "hex": "00000008"
+      },
+      {
+        "offset": 64942,
+        "hex": "0203"
+      },
+      {
+        "offset": 64950,
+        "hex": "0101"
+      }
+    ]
+  },
+  {
+    "game": "kof98",
+    "stage": "end",
+    "source": "FBNeo native RAM capture kof98-end",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 800,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 800,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 33276,
+        "hex": "00000008"
+      },
+      {
+        "offset": 33788,
+        "hex": "00000008"
+      },
+      {
+        "offset": 64942,
+        "hex": "0203"
+      },
+      {
+        "offset": 64950,
+        "hex": "0101"
+      }
+    ]
+  },
+  {
+    "game": "kof98",
+    "stage": "v3-attract",
+    "source": "FBNeo native RAM capture kof98-v3-attract",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 33276,
+        "hex": "00000000"
+      },
+      {
+        "offset": 33788,
+        "hex": "00000000"
+      },
+      {
+        "offset": 64942,
+        "hex": "0102"
+      },
+      {
+        "offset": 64950,
+        "hex": "0000"
+      }
+    ]
+  },
+  {
+    "game": "kof98",
+    "stage": "v3-start",
+    "source": "FBNeo native RAM capture kof98-v3-start",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 33276,
+        "hex": "00000000"
+      },
+      {
+        "offset": 33788,
+        "hex": "00000000"
+      },
+      {
+        "offset": 64942,
+        "hex": "0203"
+      },
+      {
+        "offset": 64950,
+        "hex": "0101"
+      }
+    ]
+  },
+  {
+    "game": "kof98",
+    "stage": "v3-score",
+    "source": "FBNeo native RAM capture kof98-v3-score",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 800,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 800,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 33276,
+        "hex": "00000008"
+      },
+      {
+        "offset": 33788,
+        "hex": "00000008"
+      },
+      {
+        "offset": 64942,
+        "hex": "0203"
+      },
+      {
+        "offset": 64950,
+        "hex": "0101"
+      }
+    ]
+  },
+  {
+    "game": "kof98",
+    "stage": "v3-end",
+    "source": "FBNeo native RAM capture kof98-v3-end",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 33276,
+        "hex": "00000000"
+      },
+      {
+        "offset": 33788,
+        "hex": "00000000"
+      },
+      {
+        "offset": 64942,
+        "hex": "0203"
+      },
+      {
+        "offset": 64950,
+        "hex": "0101"
+      }
+    ]
+  },
+  {
+    "game": "kof98",
+    "stage": "fightzero",
+    "source": "FBNeo native RAM capture kof98-fightzero",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 33276,
+        "hex": "00000000"
+      },
+      {
+        "offset": 33788,
+        "hex": "00000000"
+      },
+      {
+        "offset": 64942,
+        "hex": "0203"
+      },
+      {
+        "offset": 64950,
+        "hex": "0101"
+      }
+    ]
+  },
+  {
+    "game": "kof98",
+    "stage": "fight0",
+    "source": "FBNeo native RAM capture kof98-fight0",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 7200,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 33276,
+        "hex": "00000072"
+      },
+      {
+        "offset": 33788,
+        "hex": "00000000"
+      },
+      {
+        "offset": 64942,
+        "hex": "0203"
+      },
+      {
+        "offset": 64950,
+        "hex": "0101"
+      }
+    ]
+  },
+  {
+    "game": "kof98",
+    "stage": "fight1",
+    "source": "FBNeo native RAM capture kof98-fight1",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 4000,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 33276,
+        "hex": "00000040"
+      },
+      {
+        "offset": 33788,
+        "hex": "00000000"
+      },
+      {
+        "offset": 64942,
+        "hex": "0203"
+      },
+      {
+        "offset": 64950,
+        "hex": "0101"
+      }
+    ]
+  },
+  {
+    "game": "kof98",
+    "stage": "fight2",
+    "source": "FBNeo native RAM capture kof98-fight2",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 1600,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 900,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 33276,
+        "hex": "00000016"
+      },
+      {
+        "offset": 33788,
+        "hex": "00000009"
+      },
+      {
+        "offset": 64942,
+        "hex": "0203"
+      },
+      {
+        "offset": 64950,
+        "hex": "0001"
+      }
+    ]
+  },
+  {
+    "game": "3wonders",
+    "stage": "attract",
+    "source": "FBNeo native RAM capture 3wonders-attract",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 3456,
+        "hex": "0000"
+      },
+      {
+        "offset": 3538,
+        "hex": "0000000000000000"
+      }
+    ]
+  },
+  {
+    "game": "3wonders",
+    "stage": "start",
+    "source": "FBNeo native RAM capture 3wonders-start",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 3456,
+        "hex": "0100"
+      },
+      {
+        "offset": 3538,
+        "hex": "0000000000000000"
+      }
+    ]
+  },
+  {
+    "game": "3wonders",
+    "stage": "score",
+    "source": "FBNeo native RAM capture 3wonders-score",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 900,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 3456,
+        "hex": "0100"
+      },
+      {
+        "offset": 3538,
+        "hex": "0000000900000000"
+      }
+    ]
+  },
+  {
+    "game": "3wonders",
+    "stage": "end",
+    "source": "FBNeo native RAM capture 3wonders-end",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 3456,
+        "hex": "0000"
+      },
+      {
+        "offset": 3538,
+        "hex": "0000000000000000"
+      }
+    ]
+  },
+  {
+    "game": "3wonders",
+    "stage": "v3-attract",
+    "source": "FBNeo native RAM capture 3wonders-v3-attract",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 3456,
+        "hex": "0000"
+      },
+      {
+        "offset": 3538,
+        "hex": "0000000000000000"
+      }
+    ]
+  },
+  {
+    "game": "3wonders",
+    "stage": "v3-start",
+    "source": "FBNeo native RAM capture 3wonders-v3-start",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 300,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 3456,
+        "hex": "0300"
+      },
+      {
+        "offset": 3538,
+        "hex": "0000000000000003"
+      }
+    ]
+  },
+  {
+    "game": "3wonders",
+    "stage": "v3-score",
+    "source": "FBNeo native RAM capture 3wonders-v3-score",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 800,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 500,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 3456,
+        "hex": "0300"
+      },
+      {
+        "offset": 3538,
+        "hex": "0000000800000005"
+      }
+    ]
+  },
+  {
+    "game": "3wonders",
+    "stage": "v3-end",
+    "source": "FBNeo native RAM capture 3wonders-v3-end",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 3456,
+        "hex": "0000"
+      },
+      {
+        "offset": 3538,
+        "hex": "0000000000000000"
+      }
+    ]
+  },
+  {
+    "game": "avsp",
+    "stage": "attract",
+    "source": "FBNeo native RAM capture avsp-attract",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 3,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 33888,
+        "hex": "00000000"
+      },
+      {
+        "offset": 33904,
+        "hex": "0000"
+      },
+      {
+        "offset": 34144,
+        "hex": "00000000"
+      },
+      {
+        "offset": 34160,
+        "hex": "0000"
+      },
+      {
+        "offset": 34400,
+        "hex": "00000000"
+      },
+      {
+        "offset": 34416,
+        "hex": "0000"
+      }
+    ]
+  },
+  {
+    "game": "avsp",
+    "stage": "start",
+    "source": "FBNeo native RAM capture avsp-start",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 3,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 33888,
+        "hex": "00000000"
+      },
+      {
+        "offset": 33904,
+        "hex": "0000"
+      },
+      {
+        "offset": 34144,
+        "hex": "00000000"
+      },
+      {
+        "offset": 34160,
+        "hex": "0000"
+      },
+      {
+        "offset": 34400,
+        "hex": "00000000"
+      },
+      {
+        "offset": 34416,
+        "hex": "0000"
+      }
+    ]
+  },
+  {
+    "game": "avsp",
+    "stage": "score",
+    "source": "FBNeo native RAM capture avsp-score",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 46000,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 3,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 33888,
+        "hex": "04000060"
+      },
+      {
+        "offset": 33904,
+        "hex": "0001"
+      },
+      {
+        "offset": 34144,
+        "hex": "00000000"
+      },
+      {
+        "offset": 34160,
+        "hex": "0000"
+      },
+      {
+        "offset": 34400,
+        "hex": "00000000"
+      },
+      {
+        "offset": 34416,
+        "hex": "0000"
+      }
+    ]
+  },
+  {
+    "game": "avsp",
+    "stage": "end",
+    "source": "FBNeo native RAM capture avsp-end",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 46000,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 3,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 33888,
+        "hex": "04000060"
+      },
+      {
+        "offset": 33904,
+        "hex": "ff00"
+      },
+      {
+        "offset": 34144,
+        "hex": "00000000"
+      },
+      {
+        "offset": 34160,
+        "hex": "0000"
+      },
+      {
+        "offset": 34400,
+        "hex": "00000000"
+      },
+      {
+        "offset": 34416,
+        "hex": "0000"
+      }
+    ]
+  },
+  {
+    "game": "avsp",
+    "stage": "v3-attract",
+    "source": "FBNeo native RAM capture avsp-v3-attract",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 3,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 33888,
+        "hex": "00000000"
+      },
+      {
+        "offset": 33904,
+        "hex": "0000"
+      },
+      {
+        "offset": 34144,
+        "hex": "00000000"
+      },
+      {
+        "offset": 34160,
+        "hex": "0000"
+      },
+      {
+        "offset": 34400,
+        "hex": "00000000"
+      },
+      {
+        "offset": 34416,
+        "hex": "0000"
+      }
+    ]
+  },
+  {
+    "game": "avsp",
+    "stage": "v3-start",
+    "source": "FBNeo native RAM capture avsp-v3-start",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 3,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 33888,
+        "hex": "00000000"
+      },
+      {
+        "offset": 33904,
+        "hex": "0000"
+      },
+      {
+        "offset": 34144,
+        "hex": "00000000"
+      },
+      {
+        "offset": 34160,
+        "hex": "0000"
+      },
+      {
+        "offset": 34400,
+        "hex": "00000000"
+      },
+      {
+        "offset": 34416,
+        "hex": "0000"
+      }
+    ]
+  },
+  {
+    "game": "avsp",
+    "stage": "v3-score",
+    "source": "FBNeo native RAM capture avsp-v3-score",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 10000,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 38000,
+        "active": true
+      },
+      {
+        "slot": 3,
+        "value": 12100,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 33888,
+        "hex": "01000000"
+      },
+      {
+        "offset": 33904,
+        "hex": "0001"
+      },
+      {
+        "offset": 34144,
+        "hex": "03000080"
+      },
+      {
+        "offset": 34160,
+        "hex": "0002"
+      },
+      {
+        "offset": 34400,
+        "hex": "01000021"
+      },
+      {
+        "offset": 34416,
+        "hex": "0003"
+      }
+    ]
+  },
+  {
+    "game": "avsp",
+    "stage": "v3-end",
+    "source": "FBNeo native RAM capture avsp-v3-end",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 3,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 33888,
+        "hex": "00000000"
+      },
+      {
+        "offset": 33904,
+        "hex": "0000"
+      },
+      {
+        "offset": 34144,
+        "hex": "00000000"
+      },
+      {
+        "offset": 34160,
+        "hex": "0000"
+      },
+      {
+        "offset": 34400,
+        "hex": "00000000"
+      },
+      {
+        "offset": 34416,
+        "hex": "0000"
+      }
+    ]
+  },
+  {
+    "game": "cclimber",
+    "stage": "attract",
+    "source": "FBNeo native RAM capture cclimber-attract",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 3188,
+        "hex": "0100"
+      },
+      {
+        "offset": 3200,
+        "hex": "0000"
+      },
+      {
+        "offset": 3288,
+        "hex": "03000000"
+      },
+      {
+        "offset": 3306,
+        "hex": "03000000"
+      },
+      {
+        "offset": 3324,
+        "hex": "03000000"
+      }
+    ]
+  },
+  {
+    "game": "cclimber",
+    "stage": "start",
+    "source": "FBNeo native RAM capture cclimber-start",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 3188,
+        "hex": "0101"
+      },
+      {
+        "offset": 3200,
+        "hex": "0101"
+      },
+      {
+        "offset": 3288,
+        "hex": "03000000"
+      },
+      {
+        "offset": 3306,
+        "hex": "02000000"
+      },
+      {
+        "offset": 3324,
+        "hex": "03000000"
+      }
+    ]
+  },
+  {
+    "game": "cclimber",
+    "stage": "score",
+    "source": "FBNeo native RAM capture cclimber-score",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 3188,
+        "hex": "0101"
+      },
+      {
+        "offset": 3200,
+        "hex": "0101"
+      },
+      {
+        "offset": 3288,
+        "hex": "02000000"
+      },
+      {
+        "offset": 3306,
+        "hex": "01000000"
+      },
+      {
+        "offset": 3324,
+        "hex": "02000000"
+      }
+    ]
+  },
+  {
+    "game": "cclimber",
+    "stage": "end",
+    "source": "FBNeo native RAM capture cclimber-end",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 3188,
+        "hex": "0101"
+      },
+      {
+        "offset": 3200,
+        "hex": "0100"
+      },
+      {
+        "offset": 3288,
+        "hex": "01000000"
+      },
+      {
+        "offset": 3306,
+        "hex": "01000000"
+      },
+      {
+        "offset": 3324,
+        "hex": "01000000"
+      }
+    ]
+  },
+  {
+    "game": "cclimber",
+    "stage": "score",
+    "source": "FBNeo native RAM capture cclimber-climbpoints",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 1600,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 3188,
+        "hex": "0101"
+      },
+      {
+        "offset": 3200,
+        "hex": "0101"
+      },
+      {
+        "offset": 3288,
+        "hex": "03000000"
+      },
+      {
+        "offset": 3306,
+        "hex": "02001600"
+      },
+      {
+        "offset": 3324,
+        "hex": "03000000"
+      }
+    ]
+  },
+  {
+    "game": "cclimber",
+    "stage": "climbstart",
+    "source": "FBNeo native RAM capture cclimber-climbstart",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 3188,
+        "hex": "0101"
+      },
+      {
+        "offset": 3200,
+        "hex": "0100"
+      },
+      {
+        "offset": 3288,
+        "hex": "03000000"
+      },
+      {
+        "offset": 3306,
+        "hex": "03000000"
+      },
+      {
+        "offset": 3324,
+        "hex": "03000000"
+      }
+    ]
+  },
+  {
+    "game": "cclimbr2",
+    "stage": "attract",
+    "source": "FBNeo native RAM capture cclimbr2-attract",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 45236,
+        "hex": "0000"
+      },
+      {
+        "offset": 45516,
+        "hex": "00000000"
+      },
+      {
+        "offset": 45554,
+        "hex": "0300"
+      },
+      {
+        "offset": 45558,
+        "hex": "00000000"
+      },
+      {
+        "offset": 45596,
+        "hex": "0000"
+      }
+    ]
+  },
+  {
+    "game": "cclimbr2",
+    "stage": "start",
+    "source": "FBNeo native RAM capture cclimbr2-start",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 45236,
+        "hex": "0000"
+      },
+      {
+        "offset": 45516,
+        "hex": "00000000"
+      },
+      {
+        "offset": 45554,
+        "hex": "0300"
+      },
+      {
+        "offset": 45558,
+        "hex": "00000000"
+      },
+      {
+        "offset": 45596,
+        "hex": "0300"
+      }
+    ]
+  },
+  {
+    "game": "cclimbr2",
+    "stage": "score",
+    "source": "FBNeo native RAM capture cclimbr2-score",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 45236,
+        "hex": "0000"
+      },
+      {
+        "offset": 45516,
+        "hex": "00000000"
+      },
+      {
+        "offset": 45554,
+        "hex": "0200"
+      },
+      {
+        "offset": 45558,
+        "hex": "00000000"
+      },
+      {
+        "offset": 45596,
+        "hex": "0300"
+      }
+    ]
+  },
+  {
+    "game": "cclimbr2",
+    "stage": "end",
+    "source": "FBNeo native RAM capture cclimbr2-end",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 45236,
+        "hex": "0000"
+      },
+      {
+        "offset": 45516,
+        "hex": "00000000"
+      },
+      {
+        "offset": 45554,
+        "hex": "0200"
+      },
+      {
+        "offset": 45558,
+        "hex": "00000000"
+      },
+      {
+        "offset": 45596,
+        "hex": "0200"
+      }
+    ]
+  },
+  {
+    "game": "cclimbr2",
+    "stage": "v3-attract",
+    "source": "FBNeo native RAM capture cclimbr2-v3-attract",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 45236,
+        "hex": "0000"
+      },
+      {
+        "offset": 45516,
+        "hex": "00000000"
+      },
+      {
+        "offset": 45554,
+        "hex": "0300"
+      },
+      {
+        "offset": 45558,
+        "hex": "00000000"
+      },
+      {
+        "offset": 45596,
+        "hex": "0000"
+      }
+    ]
+  },
+  {
+    "game": "cclimbr2",
+    "stage": "v3-start",
+    "source": "FBNeo native RAM capture cclimbr2-v3-start",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 45236,
+        "hex": "0001"
+      },
+      {
+        "offset": 45516,
+        "hex": "00000000"
+      },
+      {
+        "offset": 45554,
+        "hex": "0300"
+      },
+      {
+        "offset": 45558,
+        "hex": "00000000"
+      },
+      {
+        "offset": 45596,
+        "hex": "0300"
+      }
+    ]
+  },
+  {
+    "game": "cclimbr2",
+    "stage": "v3-score",
+    "source": "FBNeo native RAM capture cclimbr2-v3-score",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 1000,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 45236,
+        "hex": "0001"
+      },
+      {
+        "offset": 45516,
+        "hex": "00000010"
+      },
+      {
+        "offset": 45554,
+        "hex": "0300"
+      },
+      {
+        "offset": 45558,
+        "hex": "00000000"
+      },
+      {
+        "offset": 45596,
+        "hex": "0300"
+      }
+    ]
+  },
+  {
+    "game": "cclimbr2",
+    "stage": "v3-end",
+    "source": "FBNeo native RAM capture cclimbr2-v3-end",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 1000,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 45236,
+        "hex": "0001"
+      },
+      {
+        "offset": 45516,
+        "hex": "00000010"
+      },
+      {
+        "offset": 45554,
+        "hex": "0100"
+      },
+      {
+        "offset": 45558,
+        "hex": "00000000"
+      },
+      {
+        "offset": 45596,
+        "hex": "0200"
+      }
+    ]
+  },
+  {
+    "game": "demonwld",
+    "stage": "attract",
+    "source": "FBNeo native RAM capture demonwld-attract",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 728,
+        "hex": "00000000000000000000"
+      },
+      {
+        "offset": 760,
+        "hex": "00000000"
+      }
+    ]
+  },
+  {
+    "game": "demonwld",
+    "stage": "start",
+    "source": "FBNeo native RAM capture demonwld-start",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 728,
+        "hex": "01000000000000000000"
+      },
+      {
+        "offset": 760,
+        "hex": "03000000"
+      }
+    ]
+  },
+  {
+    "game": "demonwld",
+    "stage": "score",
+    "source": "FBNeo native RAM capture demonwld-score",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 500,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 728,
+        "hex": "01000000000500000000"
+      },
+      {
+        "offset": 760,
+        "hex": "02000000"
+      }
+    ]
+  },
+  {
+    "game": "demonwld",
+    "stage": "end",
+    "source": "FBNeo native RAM capture demonwld-end",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 500,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 728,
+        "hex": "01000000000500000000"
+      },
+      {
+        "offset": 760,
+        "hex": "00000000"
+      }
+    ]
+  },
+  {
+    "game": "demonwld",
+    "stage": "v3-attract",
+    "source": "FBNeo native RAM capture demonwld-v3-attract",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 728,
+        "hex": "00000000000000000000"
+      },
+      {
+        "offset": 760,
+        "hex": "00000000"
+      }
+    ]
+  },
+  {
+    "game": "demonwld",
+    "stage": "v3-start",
+    "source": "FBNeo native RAM capture demonwld-v3-start",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 728,
+        "hex": "01000000000000000000"
+      },
+      {
+        "offset": 760,
+        "hex": "03000300"
+      }
+    ]
+  },
+  {
+    "game": "demonwld",
+    "stage": "v3-score",
+    "source": "FBNeo native RAM capture demonwld-v3-score",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 500,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 728,
+        "hex": "01000000000000000005"
+      },
+      {
+        "offset": 760,
+        "hex": "02000200"
+      }
+    ]
+  },
+  {
+    "game": "demonwld",
+    "stage": "v3-end",
+    "source": "FBNeo native RAM capture demonwld-v3-end",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 500,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 728,
+        "hex": "81000000000000000005"
+      },
+      {
+        "offset": 760,
+        "hex": "00000000"
+      }
+    ]
+  },
+  {
+    "game": "frogger",
+    "stage": "attract",
+    "source": "FBNeo native RAM capture frogger-attract",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 1580,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 880,
+        "hex": "0100"
+      },
+      {
+        "offset": 968,
+        "hex": "01000000"
+      },
+      {
+        "offset": 1002,
+        "hex": "000000580163"
+      },
+      {
+        "offset": 1022,
+        "hex": "0000"
+      }
+    ]
+  },
+  {
+    "game": "frogger",
+    "stage": "start",
+    "source": "FBNeo native RAM capture frogger-start",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 880,
+        "hex": "0200"
+      },
+      {
+        "offset": 968,
+        "hex": "01000000"
+      },
+      {
+        "offset": 1002,
+        "hex": "010000000063"
+      },
+      {
+        "offset": 1022,
+        "hex": "0200"
+      }
+    ]
+  },
+  {
+    "game": "frogger",
+    "stage": "score",
+    "source": "FBNeo native RAM capture frogger-score",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 880,
+        "hex": "0200"
+      },
+      {
+        "offset": 968,
+        "hex": "01000000"
+      },
+      {
+        "offset": 1002,
+        "hex": "010000000063"
+      },
+      {
+        "offset": 1022,
+        "hex": "0200"
+      }
+    ]
+  },
+  {
+    "game": "frogger",
+    "stage": "end",
+    "source": "FBNeo native RAM capture frogger-end",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 880,
+        "hex": "0200"
+      },
+      {
+        "offset": 968,
+        "hex": "01000000"
+      },
+      {
+        "offset": 1002,
+        "hex": "010000000063"
+      },
+      {
+        "offset": 1022,
+        "hex": "0200"
+      }
+    ]
+  },
+  {
+    "game": "frogger",
+    "stage": "score",
+    "source": "FBNeo native RAM capture frogger-v2-score",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 20,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 10,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 880,
+        "hex": "0200"
+      },
+      {
+        "offset": 968,
+        "hex": "01010000"
+      },
+      {
+        "offset": 1002,
+        "hex": "010100020063"
+      },
+      {
+        "offset": 1022,
+        "hex": "0100"
+      }
+    ]
+  },
+  {
+    "game": "frogger",
+    "stage": "v2-end",
+    "source": "FBNeo native RAM capture frogger-v2-end",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 20,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 10,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 880,
+        "hex": "0200"
+      },
+      {
+        "offset": 968,
+        "hex": "01010000"
+      },
+      {
+        "offset": 1002,
+        "hex": "010100020063"
+      },
+      {
+        "offset": 1022,
+        "hex": "0100"
+      }
+    ]
+  },
+  {
+    "game": "gijoe",
+    "stage": "attract",
+    "source": "FBNeo native RAM capture gijoe-attract",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 3,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 4,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 3314,
+        "hex": "0000"
+      },
+      {
+        "offset": 3322,
+        "hex": "0000"
+      },
+      {
+        "offset": 3570,
+        "hex": "0000"
+      },
+      {
+        "offset": 3578,
+        "hex": "0000"
+      },
+      {
+        "offset": 3826,
+        "hex": "0000"
+      },
+      {
+        "offset": 3834,
+        "hex": "0000"
+      },
+      {
+        "offset": 4082,
+        "hex": "0000"
+      },
+      {
+        "offset": 4090,
+        "hex": "0000"
+      }
+    ]
+  },
+  {
+    "game": "gijoe",
+    "stage": "start",
+    "source": "FBNeo native RAM capture gijoe-start",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 3,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 4,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 3314,
+        "hex": "0001"
+      },
+      {
+        "offset": 3322,
+        "hex": "0000"
+      },
+      {
+        "offset": 3570,
+        "hex": "0001"
+      },
+      {
+        "offset": 3578,
+        "hex": "0000"
+      },
+      {
+        "offset": 3826,
+        "hex": "0000"
+      },
+      {
+        "offset": 3834,
+        "hex": "0000"
+      },
+      {
+        "offset": 4082,
+        "hex": "0000"
+      },
+      {
+        "offset": 4090,
+        "hex": "0000"
+      }
+    ]
+  },
+  {
+    "game": "gijoe",
+    "stage": "score",
+    "source": "FBNeo native RAM capture gijoe-score",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 7,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 1,
+        "active": true
+      },
+      {
+        "slot": 3,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 4,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 3314,
+        "hex": "0001"
+      },
+      {
+        "offset": 3322,
+        "hex": "0700"
+      },
+      {
+        "offset": 3570,
+        "hex": "0001"
+      },
+      {
+        "offset": 3578,
+        "hex": "0100"
+      },
+      {
+        "offset": 3826,
+        "hex": "0000"
+      },
+      {
+        "offset": 3834,
+        "hex": "0000"
+      },
+      {
+        "offset": 4082,
+        "hex": "0000"
+      },
+      {
+        "offset": 4090,
+        "hex": "0000"
+      }
+    ]
+  },
+  {
+    "game": "gijoe",
+    "stage": "end",
+    "source": "FBNeo native RAM capture gijoe-end",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 7,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 1,
+        "active": true
+      },
+      {
+        "slot": 3,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 4,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 3314,
+        "hex": "0001"
+      },
+      {
+        "offset": 3322,
+        "hex": "0700"
+      },
+      {
+        "offset": 3570,
+        "hex": "0001"
+      },
+      {
+        "offset": 3578,
+        "hex": "0100"
+      },
+      {
+        "offset": 3826,
+        "hex": "0000"
+      },
+      {
+        "offset": 3834,
+        "hex": "0000"
+      },
+      {
+        "offset": 4082,
+        "hex": "0000"
+      },
+      {
+        "offset": 4090,
+        "hex": "0000"
+      }
+    ]
+  },
+  {
+    "game": "gijoe",
+    "stage": "v3-attract",
+    "source": "FBNeo native RAM capture gijoe-v3-attract",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 3,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 4,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 3314,
+        "hex": "0000"
+      },
+      {
+        "offset": 3322,
+        "hex": "0000"
+      },
+      {
+        "offset": 3570,
+        "hex": "0000"
+      },
+      {
+        "offset": 3578,
+        "hex": "0000"
+      },
+      {
+        "offset": 3826,
+        "hex": "0000"
+      },
+      {
+        "offset": 3834,
+        "hex": "0000"
+      },
+      {
+        "offset": 4082,
+        "hex": "0000"
+      },
+      {
+        "offset": 4090,
+        "hex": "0000"
+      }
+    ]
+  },
+  {
+    "game": "gijoe",
+    "stage": "v3-start",
+    "source": "FBNeo native RAM capture gijoe-v3-start",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 3,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 4,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 3314,
+        "hex": "0001"
+      },
+      {
+        "offset": 3322,
+        "hex": "0000"
+      },
+      {
+        "offset": 3570,
+        "hex": "0000"
+      },
+      {
+        "offset": 3578,
+        "hex": "0000"
+      },
+      {
+        "offset": 3826,
+        "hex": "0000"
+      },
+      {
+        "offset": 3834,
+        "hex": "0000"
+      },
+      {
+        "offset": 4082,
+        "hex": "0000"
+      },
+      {
+        "offset": 4090,
+        "hex": "0000"
+      }
+    ]
+  },
+  {
+    "game": "gijoe",
+    "stage": "v3-score",
+    "source": "FBNeo native RAM capture gijoe-v3-score",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 3,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 9,
+        "active": true
+      },
+      {
+        "slot": 3,
+        "value": 7,
+        "active": true
+      },
+      {
+        "slot": 4,
+        "value": 8,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 3314,
+        "hex": "2001"
+      },
+      {
+        "offset": 3322,
+        "hex": "0300"
+      },
+      {
+        "offset": 3570,
+        "hex": "1001"
+      },
+      {
+        "offset": 3578,
+        "hex": "0900"
+      },
+      {
+        "offset": 3826,
+        "hex": "3c01"
+      },
+      {
+        "offset": 3834,
+        "hex": "0700"
+      },
+      {
+        "offset": 4082,
+        "hex": "2001"
+      },
+      {
+        "offset": 4090,
+        "hex": "0800"
+      }
+    ]
+  },
+  {
+    "game": "gijoe",
+    "stage": "v3-end",
+    "source": "FBNeo native RAM capture gijoe-v3-end",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 3,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 4,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 3314,
+        "hex": "0000"
+      },
+      {
+        "offset": 3322,
+        "hex": "0000"
+      },
+      {
+        "offset": 3570,
+        "hex": "0000"
+      },
+      {
+        "offset": 3578,
+        "hex": "0000"
+      },
+      {
+        "offset": 3826,
+        "hex": "0000"
+      },
+      {
+        "offset": 3834,
+        "hex": "0000"
+      },
+      {
+        "offset": 4082,
+        "hex": "0000"
+      },
+      {
+        "offset": 4090,
+        "hex": "0000"
+      }
+    ]
+  },
+  {
+    "game": "gradius",
+    "stage": "attract",
+    "source": "FBNeo native RAM capture gradius-attract",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 196608,
+        "hex": "0000"
+      },
+      {
+        "offset": 196640,
+        "hex": "0000"
+      },
+      {
+        "offset": 197280,
+        "hex": "0000"
+      },
+      {
+        "offset": 197288,
+        "hex": "00000000"
+      },
+      {
+        "offset": 197344,
+        "hex": "0000"
+      },
+      {
+        "offset": 197352,
+        "hex": "00000000"
+      }
+    ]
+  },
+  {
+    "game": "gradius",
+    "stage": "start",
+    "source": "FBNeo native RAM capture gradius-start",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 196608,
+        "hex": "01ff"
+      },
+      {
+        "offset": 196640,
+        "hex": "0000"
+      },
+      {
+        "offset": 197280,
+        "hex": "0003"
+      },
+      {
+        "offset": 197288,
+        "hex": "00000000"
+      },
+      {
+        "offset": 197344,
+        "hex": "0000"
+      },
+      {
+        "offset": 197352,
+        "hex": "00000000"
+      }
+    ]
+  },
+  {
+    "game": "gradius",
+    "stage": "score",
+    "source": "FBNeo native RAM capture gradius-score",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 196608,
+        "hex": "01ff"
+      },
+      {
+        "offset": 196640,
+        "hex": "0000"
+      },
+      {
+        "offset": 197280,
+        "hex": "0003"
+      },
+      {
+        "offset": 197288,
+        "hex": "00000000"
+      },
+      {
+        "offset": 197344,
+        "hex": "0000"
+      },
+      {
+        "offset": 197352,
+        "hex": "00000000"
+      }
+    ]
+  },
+  {
+    "game": "gradius",
+    "stage": "end",
+    "source": "FBNeo native RAM capture gradius-end",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 196608,
+        "hex": "01ff"
+      },
+      {
+        "offset": 196640,
+        "hex": "0000"
+      },
+      {
+        "offset": 197280,
+        "hex": "0003"
+      },
+      {
+        "offset": 197288,
+        "hex": "00000000"
+      },
+      {
+        "offset": 197344,
+        "hex": "0000"
+      },
+      {
+        "offset": 197352,
+        "hex": "00000000"
+      }
+    ]
+  },
+  {
+    "game": "gradius",
+    "stage": "v3-attract",
+    "source": "FBNeo native RAM capture gradius-v3-attract",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 196608,
+        "hex": "0000"
+      },
+      {
+        "offset": 196640,
+        "hex": "0000"
+      },
+      {
+        "offset": 197280,
+        "hex": "0000"
+      },
+      {
+        "offset": 197288,
+        "hex": "00000000"
+      },
+      {
+        "offset": 197344,
+        "hex": "0000"
+      },
+      {
+        "offset": 197352,
+        "hex": "00000000"
+      }
+    ]
+  },
+  {
+    "game": "gradius",
+    "stage": "v3-start",
+    "source": "FBNeo native RAM capture gradius-v3-start",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 196608,
+        "hex": "02ff"
+      },
+      {
+        "offset": 196640,
+        "hex": "0100"
+      },
+      {
+        "offset": 197280,
+        "hex": "0003"
+      },
+      {
+        "offset": 197288,
+        "hex": "00000000"
+      },
+      {
+        "offset": 197344,
+        "hex": "0003"
+      },
+      {
+        "offset": 197352,
+        "hex": "00000000"
+      }
+    ]
+  },
+  {
+    "game": "gradius",
+    "stage": "v3-score",
+    "source": "FBNeo native RAM capture gradius-v3-score",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 300,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 200,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 196608,
+        "hex": "02ff"
+      },
+      {
+        "offset": 196640,
+        "hex": "0101"
+      },
+      {
+        "offset": 197280,
+        "hex": "0002"
+      },
+      {
+        "offset": 197288,
+        "hex": "00000002"
+      },
+      {
+        "offset": 197344,
+        "hex": "0001"
+      },
+      {
+        "offset": 197352,
+        "hex": "00000003"
+      }
+    ]
+  },
+  {
+    "game": "gradius",
+    "stage": "v3-end",
+    "source": "FBNeo native RAM capture gradius-v3-end",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 400,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 196608,
+        "hex": "01ff"
+      },
+      {
+        "offset": 196640,
+        "hex": "0000"
+      },
+      {
+        "offset": 197280,
+        "hex": "0003"
+      },
+      {
+        "offset": 197288,
+        "hex": "00000004"
+      },
+      {
+        "offset": 197344,
+        "hex": "0000"
+      },
+      {
+        "offset": 197352,
+        "hex": "00000000"
+      }
+    ]
+  },
+  {
+    "game": "joemac",
+    "stage": "attract",
+    "source": "FBNeo native RAM capture joemac-attract",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 3480,
+        "hex": "0000"
+      },
+      {
+        "offset": 3490,
+        "hex": "00000000"
+      },
+      {
+        "offset": 3544,
+        "hex": "0000"
+      },
+      {
+        "offset": 3554,
+        "hex": "00000000"
+      },
+      {
+        "offset": 13464,
+        "hex": "0000"
+      }
+    ]
+  },
+  {
+    "game": "joemac",
+    "stage": "start",
+    "source": "FBNeo native RAM capture joemac-start",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 3480,
+        "hex": "0200"
+      },
+      {
+        "offset": 3490,
+        "hex": "00000000"
+      },
+      {
+        "offset": 3544,
+        "hex": "0000"
+      },
+      {
+        "offset": 3554,
+        "hex": "00000000"
+      },
+      {
+        "offset": 13464,
+        "hex": "0101"
+      }
+    ]
+  },
+  {
+    "game": "joemac",
+    "stage": "score",
+    "source": "FBNeo native RAM capture joemac-score",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 600,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 3480,
+        "hex": "0200"
+      },
+      {
+        "offset": 3490,
+        "hex": "00000006"
+      },
+      {
+        "offset": 3544,
+        "hex": "0000"
+      },
+      {
+        "offset": 3554,
+        "hex": "00000000"
+      },
+      {
+        "offset": 13464,
+        "hex": "0101"
+      }
+    ]
+  },
+  {
+    "game": "joemac",
+    "stage": "end",
+    "source": "FBNeo native RAM capture joemac-end",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 600,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 3480,
+        "hex": "0200"
+      },
+      {
+        "offset": 3490,
+        "hex": "00000006"
+      },
+      {
+        "offset": 3544,
+        "hex": "0000"
+      },
+      {
+        "offset": 3554,
+        "hex": "00000000"
+      },
+      {
+        "offset": 13464,
+        "hex": "0101"
+      }
+    ]
+  },
+  {
+    "game": "joemac",
+    "stage": "v3-attract",
+    "source": "FBNeo native RAM capture joemac-v3-attract",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 1200,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 3480,
+        "hex": "0000"
+      },
+      {
+        "offset": 3490,
+        "hex": "00000012"
+      },
+      {
+        "offset": 3544,
+        "hex": "0000"
+      },
+      {
+        "offset": 3554,
+        "hex": "00000000"
+      },
+      {
+        "offset": 13464,
+        "hex": "0003"
+      }
+    ]
+  },
+  {
+    "game": "joemac",
+    "stage": "v3-start",
+    "source": "FBNeo native RAM capture joemac-v3-start",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 3480,
+        "hex": "0200"
+      },
+      {
+        "offset": 3490,
+        "hex": "00000000"
+      },
+      {
+        "offset": 3544,
+        "hex": "0200"
+      },
+      {
+        "offset": 3554,
+        "hex": "00000000"
+      },
+      {
+        "offset": 13464,
+        "hex": "0303"
+      }
+    ]
+  },
+  {
+    "game": "joemac",
+    "stage": "v3-score",
+    "source": "FBNeo native RAM capture joemac-v3-score",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 1400,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 300,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 3480,
+        "hex": "0200"
+      },
+      {
+        "offset": 3490,
+        "hex": "00000014"
+      },
+      {
+        "offset": 3544,
+        "hex": "0200"
+      },
+      {
+        "offset": 3554,
+        "hex": "00000003"
+      },
+      {
+        "offset": 13464,
+        "hex": "0303"
+      }
+    ]
+  },
+  {
+    "game": "joemac",
+    "stage": "v3-end",
+    "source": "FBNeo native RAM capture joemac-v3-end",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 1400,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 300,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 3480,
+        "hex": "0100"
+      },
+      {
+        "offset": 3490,
+        "hex": "00000014"
+      },
+      {
+        "offset": 3544,
+        "hex": "0100"
+      },
+      {
+        "offset": 3554,
+        "hex": "00000003"
+      },
+      {
+        "offset": 13464,
+        "hex": "0303"
+      }
+    ]
+  },
+  {
+    "game": "maglord",
+    "stage": "attract",
+    "source": "FBNeo native RAM capture maglord-attract",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 3232,
+        "hex": "0000000000000000"
+      },
+      {
+        "offset": 15104,
+        "hex": "0002"
+      },
+      {
+        "offset": 15360,
+        "hex": "0000"
+      },
+      {
+        "offset": 64942,
+        "hex": "0102"
+      },
+      {
+        "offset": 64950,
+        "hex": "0000"
+      }
+    ]
+  },
+  {
+    "game": "maglord",
+    "stage": "start",
+    "source": "FBNeo native RAM capture maglord-start",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 3232,
+        "hex": "0000000000000000"
+      },
+      {
+        "offset": 15104,
+        "hex": "0002"
+      },
+      {
+        "offset": 15360,
+        "hex": "0002"
+      },
+      {
+        "offset": 64942,
+        "hex": "0203"
+      },
+      {
+        "offset": 64950,
+        "hex": "0101"
+      }
+    ]
+  },
+  {
+    "game": "maglord",
+    "stage": "score",
+    "source": "FBNeo native RAM capture maglord-score",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 30,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 3232,
+        "hex": "0000030000000000"
+      },
+      {
+        "offset": 15104,
+        "hex": "0002"
+      },
+      {
+        "offset": 15360,
+        "hex": "0002"
+      },
+      {
+        "offset": 64942,
+        "hex": "0203"
+      },
+      {
+        "offset": 64950,
+        "hex": "0101"
+      }
+    ]
+  },
+  {
+    "game": "maglord",
+    "stage": "end",
+    "source": "FBNeo native RAM capture maglord-end",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 30,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 50,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 3232,
+        "hex": "0000030000000500"
+      },
+      {
+        "offset": 15104,
+        "hex": "0001"
+      },
+      {
+        "offset": 15360,
+        "hex": "0002"
+      },
+      {
+        "offset": 64942,
+        "hex": "0203"
+      },
+      {
+        "offset": 64950,
+        "hex": "0101"
+      }
+    ]
+  },
+  {
+    "game": "maglord",
+    "stage": "v3-attract",
+    "source": "FBNeo native RAM capture maglord-v3-attract",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 3232,
+        "hex": "0000000000000000"
+      },
+      {
+        "offset": 15104,
+        "hex": "0002"
+      },
+      {
+        "offset": 15360,
+        "hex": "0000"
+      },
+      {
+        "offset": 64942,
+        "hex": "0102"
+      },
+      {
+        "offset": 64950,
+        "hex": "0000"
+      }
+    ]
+  },
+  {
+    "game": "maglord",
+    "stage": "v3-start",
+    "source": "FBNeo native RAM capture maglord-v3-start",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 3232,
+        "hex": "0000000000000000"
+      },
+      {
+        "offset": 15104,
+        "hex": "0002"
+      },
+      {
+        "offset": 15360,
+        "hex": "0002"
+      },
+      {
+        "offset": 64942,
+        "hex": "0203"
+      },
+      {
+        "offset": 64950,
+        "hex": "0101"
+      }
+    ]
+  },
+  {
+    "game": "maglord",
+    "stage": "v3-score",
+    "source": "FBNeo native RAM capture maglord-v3-score",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 60,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 3232,
+        "hex": "0000060000000000"
+      },
+      {
+        "offset": 15104,
+        "hex": "0001"
+      },
+      {
+        "offset": 15360,
+        "hex": "0002"
+      },
+      {
+        "offset": 64942,
+        "hex": "0203"
+      },
+      {
+        "offset": 64950,
+        "hex": "0101"
+      }
+    ]
+  },
+  {
+    "game": "maglord",
+    "stage": "v3-end",
+    "source": "FBNeo native RAM capture maglord-v3-end",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 60,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 3232,
+        "hex": "0000060000000000"
+      },
+      {
+        "offset": 15104,
+        "hex": "0001"
+      },
+      {
+        "offset": 15360,
+        "hex": "0001"
+      },
+      {
+        "offset": 64942,
+        "hex": "0203"
+      },
+      {
+        "offset": 64950,
+        "hex": "0101"
+      }
+    ]
+  },
+  {
+    "game": "mercs",
+    "stage": "attract",
+    "source": "FBNeo native RAM capture mercs-attract",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 3,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 3706,
+        "hex": "00000000"
+      },
+      {
+        "offset": 3960,
+        "hex": "000000000000000000000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "game": "mercs",
+    "stage": "start",
+    "source": "FBNeo native RAM capture mercs-start",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 3,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 3706,
+        "hex": "00808080"
+      },
+      {
+        "offset": 3960,
+        "hex": "000000000000000000000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "game": "mercs",
+    "stage": "score",
+    "source": "FBNeo native RAM capture mercs-score",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 1800,
+        "active": true
+      },
+      {
+        "slot": 3,
+        "value": 2000,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 3706,
+        "hex": "00808080"
+      },
+      {
+        "offset": 3960,
+        "hex": "000000000000000000000000080100000000000000020000"
+      }
+    ]
+  },
+  {
+    "game": "mercs",
+    "stage": "end",
+    "source": "FBNeo native RAM capture mercs-end",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 1800,
+        "active": false
+      },
+      {
+        "slot": 3,
+        "value": 2000,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 3706,
+        "hex": "00800020"
+      },
+      {
+        "offset": 3960,
+        "hex": "000000000000000000000000080100000000000000020000"
+      }
+    ]
+  },
+  {
+    "game": "mercs",
+    "stage": "v3-attract",
+    "source": "FBNeo native RAM capture mercs-v3-attract",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 3,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 3706,
+        "hex": "00000000"
+      },
+      {
+        "offset": 3960,
+        "hex": "000000000000000000000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "game": "mercs",
+    "stage": "v3-start",
+    "source": "FBNeo native RAM capture mercs-v3-start",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 3,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 3706,
+        "hex": "80808080"
+      },
+      {
+        "offset": 3960,
+        "hex": "000000000000000000000000000000000000000000000000"
+      }
+    ]
+  },
+  {
+    "game": "mercs",
+    "stage": "v3-score",
+    "source": "FBNeo native RAM capture mercs-v3-score",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 1600,
+        "active": true
+      },
+      {
+        "slot": 3,
+        "value": 1850,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 3706,
+        "hex": "00802080"
+      },
+      {
+        "offset": 3960,
+        "hex": "000000000000000000000000060100000000000008010005"
+      }
+    ]
+  },
+  {
+    "game": "mercs",
+    "stage": "v3-end",
+    "source": "FBNeo native RAM capture mercs-v3-end",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 1600,
+        "active": false
+      },
+      {
+        "slot": 3,
+        "value": 1850,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 3706,
+        "hex": "00000000"
+      },
+      {
+        "offset": 3960,
+        "hex": "000000000000000000000000060100000000000008010005"
+      }
+    ]
+  },
+  {
+    "game": "mwalk",
+    "stage": "attract",
+    "source": "FBNeo native RAM capture mwalk-attract",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 3,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 6720,
+        "hex": "00000000"
+      },
+      {
+        "offset": 6744,
+        "hex": "0000"
+      },
+      {
+        "offset": 6784,
+        "hex": "00000000"
+      },
+      {
+        "offset": 6808,
+        "hex": "0000"
+      },
+      {
+        "offset": 6848,
+        "hex": "00000000"
+      },
+      {
+        "offset": 6872,
+        "hex": "0000"
+      }
+    ]
+  },
+  {
+    "game": "mwalk",
+    "stage": "start",
+    "source": "FBNeo native RAM capture mwalk-start",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 210,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 3,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 6720,
+        "hex": "00001002"
+      },
+      {
+        "offset": 6744,
+        "hex": "0002"
+      },
+      {
+        "offset": 6784,
+        "hex": "00000000"
+      },
+      {
+        "offset": 6808,
+        "hex": "0002"
+      },
+      {
+        "offset": 6848,
+        "hex": "00000000"
+      },
+      {
+        "offset": 6872,
+        "hex": "0002"
+      }
+    ]
+  },
+  {
+    "game": "mwalk",
+    "stage": "score",
+    "source": "FBNeo native RAM capture mwalk-score",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 210,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 3,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 6720,
+        "hex": "00001002"
+      },
+      {
+        "offset": 6744,
+        "hex": "0002"
+      },
+      {
+        "offset": 6784,
+        "hex": "00000000"
+      },
+      {
+        "offset": 6808,
+        "hex": "0002"
+      },
+      {
+        "offset": 6848,
+        "hex": "00000000"
+      },
+      {
+        "offset": 6872,
+        "hex": "0002"
+      }
+    ]
+  },
+  {
+    "game": "mwalk",
+    "stage": "end",
+    "source": "FBNeo native RAM capture mwalk-end",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 210,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 3,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 6720,
+        "hex": "00001002"
+      },
+      {
+        "offset": 6744,
+        "hex": "0001"
+      },
+      {
+        "offset": 6784,
+        "hex": "00000000"
+      },
+      {
+        "offset": 6808,
+        "hex": "0000"
+      },
+      {
+        "offset": 6848,
+        "hex": "00000000"
+      },
+      {
+        "offset": 6872,
+        "hex": "0000"
+      }
+    ]
+  },
+  {
+    "game": "mwalk",
+    "stage": "v3-attract",
+    "source": "FBNeo native RAM capture mwalk-v3-attract",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 3,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 6720,
+        "hex": "00000000"
+      },
+      {
+        "offset": 6744,
+        "hex": "0000"
+      },
+      {
+        "offset": 6784,
+        "hex": "00000000"
+      },
+      {
+        "offset": 6808,
+        "hex": "0000"
+      },
+      {
+        "offset": 6848,
+        "hex": "00000000"
+      },
+      {
+        "offset": 6872,
+        "hex": "0000"
+      }
+    ]
+  },
+  {
+    "game": "mwalk",
+    "stage": "v3-start",
+    "source": "FBNeo native RAM capture mwalk-v3-start",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 250,
+        "active": true
+      },
+      {
+        "slot": 3,
+        "value": 0,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 6720,
+        "hex": "00000000"
+      },
+      {
+        "offset": 6744,
+        "hex": "0001"
+      },
+      {
+        "offset": 6784,
+        "hex": "00005002"
+      },
+      {
+        "offset": 6808,
+        "hex": "0002"
+      },
+      {
+        "offset": 6848,
+        "hex": "00000000"
+      },
+      {
+        "offset": 6872,
+        "hex": "0002"
+      }
+    ]
+  },
+  {
+    "game": "mwalk",
+    "stage": "v3-score",
+    "source": "FBNeo native RAM capture mwalk-v3-score",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 750,
+        "active": true
+      },
+      {
+        "slot": 3,
+        "value": 710,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 6720,
+        "hex": "00000000"
+      },
+      {
+        "offset": 6744,
+        "hex": "0000"
+      },
+      {
+        "offset": 6784,
+        "hex": "00005007"
+      },
+      {
+        "offset": 6808,
+        "hex": "0002"
+      },
+      {
+        "offset": 6848,
+        "hex": "00001007"
+      },
+      {
+        "offset": 6872,
+        "hex": "0002"
+      }
+    ]
+  },
+  {
+    "game": "mwalk",
+    "stage": "v3-end",
+    "source": "FBNeo native RAM capture mwalk-v3-end",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 750,
+        "active": false
+      },
+      {
+        "slot": 3,
+        "value": 710,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 6720,
+        "hex": "00000000"
+      },
+      {
+        "offset": 6744,
+        "hex": "0000"
+      },
+      {
+        "offset": 6784,
+        "hex": "00005007"
+      },
+      {
+        "offset": 6808,
+        "hex": "0000"
+      },
+      {
+        "offset": 6848,
+        "hex": "00001007"
+      },
+      {
+        "offset": 6872,
+        "hex": "0000"
+      }
+    ]
+  },
+  {
+    "game": "narc",
+    "stage": "attract",
+    "source": "FBNeo native RAM capture narc-attract",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 546522,
+        "hex": "00000000"
+      },
+      {
+        "offset": 546646,
+        "hex": "00000000"
+      },
+      {
+        "offset": 546742,
+        "hex": "0000"
+      }
+    ]
+  },
+  {
+    "game": "narc",
+    "stage": "start",
+    "source": "FBNeo native RAM capture narc-start",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 546522,
+        "hex": "00000000"
+      },
+      {
+        "offset": 546646,
+        "hex": "00000000"
+      },
+      {
+        "offset": 546742,
+        "hex": "0000"
+      }
+    ]
+  },
+  {
+    "game": "narc",
+    "stage": "score",
+    "source": "FBNeo native RAM capture narc-score",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 546522,
+        "hex": "00000000"
+      },
+      {
+        "offset": 546646,
+        "hex": "00000000"
+      },
+      {
+        "offset": 546742,
+        "hex": "0000"
+      }
+    ]
+  },
+  {
+    "game": "narc",
+    "stage": "end",
+    "source": "FBNeo native RAM capture narc-end",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 546522,
+        "hex": "00000000"
+      },
+      {
+        "offset": 546646,
+        "hex": "00000000"
+      },
+      {
+        "offset": 546742,
+        "hex": "0000"
+      }
+    ]
+  },
+  {
+    "game": "narc",
+    "stage": "score",
+    "source": "FBNeo native RAM capture narc-labscore",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 2225,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 2375,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 546522,
+        "hex": "25220000"
+      },
+      {
+        "offset": 546646,
+        "hex": "75230000"
+      },
+      {
+        "offset": 546742,
+        "hex": "0200"
+      }
+    ]
+  },
+  {
+    "game": "narc",
+    "stage": "idle0",
+    "source": "FBNeo native RAM capture narc-idle0",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 2275,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 2425,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 546522,
+        "hex": "75220000"
+      },
+      {
+        "offset": 546646,
+        "hex": "25240000"
+      },
+      {
+        "offset": 546742,
+        "hex": "0000"
+      }
+    ]
+  },
+  {
+    "game": "narc",
+    "stage": "idle1",
+    "source": "FBNeo native RAM capture narc-idle1",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 2275,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 2425,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 546522,
+        "hex": "75220000"
+      },
+      {
+        "offset": 546646,
+        "hex": "25240000"
+      },
+      {
+        "offset": 546742,
+        "hex": "0000"
+      }
+    ]
+  },
+  {
+    "game": "narc",
+    "stage": "idle5",
+    "source": "FBNeo native RAM capture narc-idle5",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 2275,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 2425,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 546522,
+        "hex": "75220000"
+      },
+      {
+        "offset": 546646,
+        "hex": "25240000"
+      },
+      {
+        "offset": 546742,
+        "hex": "0000"
+      }
+    ]
+  },
+  {
+    "game": "orunners",
+    "stage": "solo-selection",
+    "source": "FBNeo native RAM capture orunners-solo-selection",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 64322,
+        "hex": "0000"
+      },
+      {
+        "offset": 64362,
+        "hex": "0000"
+      },
+      {
+        "offset": 64412,
+        "hex": "0100"
+      },
+      {
+        "offset": 64450,
+        "hex": "0000"
+      },
+      {
+        "offset": 64490,
+        "hex": "0000"
+      },
+      {
+        "offset": 64540,
+        "hex": "0101"
+      }
+    ]
+  },
+  {
+    "game": "orunners",
+    "stage": "solo-driving",
+    "source": "FBNeo native RAM capture orunners-solo-driving",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 276,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 64322,
+        "hex": "1401"
+      },
+      {
+        "offset": 64362,
+        "hex": "7c03"
+      },
+      {
+        "offset": 64412,
+        "hex": "0200"
+      },
+      {
+        "offset": 64450,
+        "hex": "0000"
+      },
+      {
+        "offset": 64490,
+        "hex": "0000"
+      },
+      {
+        "offset": 64540,
+        "hex": "0202"
+      }
+    ]
+  },
+  {
+    "game": "orunners",
+    "stage": "solo-stage2",
+    "source": "FBNeo native RAM capture orunners-solo-stage2",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 1262,
+        "active": true
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 64322,
+        "hex": "ee04"
+      },
+      {
+        "offset": 64362,
+        "hex": "5e02"
+      },
+      {
+        "offset": 64412,
+        "hex": "0200"
+      },
+      {
+        "offset": 64450,
+        "hex": "0000"
+      },
+      {
+        "offset": 64490,
+        "hex": "0000"
+      },
+      {
+        "offset": 64540,
+        "hex": "0202"
+      }
+    ]
+  },
+  {
+    "game": "orunners",
+    "stage": "solo2-selection",
+    "source": "FBNeo native RAM capture orunners-solo2-selection",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 255,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 0,
+        "active": false
+      }
+    ],
+    "regions": [
+      {
+        "offset": 64322,
+        "hex": "ff00"
+      },
+      {
+        "offset": 64362,
+        "hex": "0000"
+      },
+      {
+        "offset": 64412,
+        "hex": "0100"
+      },
+      {
+        "offset": 64450,
+        "hex": "0000"
+      },
+      {
+        "offset": 64490,
+        "hex": "0000"
+      },
+      {
+        "offset": 64540,
+        "hex": "0101"
+      }
+    ]
+  },
+  {
+    "game": "orunners",
+    "stage": "solo2-driving",
+    "source": "FBNeo native RAM capture orunners-solo2-driving",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 264,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 64322,
+        "hex": "0000"
+      },
+      {
+        "offset": 64362,
+        "hex": "0000"
+      },
+      {
+        "offset": 64412,
+        "hex": "0200"
+      },
+      {
+        "offset": 64450,
+        "hex": "0801"
+      },
+      {
+        "offset": 64490,
+        "hex": "8403"
+      },
+      {
+        "offset": 64540,
+        "hex": "0202"
+      }
+    ]
+  },
+  {
+    "game": "orunners",
+    "stage": "solo2-stage2",
+    "source": "FBNeo native RAM capture orunners-solo2-stage2",
+    "expected": [
+      {
+        "slot": 1,
+        "value": 0,
+        "active": false
+      },
+      {
+        "slot": 2,
+        "value": 1252,
+        "active": true
+      }
+    ],
+    "regions": [
+      {
+        "offset": 64322,
+        "hex": "0000"
+      },
+      {
+        "offset": 64362,
+        "hex": "0000"
+      },
+      {
+        "offset": 64412,
+        "hex": "0200"
+      },
+      {
+        "offset": 64450,
+        "hex": "e404"
+      },
+      {
+        "offset": 64490,
+        "hex": "6c02"
+      },
+      {
+        "offset": 64540,
+        "hex": "0202"
+      }
+    ]
+  }
+]

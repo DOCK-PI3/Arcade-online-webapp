@@ -1,0 +1,692 @@
+{
+  "schemaVersion": 1,
+  "emulatorJs": "4.2.3",
+  "sourceSets": {
+    "fbneo": {
+      "name": "FinalBurn Neo 1.0.0.3 (a2594cf)",
+      "format": "Arcade only, Non-Merged",
+      "reference": "https://docs.libretro.com/library/fbneo/#building-romsets-for-fbneo"
+    },
+    "mame": {
+      "name": "MAME 0.287",
+      "format": "ROMs, merged",
+      "reference": "https://docs.mamedev.org/usingmame/aboutromsets.html"
+    }
+  },
+  "games": [
+    {
+      "id": "1941",
+      "title": "1941: Counter Attack",
+      "archive": "1941.zip",
+      "bios": null,
+      "players": 2,
+      "core": "fbneo",
+      "sourceSet": "fbneo",
+      "preparation": "original-archive",
+      "sha256": "d2774da919800192790d718c457dee3c4d57036c57cf71398e1ca1988f1443ba",
+      "sourceArchives": [
+        "1941.zip"
+      ]
+    },
+    {
+      "id": "1942",
+      "title": "1942",
+      "archive": "1942.zip",
+      "bios": null,
+      "players": 2,
+      "core": "fbneo",
+      "sourceSet": "mame",
+      "preparation": "rebuild-components",
+      "sha256": "aeaf3a31612b3e589c5bee5281ea0a3da4db39ea8caf0e68157d1ead6f44e216",
+      "sourceArchives": [
+        "1942.zip"
+      ]
+    },
+    {
+      "id": "1943kai",
+      "title": "1943 Kai: Midway Kaisen",
+      "archive": "1943kai.zip",
+      "bios": null,
+      "players": 2,
+      "core": "fbneo",
+      "sourceSet": "mame",
+      "preparation": "rebuild-components",
+      "sha256": "b8ee19f1293f28fd3a26abd82cef47aa56ad41f246085b70d2ca7f1a3be6e0bc",
+      "sourceArchives": [
+        "1943kai.zip"
+      ]
+    },
+    {
+      "id": "1943",
+      "title": "1943: The Battle of Midway",
+      "archive": "1943.zip",
+      "bios": null,
+      "players": 2,
+      "core": "fbneo",
+      "sourceSet": "mame",
+      "preparation": "rebuild-components",
+      "sha256": "633c7dd609b82706500e985d13dd0325fa5fb748cb180f4b2effc0a5746a6eaa",
+      "sourceArchives": [
+        "1943.zip"
+      ]
+    },
+    {
+      "id": "1943mii",
+      "title": "1943: The Battle of Midway Mark II",
+      "archive": "1943mii.zip",
+      "bios": null,
+      "players": 2,
+      "core": "fbneo",
+      "sourceSet": "mame",
+      "preparation": "rebuild-components",
+      "sha256": "cf5957b6bdb5caec151c50d7494f33a4b465eaa77a742f3cdb1074a502b35b35",
+      "sourceArchives": [
+        "1943mii.zip"
+      ]
+    },
+    {
+      "id": "1944",
+      "title": "1944: The Loop Master",
+      "archive": "1944.zip",
+      "bios": null,
+      "players": 2,
+      "core": "fbneo",
+      "sourceSet": "mame",
+      "preparation": "rebuild-components",
+      "sha256": "56ead115ac58a9ff628e994a2e80846e805a29fd10a24cab683d03dfea2713f6",
+      "sourceArchives": [
+        "1944.zip"
+      ]
+    },
+    {
+      "id": "1945kiii",
+      "title": "1945k III",
+      "archive": "1945kiii.zip",
+      "bios": null,
+      "players": 2,
+      "core": "fbneo",
+      "sourceSet": "mame",
+      "preparation": "rebuild-components",
+      "sha256": "c74b84756e1d280cbb54c5e86c0592886b41405ba3b2a8ae5b657e71f8c35f22",
+      "sourceArchives": [
+        "1945kiii.zip"
+      ]
+    },
+    {
+      "id": "88games",
+      "title": "88 Games",
+      "archive": "88games.zip",
+      "bios": null,
+      "players": 2,
+      "core": "fbneo",
+      "sourceSet": "mame",
+      "preparation": "rebuild-components",
+      "sha256": "c2fae02ff8459adf6ba72a7e98d21c93e97caff98df4b78aa29352d276279118",
+      "sourceArchives": [
+        "88games.zip"
+      ]
+    },
+    {
+      "id": "avsp",
+      "title": "Alien vs. Predator",
+      "archive": "avsp.zip",
+      "bios": null,
+      "players": 3,
+      "core": "fbneo",
+      "sourceSet": "fbneo",
+      "preparation": "rebuild-components",
+      "sha256": "5d478264a97d35775c8a037d2c707eb53fe789bdd3230f1e2707b3cf7d12cae3",
+      "sourceArchives": [
+        "avsp.zip"
+      ]
+    },
+    {
+      "id": "aliens",
+      "title": "Aliens",
+      "archive": "aliens.zip",
+      "bios": null,
+      "players": 2,
+      "core": "fbneo",
+      "sourceSet": "mame",
+      "preparation": "rebuild-components",
+      "sha256": "4c6ec0add4c6ba1ad9b33d27b7863bbd031365292bdc1c12e680c149320bacbb",
+      "sourceArchives": [
+        "aliens.zip"
+      ]
+    },
+    {
+      "id": "altbeast",
+      "title": "Altered Beast",
+      "archive": "altbeast.zip",
+      "bios": null,
+      "players": 2,
+      "core": "fbneo",
+      "sourceSet": "mame",
+      "preparation": "rebuild-components",
+      "sha256": "045e4497bb4baa0b03ae93588d9043415e0efe0cc3a9d2c04cd7791861eb10f3",
+      "sourceArchives": [
+        "altbeast.zip"
+      ]
+    },
+    {
+      "id": "asterix",
+      "title": "Asterix",
+      "archive": "asterix.zip",
+      "bios": null,
+      "players": 2,
+      "core": "fbneo",
+      "sourceSet": "mame",
+      "preparation": "rebuild-components",
+      "sha256": "2c1083b35244f5536c12f29b71f998f7f39d61f97065faca0cc03f1b227fdf73",
+      "sourceArchives": [
+        "asterix.zip"
+      ]
+    },
+    {
+      "id": "baddudes",
+      "title": "Bad Dudes vs. Dragonninja",
+      "archive": "baddudes.zip",
+      "bios": null,
+      "players": 2,
+      "core": "fbneo",
+      "sourceSet": "mame",
+      "preparation": "rebuild-components",
+      "sha256": "cd766f167bab2c7919dbd22afa482f46e836bb1001b91be94ed7c81e951d8169",
+      "sourceArchives": [
+        "baddudes.zip"
+      ]
+    },
+    {
+      "id": "columns",
+      "title": "Columns (World)",
+      "archive": "columns.zip",
+      "bios": null,
+      "players": 2,
+      "core": "fbneo",
+      "sourceSet": "fbneo",
+      "preparation": "original-archive",
+      "sha256": "3b6c6da0b6f5f202ed15e32b14d2d78679395d4ecbb2e961723b9b84030ff9dd",
+      "sourceArchives": [
+        "columns.zip"
+      ]
+    },
+    {
+      "id": "contra",
+      "title": "Contra",
+      "archive": "contra.zip",
+      "bios": null,
+      "players": 2,
+      "core": "fbneo",
+      "sourceSet": "fbneo",
+      "preparation": "original-archive",
+      "sha256": "95cb6d23478d8d303e5a62d3ef0e4f99614fc5c8dc39b39c24e026e503ae15b7",
+      "sourceArchives": [
+        "contra.zip"
+      ]
+    },
+    {
+      "id": "cclimber",
+      "title": "Crazy Climber",
+      "archive": "cclimber.zip",
+      "bios": null,
+      "players": 2,
+      "core": "fbneo",
+      "sourceSet": "fbneo",
+      "preparation": "rebuild-components",
+      "sha256": "789c059c5a220f1a4144682ea6bddc4512bd579dcc50bbb9e7ad546253a485c4",
+      "sourceArchives": [
+        "cclimber.zip"
+      ]
+    },
+    {
+      "id": "cclimbr2",
+      "title": "Crazy Climber 2",
+      "archive": "cclimbr2.zip",
+      "bios": null,
+      "players": 2,
+      "core": "fbneo",
+      "sourceSet": "fbneo",
+      "preparation": "rebuild-components",
+      "sha256": "61b0b37e798533163e09a42c029f3d1ddcf4bb1d435ff5ebcd4a62d72afc9a9e",
+      "sourceArchives": [
+        "cclimbr2.zip"
+      ]
+    },
+    {
+      "id": "darius",
+      "title": "Darius",
+      "archive": "darius.zip",
+      "bios": null,
+      "players": 2,
+      "core": "fbneo",
+      "sourceSet": "mame",
+      "preparation": "rebuild-components",
+      "sha256": "ef9ef95a4735df3b7ed7c9265f413ccf778bb6f1a8fa2c367314f7567f406406",
+      "sourceArchives": [
+        "darius.zip"
+      ]
+    },
+    {
+      "id": "demonwld",
+      "title": "Demon’s World / Horror Story",
+      "archive": "demonwld.zip",
+      "bios": null,
+      "players": 2,
+      "core": "fbneo",
+      "sourceSet": "fbneo",
+      "preparation": "rebuild-components",
+      "sha256": "aa5b04ec403fd8d7dc1ab7188a288011c2f97285e040b51e28bc3741eb04d655",
+      "sourceArchives": [
+        "demonwld.zip"
+      ]
+    },
+    {
+      "id": "forgottn",
+      "title": "Forgotten Worlds",
+      "archive": "forgottn.zip",
+      "bios": null,
+      "players": 2,
+      "core": "fbneo",
+      "sourceSet": "mame",
+      "preparation": "rebuild-components",
+      "sha256": "6d9b004dd5515e3985f53a0c3ed03dafbc44e25c5cdd7d6b3b16ccd45aac0354",
+      "sourceArchives": [
+        "forgottn.zip"
+      ]
+    },
+    {
+      "id": "frogger",
+      "title": "Frogger",
+      "archive": "frogger.zip",
+      "bios": null,
+      "players": 2,
+      "core": "fbneo",
+      "sourceSet": "fbneo",
+      "preparation": "rebuild-components",
+      "sha256": "cfdbddbf3673b4a952f13304e1e246523239dd273bdc35e97dbb9496ccb5c56f",
+      "sourceArchives": [
+        "frogger.zip"
+      ]
+    },
+    {
+      "id": "gijoe",
+      "title": "G.I. Joe",
+      "archive": "gijoe.zip",
+      "bios": null,
+      "players": 4,
+      "core": "fbneo",
+      "sourceSet": "fbneo",
+      "preparation": "rebuild-components",
+      "sha256": "c1fae46200755a0e65b40dda81adade8b6ebc6e40185f6478fe5a058ae938079",
+      "sourceArchives": [
+        "gijoe.zip"
+      ]
+    },
+    {
+      "id": "galaga88",
+      "title": "Galaga '88",
+      "archive": "galaga88.zip",
+      "bios": null,
+      "players": 2,
+      "core": "fbneo",
+      "sourceSet": "mame",
+      "preparation": "rebuild-components",
+      "sha256": "148dbb8bee57dbf1184ead5541341130181cce88505db0aaa8453b44e6afd9e9",
+      "sourceArchives": [
+        "galaga88.zip"
+      ]
+    },
+    {
+      "id": "gradius",
+      "title": "Gradius",
+      "archive": "gradius.zip",
+      "bios": null,
+      "players": 2,
+      "core": "fbneo",
+      "sourceSet": "fbneo",
+      "preparation": "rebuild-components",
+      "sha256": "a6ac41072dd811cbc24e80017be023e982a9cebb84718833b87639d2f1f0a6ec",
+      "sourceArchives": [
+        "gradius.zip",
+        "nemesis.zip"
+      ]
+    },
+    {
+      "id": "jackal",
+      "title": "Jackal",
+      "archive": "jackal.zip",
+      "bios": null,
+      "players": 2,
+      "core": "fbneo",
+      "sourceSet": "mame",
+      "preparation": "rebuild-components",
+      "sha256": "5609ef9088b3959b83c6917d5d5acf0a5c1947a51b8bf879c0951b6f8540f482",
+      "sourceArchives": [
+        "jackal.zip"
+      ]
+    },
+    {
+      "id": "joemac",
+      "title": "Joe & Mac",
+      "archive": "joemac.zip",
+      "bios": null,
+      "players": 2,
+      "core": "fbneo",
+      "sourceSet": "fbneo",
+      "preparation": "rebuild-components",
+      "sha256": "1a1aed9de1cfd78dbacc9c8b869a0a946af34f3184984eab58832766669aea70",
+      "sourceArchives": [
+        "joemac.zip",
+        "cninja.zip"
+      ]
+    },
+    {
+      "id": "kickoff",
+      "title": "Kick Off: Jaleco Cup",
+      "archive": "kickoff.zip",
+      "bios": null,
+      "players": 2,
+      "core": "fbneo",
+      "sourceSet": "fbneo",
+      "preparation": "rebuild-components",
+      "sha256": "61b1a851e72e0242d3b1cb7aae02d7ecd6991bf25f9af394abcf3257559a9cce",
+      "sourceArchives": [
+        "kickoff.zip"
+      ]
+    },
+    {
+      "id": "maglord",
+      "title": "Magician Lord",
+      "archive": "maglord.zip",
+      "bios": "neogeo.zip",
+      "players": 2,
+      "core": "fbneo",
+      "sourceSet": "fbneo",
+      "preparation": "rebuild-components",
+      "sha256": "c0f5c76f984df7dc72184541cf7ff33c682660acba773c45641fc0067eb8f837",
+      "sourceArchives": [
+        "maglord.zip"
+      ]
+    },
+    {
+      "id": "mercs",
+      "title": "Mercs",
+      "archive": "mercs.zip",
+      "bios": null,
+      "players": 3,
+      "core": "fbneo",
+      "sourceSet": "fbneo",
+      "preparation": "rebuild-components",
+      "sha256": "e3c89d4de9d96f537c7de14b729ba90e06e6d9f7c5a576bb120614677d59d791",
+      "sourceArchives": [
+        "mercs.zip"
+      ]
+    },
+    {
+      "id": "mslug",
+      "title": "Metal Slug",
+      "archive": "mslug.zip",
+      "bios": "neogeo.zip",
+      "players": 2,
+      "core": "fbneo",
+      "sourceSet": "fbneo",
+      "preparation": "original-archive",
+      "sha256": "67d9497fcf821f690a24ecb39b19bc38cc0052d0a5437f9b697ac3cc197cb4f0",
+      "sourceArchives": [
+        "mslug.zip"
+      ]
+    },
+    {
+      "id": "mslug2",
+      "title": "Metal Slug 2",
+      "archive": "mslug2.zip",
+      "bios": "neogeo.zip",
+      "players": 2,
+      "core": "fbneo",
+      "sourceSet": "fbneo",
+      "preparation": "original-archive",
+      "sha256": "1c5946b1959ae9dfca6569164d592df3649f5db30e127ad0c4cd6c2c7b44baad",
+      "sourceArchives": [
+        "mslug2.zip"
+      ]
+    },
+    {
+      "id": "mwalk",
+      "title": "Michael Jackson’s Moonwalker",
+      "archive": "mwalk.zip",
+      "bios": null,
+      "players": 3,
+      "core": "fbneo",
+      "sourceSet": "fbneo",
+      "preparation": "rebuild-components",
+      "sha256": "64fdd10892c6bb71178eeb263402eef0bec789890b521f2406af93dc4d195ecd",
+      "sourceArchives": [
+        "mwalk.zip"
+      ]
+    },
+    {
+      "id": "narc",
+      "title": "NARC",
+      "archive": "narc.zip",
+      "bios": null,
+      "players": 2,
+      "core": "fbneo",
+      "sourceSet": "fbneo",
+      "preparation": "rebuild-components",
+      "sha256": "006e12467777b2fed79a5704aec11c8ec5749bd6c23c66c2169ae697d25f5fdb",
+      "sourceArchives": [
+        "narc.zip"
+      ]
+    },
+    {
+      "id": "orunners",
+      "title": "OutRunners",
+      "archive": "orunners.zip",
+      "bios": null,
+      "players": 2,
+      "core": "fbneo",
+      "sourceSet": "fbneo",
+      "preparation": "rebuild-components",
+      "sha256": "5294f9adfd860ec07159c62e9615a5a233929f27499eaffca85da65587c5bf27",
+      "sourceArchives": [
+        "orunners.zip"
+      ]
+    },
+    {
+      "id": "preisle2",
+      "title": "Prehistoric Isle 2",
+      "archive": "preisle2.zip",
+      "bios": "neogeo.zip",
+      "players": 2,
+      "core": "fbneo",
+      "sourceSet": "mame",
+      "preparation": "rebuild-components",
+      "sha256": "a1063cdfc10e3287aefc7b1cfb68619dc0091442980d371ab42c71e76d1bafaa",
+      "sourceArchives": [
+        "preisle2.zip"
+      ]
+    },
+    {
+      "id": "prehisle",
+      "title": "Prehistoric Isle in 1930",
+      "archive": "prehisle.zip",
+      "bios": null,
+      "players": 2,
+      "core": "fbneo",
+      "sourceSet": "mame",
+      "preparation": "rebuild-components",
+      "sha256": "7c70e74e6cf977af5cfa3f615ac604ce3803a7702e06b9a7f22fcbce2a277e6b",
+      "sourceArchives": [
+        "prehisle.zip"
+      ]
+    },
+    {
+      "id": "pbobble",
+      "title": "Puzzle Bobble",
+      "archive": "pbobble.zip",
+      "bios": null,
+      "players": 2,
+      "core": "fbneo",
+      "sourceSet": "mame",
+      "preparation": "rebuild-components",
+      "sha256": "ff52dc42c4866224b05f9220d5ebc3be33ba937ae72f948d84940e3e7908b5e2",
+      "sourceArchives": [
+        "pbobble.zip"
+      ]
+    },
+    {
+      "id": "rthunder",
+      "title": "Rolling Thunder",
+      "archive": "rthunder.zip",
+      "bios": null,
+      "players": 2,
+      "core": "fbneo",
+      "sourceSet": "mame",
+      "preparation": "rebuild-components",
+      "sha256": "58fe3123ab942e0972dfe35f6aa2329cf6b6dab44818f7fb74e4b86eab71c3b3",
+      "sourceArchives": [
+        "rthunder.zip"
+      ]
+    },
+    {
+      "id": "rthun2",
+      "title": "Rolling Thunder 2",
+      "archive": "rthun2.zip",
+      "bios": null,
+      "players": 2,
+      "core": "fbneo",
+      "sourceSet": "mame",
+      "preparation": "rebuild-components",
+      "sha256": "b62480e3143c14432140ce91eb0477c8ce00cd071d12eb5c8f041380dff37498",
+      "sourceArchives": [
+        "rthun2.zip"
+      ]
+    },
+    {
+      "id": "salamand",
+      "title": "Salamander",
+      "archive": "salamand.zip",
+      "bios": null,
+      "players": 2,
+      "core": "fbneo",
+      "sourceSet": "mame",
+      "preparation": "rebuild-components",
+      "sha256": "109c134e4cf851f2172b0f8747f490a6ab1e5e4de49abd5d3584d982b1b11814",
+      "sourceArchives": [
+        "salamand.zip"
+      ]
+    },
+    {
+      "id": "salmndr2",
+      "title": "Salamander 2",
+      "archive": "salmndr2.zip",
+      "bios": "konamigx.zip",
+      "players": 2,
+      "core": "mame2003_plus",
+      "sourceSet": "mame",
+      "preparation": "rebuild-components",
+      "sha256": "1a505e8703c2b04f895547603d1a917e3594f26069ec87039f409880fd5148c6",
+      "sourceArchives": [
+        "salmndr2.zip",
+        "konamigx.zip"
+      ]
+    },
+    {
+      "id": "shinobi",
+      "title": "Shinobi",
+      "archive": "shinobi.zip",
+      "bios": null,
+      "players": 2,
+      "core": "fbneo",
+      "sourceSet": "mame",
+      "preparation": "rebuild-components",
+      "sha256": "972d52c3fd3df43273e6bd1342bc3b682f7794519c01366fed4b9854fd456723",
+      "sourceArchives": [
+        "shinobi.zip"
+      ]
+    },
+    {
+      "id": "tmnt2po",
+      "title": "Teenage Mutant Ninja Turtles (2 jugadores)",
+      "archive": "tmnt2po.zip",
+      "bios": null,
+      "players": 2,
+      "core": "fbneo",
+      "sourceSet": "mame",
+      "preparation": "rebuild-components",
+      "sha256": "f14c845464936cf38d9df7e0f397f95cb734994b6d00d72f994203df78c0815d",
+      "sourceArchives": [
+        "tmnt2po.zip",
+        "tmnt.zip"
+      ]
+    },
+    {
+      "id": "kof98",
+      "title": "The King of Fighters ’98",
+      "archive": "kof98.zip",
+      "bios": "neogeo.zip",
+      "players": 2,
+      "core": "fbneo",
+      "sourceSet": "fbneo",
+      "preparation": "rebuild-components",
+      "sha256": "92ac24fbbbf1fa08a0c707ce31f894dd6f18f18452adcd604340eb04cb4164d9",
+      "sourceArchives": [
+        "kof98.zip"
+      ]
+    },
+    {
+      "id": "3wonders",
+      "title": "Three Wonders",
+      "archive": "3wonders.zip",
+      "bios": null,
+      "players": 2,
+      "core": "fbneo",
+      "sourceSet": "fbneo",
+      "preparation": "rebuild-components",
+      "sha256": "4e4051be211693cb34fa00bb7a67bb4dc113cb4664a91627bb88c5648b704e39",
+      "sourceArchives": [
+        "3wonders.zip"
+      ]
+    },
+    {
+      "id": "twinbee",
+      "title": "TwinBee",
+      "archive": "twinbee.zip",
+      "bios": null,
+      "players": 2,
+      "core": "fbneo",
+      "sourceSet": "mame",
+      "preparation": "rebuild-components",
+      "sha256": "539cebc171075b1d4edc9bd57709b810e142314d72ad883fe4af1cd85a0be971",
+      "sourceArchives": [
+        "twinbee.zip"
+      ]
+    }
+  ],
+  "bios": [
+    {
+      "id": "neogeo",
+      "archive": "neogeo.zip",
+      "sha256": "00692b80cf7ad6bdddcc436d065c5e2453ca272632aae1d791f672eb280dd457",
+      "sourceSet": "fbneo",
+      "preparation": "original-archive",
+      "requiredBy": [
+        "maglord",
+        "mslug",
+        "mslug2",
+        "preisle2",
+        "kof98"
+      ]
+    },
+    {
+      "id": "konamigx",
+      "archive": "konamigx.zip",
+      "sha256": "d5bc892feecedd40ec9d6998fa95e4b967ccf8ae69943627a22868c3cd7654f6",
+      "sourceSet": "mame",
+      "preparation": "rebuild-components",
+      "requiredBy": [
+        "salmndr2"
+      ]
+    }
+  ]
+}

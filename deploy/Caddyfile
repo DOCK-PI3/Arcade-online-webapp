@@ -1,0 +1,8 @@
+{$ARCADE_HOST:arcade.home.arpa} {
+    tls internal
+    encode zstd gzip
+    request_body {
+        max_size 5MB
+    }
+  reverse_proxy 127.0.0.1:3000
+}

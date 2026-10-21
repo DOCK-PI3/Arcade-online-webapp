@@ -1,0 +1,46 @@
+node_modules/
+dist/
+data/
+.env
+.env.*
+!.env.example
+.cache/
+.playwright-cli/
+output/
+public/emulator/
+*.log
+
+# ROMs, BIOS, save states and local databases must never enter the repository.
+*.[zZ][iI][pP]
+*.7[zZ]
+*.[rR][aA][rR]
+*.[rR][oO][mM]
+*.[cC][hH][dD]
+*.[iI][sS][oO]
+*.state
+*.ram
+*.sav
+*.nv
+*.hi
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+
+# Local TLS material is generated again on each installation.
+*.pem
+*.key
+*.crt
+*.pfx
+*.p12
+encryption-key
+setup-code
+.aws/
+.ssh/
+
+# Compiler caches and Python bytecode.
+build/
+builds/
+out/
+__pycache__/
+*.pyc

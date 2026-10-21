@@ -1,0 +1,50 @@
+services:
+  arcade:
+    build: .
+    restart: unless-stopped
+    init: true
+    read_only: true
+    cap_drop: [ALL]
+    security_opt:
+      - no-new-privileges:true
+      - seccomp:./deploy/chromium-seccomp.json
+    pids_limit: 512
+    mem_limit: 6g
+    cpus: 4
+    shm_size: 1gb
+    network_mode: host
+    environment:
+      COOKIE_SECURE: "1"
+      TRUST_PROXY: "1"
+      APP_ORIGIN: https://${ARCADE_HOST:-arcade.home.arpa}
+      UPLOAD_QUOTA_MB: "2048"
+      MAX_SERVER_GAMES: "2"
+    volumes:
+      - arcade-data:/app/data
+    tmpfs:
+      - /tmp:size=512m,noexec,nosuid
+
+  proxy:
+    image: caddy:2-alpine
+    restart: unless-stopped
+    cap_drop: [ALL]
+    cap_add: [NET_BIND_SERVICE]
+    security_opt: [no-new-privileges:true]
+    pids_limit: 128
+    mem_limit: 256m
+    environment:
+      ARCADE_HOST: ${ARCADE_HOST:-arcade.home.arpa}
+    network_mode: host
+    volumes:
+      - ./deploy/Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy-data:/data
+      - caddy-config:/config
+    depends_on:
+      arcade:
+        condition: service_healthy
+
+volumes:
+  arcade-data:
+  caddy-data:
+  caddy-config:
+

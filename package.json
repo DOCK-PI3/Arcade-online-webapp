@@ -1,0 +1,43 @@
+{
+  "name": "salon-arcade",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24.15.0 <25"
+  },
+  "scripts": {
+    "dev": "node --env-file-if-exists=.env server/index.js",
+    "dev:web": "vite --host 127.0.0.1",
+    "start": "node --env-file-if-exists=.env server/index.js",
+    "build": "vite build",
+    "test": "node --test --test-concurrency=1 tests/*.test.js",
+    "emulator:install": "node scripts/install-emulator.mjs",
+    "integrity": "node --env-file-if-exists=.env scripts/check-integrity.mjs",
+    "roms:import": "node --env-file-if-exists=.env scripts/import-roms.mjs",
+    "roms:list": "node scripts/generate-rom-list.mjs",
+    "roms:check": "node --env-file-if-exists=.env scripts/check-roms.mjs",
+    "server:install": "node scripts/install-server.mjs",
+    "network:install": "node scripts/install-network.mjs",
+    "network:start": "node --env-file-if-exists=.env scripts/start-network.mjs"
+  },
+  "dependencies": {
+    "express": "^5.3.0",
+    "express-rate-limit": "^8.7.1",
+    "helmet": "^8.3.0",
+    "lucide-react": "^1.57.0",
+    "multer": "^2.4.0",
+    "playwright": "1.64.1",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "sharp": "^0.35.5",
+    "socket.io": "^4.8.4",
+    "socket.io-client": "^4.8.4",
+    "tar": "^7.5.22"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.1.2",
+    "prettier": "^3.9.10",
+    "vite": "^8.3.4"
+  }
+}
