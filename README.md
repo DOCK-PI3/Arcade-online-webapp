@@ -2,7 +2,7 @@
 
 Comunidad arcade en español con cuentas, amigos, salas y juegos desde el navegador. Servidor Node.js + SQLite, interfaz React, FBNeo y MAME 2003 Plus mediante EmulatorJS 4.2.3 en Chromium del servidor. Nombre provisional.
 
-Para publicar o instalar desde un clon nuevo, consulta [qué subir a Git y cómo preparar la instalación](docs/PUBLICAR_EN_GIT.md). El repositorio no incluye juegos, BIOS, cuentas ni datos locales. [Lista completa de 46 juegos y 2 BIOS, versiones de romset y rutas](docs/ROMS_COMPATIBLES.md) · [Listado CSV con hashes](docs/ROMS_COMPATIBLES.csv). Tras aportar los ZIP preparados, `npm run roms:check` debe mostrar **48/48 aprobados**.
+Para publicar o instalar desde un clon nuevo, consulta [cómo preparar la instalación](docs/INSTALAR.md). El repositorio no incluye juegos, BIOS, cuentas ni datos locales. [Lista completa de 46 juegos y 2 BIOS, versiones de romset y rutas](docs/ROMS_COMPATIBLES.md) · [Listado CSV con hashes](docs/ROMS_COMPATIBLES.csv). Tras aportar los ZIP preparados, `npm run roms:check` debe mostrar **48/48 aprobados**.
 
 ## Abrir en este ordenador
 
@@ -41,7 +41,7 @@ El servidor escucha en loopback por defecto. Para usarlo desde otros equipos de 
 
 ## Qué incluye
 
-Para probar desde móviles y otros equipos de este Windows, abre **Iniciar-red.cmd**. Ips de ejemplo: La preparación de Android está en **http://192.168.0.22:3000** y la comunidad en **https://192.168.0.22** una vez instalado su certificado local. **Administración → Red y acceso** permite cambiar IP, puerto y dominio. Consulta [los pasos de red local](docs/RED_WINDOWS.md). `npm start` conserva el modo de desarrollo en loopback.
+Para probar desde móviles y otros equipos de este Windows, abre **Iniciar-red.cmd**. La preparación de Android está en **http://192.168.0.22:3000** y la comunidad en **https://192.168.0.22** una vez instalado su certificado local. **Administración → Red y acceso** permite cambiar IP, puerto y dominio. Consulta [los pasos de red local](docs/RED_WINDOWS.md). `npm start` conserva el modo de desarrollo en loopback.
 
 | Función                                                              | Estado                                                          |
 | -------------------------------------------------------------------- | --------------------------------------------------------------- |
@@ -102,7 +102,7 @@ npm.cmd run roms:import -- "D:\FinalBurn Neo 1.0.0.3 (a2594cf) (Arcade only) (No
 npm.cmd run integrity
 ```
 
-El importador conserva el manifiesto previo, genera hashes SHA-256 y evita sustituir un ZIP de juego o BIOS por otro incompatible. Para un clon nuevo, `scripts/prepare-catalog-roms.py` prepara los 48 ZIP desde las colecciones locales indicadas y comprueba sus hashes antes de instalarlos: [procedimiento completo](docs/PUBLICAR_EN_GIT.md). `npm run roms:list` regenera la lista publicada y `npm run roms:check` comprueba los archivos requeridos. El panel permite añadir fichas de juegos; sus ZIP y BIOS se copian en `data/roms`. Los datos y ROMs quedan fuera del control de versiones y de la imagen Docker.
+El importador conserva el manifiesto previo, genera hashes SHA-256 y evita sustituir un ZIP de juego o BIOS por otro incompatible. Para un clon nuevo, `scripts/prepare-catalog-roms.py` prepara los 48 ZIP desde las colecciones locales indicadas y comprueba sus hashes antes de instalarlos: [procedimiento completo](docs/INSTALAR.md). `npm run roms:list` regenera la lista publicada y `npm run roms:check` comprueba los archivos requeridos. El panel permite añadir fichas de juegos; sus ZIP y BIOS se copian en `data/roms`. Los datos y ROMs quedan fuera del control de versiones y de la imagen Docker.
 
 ## Desarrollo y comprobaciones
 
